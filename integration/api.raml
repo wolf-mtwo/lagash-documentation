@@ -3,7 +3,7 @@ title: Lagash Integration
 version: v1
 baseUri: http://localhost:6040
 
-/api/v1/student/{student_id}:
+/api/v1/students/{student_id}:
   get:
     responses:
       200:
@@ -27,7 +27,7 @@ baseUri: http://localhost:6040
                 "meesage": "No existe un estudiante con este ID"
               }
 
-/api/v1/student/validate/{student_id}:
+/api/v1/students/validate/{student_id}:
   get:
     responses:
       200:
@@ -45,7 +45,7 @@ baseUri: http://localhost:6040
                 "meesage": "En usario no esta autorizado para relizar una transacción"
               }
 
-/api/v1/facultad:
+/api/v1/facultades:
   get:
     responses:
       200:
