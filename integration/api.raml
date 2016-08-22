@@ -1,0 +1,68 @@
+#%RAML 0.8
+title: Lagash Integration
+version: v1
+baseUri: http://localhost:6040
+
+/api/v1/student/{student_id}:
+  get:
+    responses:
+      200:
+        body:
+          application/json:
+            example: |
+              {
+                "student_id" : "650000000",
+                "name" : "Loren Ipsum sit amend",
+                "image": "http://image/12345.jpg",
+                "data": {
+                  "facultad_id": 5,
+                  "semestre": 9
+                }
+              }
+      500:
+        body:
+          application/json:
+            example: |
+              {
+                "meesage": "No existe un estudiante con este ID"
+              }
+
+/api/v1/student/validate/{student_id}:
+  get:
+    responses:
+      200:
+        body:
+          application/json:
+            example: |
+              {
+                "is_valid" : true
+              }
+      500:
+        body:
+          application/json:
+            example: |
+              {
+                "meesage": "En usario no esta autorizado para relizar una transacción"
+              }
+
+/api/v1/facultad:
+  get:
+    responses:
+      200:
+        body:
+          application/json:
+            example: |
+              [
+                {
+                  "facultad_id": 1,
+                  "name": "Ing. Sistemas"
+                },
+                {
+                  "facultad_id": 2,
+                  "name": "FCEA"
+                },
+                {
+                  "facultad_id": 3,
+                  "name": "Salud"
+                }
+              ]
