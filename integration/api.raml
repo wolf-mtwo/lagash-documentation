@@ -2,9 +2,18 @@
 title: Lagash Integration
 version: v1
 baseUri: http://localhost:6040
+mediaType: application/json
 
 /api/v1/students/{student_id}:
+  uriParameters:
+     student_id:
+       type: string
   get:
+    description: Gets student information
+    headers:
+      x-api-key:
+        description: Security access token
+        example: abcdefghijabcdefghijabcdefghij
     responses:
       200:
         body:
@@ -15,9 +24,9 @@ baseUri: http://localhost:6040
                 "first_name": "Loren Ipsum",
                 "last_name": "sit amend",
                 "image": "http://image/12345.jpg",
-                "data": {
-                  "facultad_id": 5,
-                  "semestre": 9
+                "faculty": {
+                  "faculty_id": 5,
+                  "semester": 9
                 }
               }
       500:
@@ -25,11 +34,21 @@ baseUri: http://localhost:6040
           application/json:
             example: |
               {
-                "meesage": "No existe un estudiante con este ID"
+                "meesage": "No existe un estudiante con este ID",
+                "examples": [
+                  "Token invalido",
+                  "No existe un estudiante con este ID",
+                  "Tiene que proveer un ID de un estudiante"
+                ]
               }
 
-/api/v1/students/validate/{student_id}:
+/api/v1/students/{student_id}/validate:
   get:
+    description: Validates a student if its available to do any action
+    headers:
+      x-api-key:
+        description: Security access token
+        example: abcdefghijabcdefghijabcdefghij
     responses:
       200:
         body:
@@ -43,11 +62,24 @@ baseUri: http://localhost:6040
           application/json:
             example: |
               {
-                "meesage": "En usario no esta autorizado para relizar una transacción"
+                "meesage": "El estudiante no esta autorizado para realizar esta accion",
+                "examples": [
+                  "Token invalido",
+                  "No existe un estudiante con este ID",
+                  "Tiene que proveer un ID de un estudiante",
+                  "El estudiante no esta autorizado para realizar esta accion",
+                  "El estudiante esta inactivo"
+                ]
               }
 
-/api/v1/facultades:
+
+/api/v1/faculties:
   get:
+    description: Retrieves current faculties of university
+    headers:
+      x-api-key:
+        description: Security access token
+        example: abcdefghijabcdefghijabcdefghij
     responses:
       200:
         body:
@@ -55,15 +87,25 @@ baseUri: http://localhost:6040
             example: |
               [
                 {
-                  "facultad_id": 1,
+                  "faculty_id": 1,
                   "name": "Ing. Sistemas"
                 },
                 {
-                  "facultad_id": 2,
+                  "faculty_id": 2,
                   "name": "FCEA"
                 },
                 {
-                  "facultad_id": 3,
+                  "faculty_id": 3,
                   "name": "Salud"
                 }
               ]
+      500:
+        body:
+          application/json:
+            example: |
+              {
+                "meesage": "Token invalido",
+                "examples": [
+                  "Token invalido"
+                ]
+              }
