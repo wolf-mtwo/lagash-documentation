@@ -1,9 +1,23 @@
 # lagash-documentation
 
 - CAPÍTULO 1
-  - 1.1  Antecedentes
-  - 1.2  Problema
-    - 1.2.1 Situación problemática
+  - EL PROBLEMA
+    - 1.1  Antecedentes
+    - 1.2 Problema
+      - 1.2.1 Situación problemática
+      - 1.2.2 Formulación del problema
+    - 1.3 Objetivos
+      - 1.3.1 Objetivo general
+      - 1.3.2 Objetivos específicos
+    - 1.4 Justificación
+      - 1.4.1 Justificación técnica
+      - 1.4.2 Justificación social
+    - 1.5  Límites y Alcances
+      - 1.5.1 Límites
+      - 1.5.2 Alcances
+    - 1.6 Estudio de factibilidad
+      - 1.6.1	Factibilidad técnica
+      - 1.6.2	Factibilidad operacional
 
 # CAPÍTULO 1
 ## EL PROBLEMA
@@ -25,10 +39,11 @@ Por último, se transcribe al sistema.
 Una vez que el lector decidió que libró va a llevar prestado, copia la referencia del libro en una ficha de búsqueda. Esta ficha de búsqueda es llenada manualmente con información del libro como ser el título, autor y signatura topográfica. También, es llenado con información del lector, estatus (Estudiante, Docente, Administrador o Visitante), facultad a la que pertenece y la fecha, esta información sirve para realizar los reportes que periódicamente la administración de la biblioteca pública para conocimiento general.
 El horario de atención se refleja en la siguiente tabla:
 
-| HORARIO | NORMAL	| PABELLÓN |
-| lunes-jueves | 08:00-12:30 / 14:00-21:00 | A, B, C
-| Viernes | 08:00-13:00 |	A, B, C
-| Domingo | 08:00-13:00 |	A, B, C
+| HORARIO | NORMAL | PABELLÓN |
+|---------|--------|----------|
+| lunes-jueves | 08:00-12:30 / 14:00-21:00 | A, B, C |
+| Viernes | 08:00-13:00 |	A, B, C |
+| Domingo | 08:00-13:00 |	A, B, C |
 
 Como regla general para un préstamo el lector debe portar su identificación, para los estudiantes el carnet estudiantil de la universidad, y para el caso de los lectores externos y los docentes la Cédula de identidad.
 Los préstamos a domicilio son solo efectivos a partir de las 18:00 horas, los estudiantes están obligados a devolver los libros al día siguiente antes de las 9:30 a.m. caso contrario se aplicará una multa, con la excepción de los docentes que pueden extender el tiempo a una semana, los lectores externos no pueden llevar ninguna clase de material bibliográfico fuera de la biblioteca.
@@ -76,12 +91,12 @@ La migración de base de datos del sistema actual atreves de la API es una funci
 -	La integración con el sistema académico está condicionada a la implementación del módulo de integración por parte de sus administradores.
 -	El Módulo de autenticación contempla dos roles Súper administrador y Administrar
 
-1.5.2        Alcances
-•	Desarrollar una API para la gestión, búsqueda y persistencia los materiales bibliográficos.
-•	Definir una interfaz (API) para la integración con el sistema académico.
-•	Desarrollar un subsistema WEB para la administración visual de los materiales bibliográficos.
-•	Desarrollar un subsistema WEB para la gestión de búsquedas y reservas.
-•	Desarrollar un subsistema ANDROID para facilitar la gestión de préstamos y el control de los inventarios.
+##### 1.5.2 Alcances
+-	Desarrollar una API para la gestión, búsqueda y persistencia los materiales bibliográficos.
+-	Definir una interfaz (API) para la integración con el sistema académico.
+-	Desarrollar un subsistema WEB para la administración visual de los materiales bibliográficos.
+-	Desarrollar un subsistema WEB para la gestión de búsquedas y reservas.
+-	Desarrollar un subsistema ANDROID para facilitar la gestión de préstamos y el control de los inventarios.
 
 ### 1.6 Estudio de factibilidad
 #### 1.6.1	Factibilidad técnica
