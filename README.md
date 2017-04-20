@@ -36,7 +36,7 @@
 
 # Requisitos basicos basicos
 
-## Caracteristiucas del servidor principal
+## Caracteristicas del servidor principal
 
 | Nombre                   | Requerimiento                                        | Hardware o Software |
 |--------------------------|------------------------------------------------------|---------------------|

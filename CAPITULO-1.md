@@ -28,11 +28,11 @@ Una vez que el lector decidió que libró va a llevar prestado, copia la referen
 
 El horario de atención se refleja en la siguiente tabla:
 
-| HORARIO | NORMAL | PABELLÓN |
-|---------|--------|----------|
-| lunes-jueves | 08:00-12:30 / 14:00-21:00 | A, B, C |
-| Viernes | 08:00-13:00 |	A, B, C |
-| Domingo | 08:00-13:00 |	A, B, C |
+| HORARIO      | NORMAL                    | PABELLÓN |
+|--------------|---------------------------|----------|
+| lunes-jueves | 08:00-12:30 / 14:00-21:00 | A, B, C  |
+| Viernes      | 08:00-13:00               | A, B, C  |
+| Domingo      | 08:00-13:00               | A, B, C  |
 
 Como regla general para un préstamo el lector debe portar su identificación, para los estudiantes el carnet estudiantil de la universidad, y para el caso de los lectores externos y los docentes la Cédula de identidad.
 
@@ -102,13 +102,13 @@ La migración de base de datos del sistema actual atreves de la API es una funci
 #### 1.6.1	Factibilidad técnica
 Los requerimientos para la gestión, búsqueda y préstamos del sistema de la biblioteca Sighart Klauss son los siguientes:
 
-|Nombre |	Requerimiento |	Hardware o Software |
-|-------|---------------|---------------------|
-| Sistema operativo |	Windows Server 2012 |	Software |
-| Lenguaje de programación | C# .NET Framework 4.6.2 | Software |
-| Base de datos |	SQL server 2016 Express edition |	Software |
-| Procesador |	Intel® Core™ i3-6300 Processor (4M Cache, 3.80 GHz) | Hardware |
-| Memoria RAM	 |8 Gb. RAM |	Hardware |
+| Nombre                   | Requerimiento                                        | Hardware o Software |
+|--------------------------|------------------------------------------------------|---------------------|
+| Sistema operativo        | Windows Server 2012                                  | Software            |
+| Lenguaje de programación | C# .NET Framework 4.6.2                              | Software            |
+| Base de datos            | SQL server 2016 Express edition                      |	Software            |
+| Procesador               | Intel® Core™ i3-6300 Processor (4M Cache, 3.80 GHz)  | Hardware            |
+| Memoria RAM	             | 8 Gb. RAM                                            |	Hardware            |
 _**Fuente:** [Elaboración propia]_
 
 El requerimiento cumple las expectativas para el buen funcionamiento del sistema, y las tecnologías fueron seleccionadas de acuerdo a un convenio con la universidad ya que cuenta con las licencias correspondientes para el correcto despliegue y publicación del sistema. Por lo tanto la propuesta se considera factible.
