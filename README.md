@@ -33,3 +33,24 @@
       - 2.4.2 Herramientas de diseño y desarrollo de software
       - 2.4.3 Tecnologías de desarrollo de software
     - 2.5 Aplicaciones web
+
+# Requisitos basicos basicos
+
+## servidor principal
+
+| Nombre |	Requerimiento |	Hardware o Software |
+|-------|---------------|---------------------|
+| Sistema operativo |	Windows Server 2012 |	Software |
+| Lenguaje de programación | C# .NET Framework 4.6.2 | Software |
+| Base de datos |	SQL server 2016 Express edition |	Software |
+| Procesador | Intel® Core™ i3-6300 Processor (4M Cache, 3.80 GHz) | Hardware |
+| Memoria RAM	| 8 Gb. RAM |	Hardware |
+
+## buscadores (Lobby biblioteca)
+
+| Componentes |	Cantidad | posible ubicacion |
+|----------|-----|---------------------|
+| PC - Buscador (i3) | replasar los buscadores existentes | 3 |
+| MONITOR - Buscador (22 pulgadas para una mejor experiencia del usuario) | replasar los buscadores existentes | 3 |
+| PC | asignar un equipo para los encargados(as) de los pabellones | 3 |
+| MONITOR | asignar un equipo para los encargados(as) de los pabellones | 3 |
