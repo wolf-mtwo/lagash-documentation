@@ -21,7 +21,7 @@ MARSHALL y ROSSMAN (1989) /* hay q usar el formato de IEEE para citas*/ definen 
 “La búsqueda activa, la mejora de la memoria, la entrevista informal, la escritura de notas de campo detalladas, y quizás lo más importante, la paciencia”
 La observación de los participantes es el proceso que permite a los investigadores conocer las actividades de las personas estudiadas en el entorno natural mediante la observación y participación en esas actividades.
 
-http://www.qualitative-research.net/index.php/fqs/article/view/466/996
+http://www.qualitative-research.net/index.php/fqs/article/view/466/996 /*usar IEEE */
 
 ### 2.1.3 Selección del método de recopilación de información
 Para la recolección de datos se eligió el método de la entrevista, se optó por esta técnica porque es la efectiva para la recolección de datos de los problemas y actividades más comunes que tiene o realiza la institución, fueron varias sesiones de entrevistas que se realizó con los administradores de la biblioteca y ayudo aclarar dudas como:
@@ -37,10 +37,10 @@ Como buscan el libro una vez entregado el pedido.
 ### 2.1 Arquitectura de software
 Arquitectura de software es el proceso de definir una solución estructural, que conoce todas las técnicas y requerimientos operacionales, optimizando atributos comunes de cualidad como performance, seguridad y manejabilidad. esto envuelve una serie de decisiones basadas en un amplio rango de factores y cada uno de estas decisiones puede tener considerable impacto, sobre todo en el éxito de la aplicación.
 "Arquitectura de software abarca el conjunto de decisiones importantes acerca de la organización de un sistema de software que incluye la selección de los elementos estructurales y sus interfaces mediante el cual el sistema se compone; comportamiento como se especifica en la colaboración entre dichos elementos; composición de estos elementos estructurales y de comportamiento en subsistemas más grandes; y un estilo arquitectónico que guía a esta organización. arquitectura de software también incluye la funcionalidad, facilidad de uso, la resistencia, el rendimiento, la reutilización, la comprensibilidad, las limitaciones económicas y tecnológicas, ventajas y desventajas y las preocupaciones estéticas ".[13]
-Uno de los ingenieros más reconocidos en el área de desarrollo de software Martin Fowler[14] en su libro Patterns of Enterprise Application Architecture cita “Es el desglose de más alto nivel de un sistema en sus partes; las decisiones que son difíciles de cambiar; hay múltiples arquitecturas en un sistema; lo que es de gran importancia arquitectónica puede cambiar durante la vida de un sistema; y, al final, la arquitectura se reduce a lo que más importante del sistema sea.”[15]
+Fowlwer, uno de los ingenieros más reconocidos en el área de desarrollo de software, dice que la arquitectura es “el desglose de más alto nivel de un sistema en sus partes; las decisiones que son difíciles de cambiar; hay múltiples arquitecturas en un sistema; lo que es de gran importancia arquitectónica puede cambiar durante la vida de un sistema; y, al final, la arquitectura se reduce a lo que más importante del sistema sea”[15].
 
 ### 2.2 Comparaciones.
-La creación de un sitio web o una página de internet en general implica dos factores, el front-end y el back-end.
+La creación de un sitio web o una página de internet en general implica dos factores, el front-end y el back-end. /* para palabras en ingles, usar itálicas */
 Front-end y back-end son términos utilizados para caracterizar las interfaces del programa y los servicios relativos al usuario inicial de estas interfaces y servicios. (El "usuario" puede ser un ser humano o un programa.) Una aplicación "front-end" es aquella con la que los usuarios de la aplicación interactúan directamente.
 
 ### 2.2.1 Front-end y back-end
