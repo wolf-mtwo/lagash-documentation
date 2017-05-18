@@ -3,6 +3,7 @@
 ## MARCO TEÓRICO
 En este capítulo se analizará las diferente arquitecturas de desarrollo de software que se utilizan actualmente, velando de los principios del desarrollo en calidad, escalabilidad seguridad y mantenimiento, del software y la curva de aprendizaje del entorno de desarrollo para los programadores, así también los patrones, antipatrones de diseño, que surgieron a largo de los últimos años.
 
+/*sugiero que vaya dentro de Modelo de Negocio */
 ### 2.1 Técnicas de recolección de datos
 Existen varias técnicas para realizar una investigación, para realizar un investigación de debe de seleccionar la mas adecuada para la organizacion y asi tener una idea mas clara de cómo es el funcionamiento dentro de la organización.
 Ahora veremos las técnicas más utilizadas en la recolección de datos.
@@ -16,7 +17,7 @@ Aunque las entrevistas estructuradas pueden utilizarse para obtener casi cualqui
 La entrevista, desde un punto de vista general, es una forma específica de interacción social. El investigador se sitúa frente al investigado y le formula preguntas, a partir de cuyas respuestas habrán de surgir los datos de interés. Se establece así un diálogo, pero un diálogo peculiar, asimétrico, donde una de las partes busca recoger informaciones y la otra se nos presenta como fuente de estas informaciones.
 
 ### 2.1.2 Observación
-MARSHALL y ROSSMAN (1989) definen la observación como "la descripción sistemática de eventos, comportamientos y artefactos en el contexto social elegido para el estudio" (p.79). Las observaciones permiten al investigador describir situaciones existentes utilizando los cinco sentidos, proporcionando una "fotografía escrita" de la situación bajo estudio, describen la observación participante como el método primario usado por los antropólogos que hacen el trabajo de campo. El trabajo de campo implica
+MARSHALL y ROSSMAN (1989) /* hay q usar el formato de IEEE para citas*/ definen la observación como "la descripción sistemática de eventos, comportamientos y artefactos en el contexto social elegido para el estudio" (p.79). Las observaciones permiten al investigador describir situaciones existentes utilizando los cinco sentidos, proporcionando una "fotografía escrita" de la situación bajo estudio, describen la observación participante como el método primario usado por los antropólogos que hacen el trabajo de campo. El trabajo de campo implica
 “La búsqueda activa, la mejora de la memoria, la entrevista informal, la escritura de notas de campo detalladas, y quizás lo más importante, la paciencia”
 La observación de los participantes es el proceso que permite a los investigadores conocer las actividades de las personas estudiadas en el entorno natural mediante la observación y participación en esas actividades.
 
