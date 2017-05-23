@@ -50,17 +50,17 @@ En el pasado, cuando alguien hablaba de desarrollo por lo general se refiere al 
 
 El back-end, o el "lado del servidor", es básicamente cómo funciona el sitio, las actualizaciones. Esto se refiere a todo lo que el usuario no puede ver en el navegador, como bases de datos y servidores. En el lado de  back-end los desarrolladores se preocupan más por cuestiones como la seguridad, la estructura y la gestión de contenidos.
 Una aplicación o programa "back-end" sirve indirectamente en apoyo de los servicios front-end, normalmente por estar más cerca del recurso requerido o tener la capacidad de comunicarse con el recurso requerido. La aplicación de del lado del servidor puede interactuar directamente con el front-end.
-El backend normalmente consta de tres partes: un servidor, una aplicación y una base de datos. Si reserva un vuelo o compra entradas de conciertos, normalmente abre un sitio web e interactúa con el frontend. Una vez que haya ingresado esa información, la aplicación la almacena en una base de datos que se creó en un servidor. En aras de la facilidad, sólo pensar en una base de datos como una hoja de cálculo gigante de Excel en su computadora, pero su computadora (servidor) se almacena en algún lugar de Arizona.
+El backend normalmente consta de tres partes: un servidor, una aplicación y una base de datos. Si reserva un vuelo o compra entradas de conciertos, normalmente abre un sitio web e interactúa con el frontend. Una vez que haya ingresado esa información, la aplicación la almacena en una base de datos que se creó en un servidor. 
 
 Toda esa información permanece en el servidor, así que cuando vuelva a iniciar sesión en la aplicación para imprimir sus tickets, toda la información aún está en su cuenta.
 
 ### 2.2.1.1 Single-page application (SPA)
 
 Las aplicaciones de una página (SPAs) son aplicaciones Web que cargan una sola página HTML y actualizan dinámicamente esa página a medida que el usuario interactúa con la aplicación.
-Las SPA utilizan AJAX y HTML5 para crear aplicaciones Web fluidas y sensibles, sin recargas constantes de la página. Sin embargo, esto significa que gran parte del trabajo ocurre en el lado del cliente, Afortunadamente, hay muchos frameworks en JavaScript de código libre que facilitan la creación de SPAs. Entre los más conocidos están Angular, Angular 2, Ember.
+Las SPA utilizan AJAX y HTML5 para crear aplicaciones Web fluidas y sensibles, sin recargas constantes de la página. Sin embargo, esto significa que gran parte del trabajo ocurre en el lado del cliente, Afortunadamente, hay muchos frameworks en JavaScript de código libre que facilitan la creación de SPAs. Entre los más conocidos están Angular, Angular 2 y Ember.
 
 ###  2.2.1.2 Backend For Frontend (BFF)
-Los valiosos servicios soportan muchas variaciones en los clientes, como el móvil frente a la web y diferentes formas de interfaz web. Es tentador diseñar una única API de back-end para apoyar a todos los clientes con una API reutilizable. Pero las necesidades del cliente varían, al igual que las restricciones, como el ancho de banda para los dispositivos móviles frente al deseo de un montón de datos sobre las conexiones web rápidas. Por lo tanto, a menudo es mejor definir diferentes servicios de back-end para cada tipo de cliente front-end. Estos extremos posteriores deben ser desarrollados por equipos alineados con cada extremo frontal para asegurarse de que cada extremo posterior cumple adecuadamente las necesidades de su cliente.
+Los valiosos servicios soportan muchas variaciones en los clientes, como el móvil frente a la web y diferentes formas de interfaz web. Es tentador diseñar una única API de back-end para apoyar a todos los clientes con una API reutilizable. /* el tono de escritura debe ser científico. 3ra persona impersonal */ Pero las necesidades del cliente varían, al igual que las restricciones, como el ancho de banda para los dispositivos móviles frente al deseo de un montón de datos sobre las conexiones web rápidas. Por lo tanto, a menudo es mejor definir diferentes servicios de back-end para cada tipo de cliente front-end. Estos extremos posteriores deben ser desarrollados por equipos alineados con cada extremo frontal para asegurarse de que cada extremo posterior cumple adecuadamente las necesidades de su cliente.
 
 ###  2.2.1.3 Mobile Application Architecture
 El desarrollo de aplicaciones móviles plantea muchos desafíos, como usabilidad, seguridad, integración, conectividad y velocidad. El rápido desarrollo de estas aplicaciones complejas, si no se ejecuta cuidadosamente, puede conducir rápidamente a importantes problemas de soporte. La demanda de aplicaciones móviles ha crecido rápidamente debido a la rápida adopción de la movilidad en los últimos años. A finales de 2017, la demanda de negocios para aplicaciones móviles empresariales crecerá al menos cinco veces más rápido que la capacidad interna de la organización de TI para entregarlas, según Gartner. Ellos recomendaron varias buenas prácticas para superar estos desafíos.
@@ -120,7 +120,9 @@ Como el la introducción de su manifiesto dice[12]: “Un UUID es un identificad
 ### 2.5.2 Códigos de respuesta rápida QR
 Los códigos QR han ganado popularidad en los últimos años por su capacidad de almacenaje de datos y son mucho más efectivo que el código de barras, un código QR puede contener varios tipos de datos mensajes, texto, URL, geolocalización. La capacidad de un QR es muy variado, pero con la ayuda de los UUID los QR pasarían a convertirse en entidades únicas y perfectos a la hora de identificar un recurso bibliográfico, y sin tener que estar asociado a ningún sistema.
 
-## REFERENCIAS
+## REFERENCIAS BIBLIOGRÁFICAS
+
+/* Falta del 1 al 9 */
 
 [10] UUID, Universally unique identifier, disponible en
 https://en.wikipedia.org/wiki/Universally_unique_identifier, accedido el 3 de Octubre 2016
@@ -186,3 +188,11 @@ FYI
 
 https://opensource.com/resources/what-are-microservices
 https://www.nginx.com/blog/microservices-at-netflix-architectural-best-practices/
+
+
+/*
+Sugerencias:
+1. Complementar el texto con citas.  Hay pocas citas en el documento
+2. Complementar el texto con elecciones y fundamentaciones.  Cuando el concepto lo requiera, provee argumentos que sustenten la elección tomada.  Ej. Arquitectura.
+3. Faltan temas como ser: seguridad, calidad, usabilidad del software
+*/
