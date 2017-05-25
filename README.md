@@ -20,15 +20,15 @@
       - 1.6.2	Factibilidad operacional
 - CAPÍTULO 2
   - MARCO TEÓRICO
-    - 2.1 Técnicas de recolección de datos
+    - 2.1 Metodos y técnicas de recolección de datos
       - 2.1.1 Entrevista
       - 2.1.2 Observación
       - 2.1.3 Selección del método de recopilación de información
-    - 2.2. Modelado de negocio
+    - 2.2 Modelado de negocio
     - 2.3 Definicion de ingenieria de software
       - 2.3.1 Objetivos de la ingeniería de software
       - 2.3.2 Metodologías de desarrollo de software
-    - 2.4 arquitectura de software
+    - 2.4 Arquitectura de software
       - 2.4.1 Patrones de arquitectura de software
       - 2.4.2 Herramientas de diseño y desarrollo de software
       - 2.4.3 Tecnologías de desarrollo de software
