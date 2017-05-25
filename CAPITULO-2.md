@@ -3,6 +3,33 @@
 ## MARCO TEÓRICO
 En este capítulo se analizará las diferente arquitecturas de desarrollo de software que se utilizan actualmente, velando de los principios del desarrollo en calidad, escalabilidad seguridad y mantenimiento, del software y la curva de aprendizaje del entorno de desarrollo para los programadores, así también los patrones, antipatrones de diseño, que surgieron a largo de los últimos años.
 
+## 2.1 Modelo de negocio
+El “Modelo de Negocio” se define como un proceso de representación de uno o más aspectos o elementos de una empresa u organización. Se busca modelar las actividades que se hacen dentro de una empresa la cual va a tener un fin; los aspectos que se desean modelar son su propósito, estructura, funcionalidad, dinámica, logística de negocios y sus componentes como fines, procesos de negocio, regla de negocio, objeto de negocio, actores y unidades organizativas [1].
+
+En el desarrollo de software, los requisitos tienen lugar en el espacio de la solución; el Modelado de Negocios aporta información esencial para la ingeniería de requisitos [2]. Siendo así la caracterización de los aspectos más significativos de la empresa o una parte de ella, para ello se debe tener claro cuál es el fin que se busca con ese modelo, para así tener claro los elementos del negocio que se desean representar y puede ser orientado al negocio propiamente u orientadas a la tecnología y su aplicación en el negocio.
+
+### 2.1.1 Modelo de negocio actual
+El modelo de negocio actual es una parte primordial de cualquier proceso de desarrollo de software, permite lograr comprender el ámbito de la información e identificar las responsabilidades, actividades y procesos que se realizan dentro de la organización. Éste resultado es de gran ayuda para identificar las posibles formas de hacer el negocio más eficiente.
+
+### 2.1.2 Modelo de negocio alternativo
+El modelo de negocio alternativo es la representación de la situación mejorada, lo cual requiere el análisis de los procesos del modelo de negocio actual y la búsqueda del modelo para nuevas formas de hacer las cosas. Esto significa que modelo de negocio actual y sus procesos son cambiados significativamente para crear diferentes y mejorados procesos.
+
+### 2.1.3 Diseño del modelo de negocio
+Los diagramas de flujo permiten modelar y representar gráficamente todo tipo de sistemas, una de las características principales es que proporcionan información sobre los procesos de forma clara, ordenada y concisa.
+
+*Cuadro 2.1*
+*Elementos principales de un diagrama de flujo*
+![Alt text](/anexos/cuatro-1.png?raw=true "")
+_**Fuente:** [Elaboración propia]_
+
+A continuación se muestra un modelo de básico de un diagrama de flujo:
+
+*Figura 2.1*
+*Diagrama de flujo*
+![Alt text](/anexos/figura-1.png?raw=true "")
+_**Fuente:** [Elaboración propia]_
+
+// TODO Mover
 /*sugiero que vaya dentro de Modelo de Negocio */
 ### 2.1 Técnicas de recolección de datos
 Existen varias técnicas para realizar una investigación, para realizar un investigación de debe de seleccionar la mas adecuada para la organizacion y asi tener una idea mas clara de cómo es el funcionamiento dentro de la organización.
@@ -31,9 +58,6 @@ Qué problemas tiene con su actual sistema.
 Quien da soporte al sistema actual.
 Como buscan el libro una vez entregado el pedido.
 
-### 2.2 Modelado de negocio
-// TODO
-
 ### 2.1 Arquitectura de software
 Arquitectura de software es el proceso de definir una solución estructural, que conoce todas las técnicas y requerimientos operacionales, optimizando atributos comunes de cualidad como performance, seguridad y manejabilidad. esto envuelve una serie de decisiones basadas en un amplio rango de factores y cada uno de estas decisiones puede tener considerable impacto, sobre todo en el éxito de la aplicación.
 "Arquitectura de software abarca el conjunto de decisiones importantes acerca de la organización de un sistema de software que incluye la selección de los elementos estructurales y sus interfaces mediante el cual el sistema se compone; comportamiento como se especifica en la colaboración entre dichos elementos; composición de estos elementos estructurales y de comportamiento en subsistemas más grandes; y un estilo arquitectónico que guía a esta organización. arquitectura de software también incluye la funcionalidad, facilidad de uso, la resistencia, el rendimiento, la reutilización, la comprensibilidad, las limitaciones económicas y tecnológicas, ventajas y desventajas y las preocupaciones estéticas ".[13]
@@ -50,7 +74,7 @@ En el pasado, cuando alguien hablaba de desarrollo por lo general se refiere al 
 
 El back-end, o el "lado del servidor", es básicamente cómo funciona el sitio, las actualizaciones. Esto se refiere a todo lo que el usuario no puede ver en el navegador, como bases de datos y servidores. En el lado de  back-end los desarrolladores se preocupan más por cuestiones como la seguridad, la estructura y la gestión de contenidos.
 Una aplicación o programa "back-end" sirve indirectamente en apoyo de los servicios front-end, normalmente por estar más cerca del recurso requerido o tener la capacidad de comunicarse con el recurso requerido. La aplicación de del lado del servidor puede interactuar directamente con el front-end.
-El backend normalmente consta de tres partes: un servidor, una aplicación y una base de datos. Si reserva un vuelo o compra entradas de conciertos, normalmente abre un sitio web e interactúa con el frontend. Una vez que haya ingresado esa información, la aplicación la almacena en una base de datos que se creó en un servidor. 
+El backend normalmente consta de tres partes: un servidor, una aplicación y una base de datos. Si reserva un vuelo o compra entradas de conciertos, normalmente abre un sitio web e interactúa con el frontend. Una vez que haya ingresado esa información, la aplicación la almacena en una base de datos que se creó en un servidor.
 
 Toda esa información permanece en el servidor, así que cuando vuelva a iniciar sesión en la aplicación para imprimir sus tickets, toda la información aún está en su cuenta.
 
@@ -122,10 +146,16 @@ Los códigos QR han ganado popularidad en los últimos años por su capacidad de
 
 ## REFERENCIAS BIBLIOGRÁFICAS
 
-/* Falta del 1 al 9 */
+/* Falta del 3 al 9 */
+[1] Y. Gascón, Revisión de conceptos básicos Modelado de Negocios, disponible en
+http://es.slideshare.net/yamilagascon/revisin-de-conceptos-bsicos-modelado-de-negocios accedido el 24 de Mayo 2017.
+
+[2] J. Montilva, Modelo de Negocio, disponible en
+http://es.slideshare.net/RaulIram/tarea-16614847 accedido el 24 de Mayo 2017.
 
 [10] UUID, Universally unique identifier, disponible en
 https://en.wikipedia.org/wiki/Universally_unique_identifier, accedido el 3 de Octubre 2016
+
 [14] Wikipedia, Martin Fowler
 https://es.wikipedia.org/wiki/Martin_Fowler, accedido el 12 de Octubre 2016
 [15]  Martin Fowler, Patterns of Enterprise Application Architecture,

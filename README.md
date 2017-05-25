@@ -20,6 +20,10 @@
       - 1.6.2	Factibilidad operacional
 - CAPÍTULO 2
   - MARCO TEÓRICO
+    - 2.1 Modelo de negocio
+      - 2.1.1 Modelo de negocio actual
+      - 2.1.2 Modelo de negocio alternativo
+      - 2.1.3 Diseño del modelo de negocio
     - 2.1 Metodos y técnicas de recolección de datos
       - 2.1.1 Entrevista
       - 2.1.2 Observación
