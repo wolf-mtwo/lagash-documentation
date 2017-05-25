@@ -29,35 +29,6 @@ A continuación se muestra un modelo de básico de un diagrama de flujo:
 ![Alt text](/anexos/figura-1.png?raw=true "")
 _**Fuente:** [Elaboración propia]_
 
-// TODO Mover
-/*sugiero que vaya dentro de Modelo de Negocio */
-### 2.1 Técnicas de recolección de datos
-Existen varias técnicas para realizar una investigación, para realizar un investigación de debe de seleccionar la mas adecuada para la organizacion y asi tener una idea mas clara de cómo es el funcionamiento dentro de la organización.
-Ahora veremos las técnicas más utilizadas en la recolección de datos.
-
-### 2.1.1 Entrevista
-En las entrevistas, la información se obtiene a través de la encuesta y se registra por los enumeradores. Las entrevistas estructuradas se realizan utilizando formularios de encuestas, mientras que las entrevistas abiertas son notas tomadas mientras se habla con los encuestados. Posteriormente, las notas se estructuran (interpretan) para su posterior análisis. Las entrevistas abiertas, que deben ser interpretadas y analizadas incluso durante la entrevista, deben ser llevadas a cabo por observadores y / o enumeradores bien entrenados.
-
-Al igual que en la preparación de un cuestionario, es importante poner a prueba formularios de prueba diseñados para las entrevistas. El mejor intento de aclarar y enfocar por el diseñador no puede anticipar todas las posibles interpretaciones de los encuestados. Una prueba a pequeña escala antes del uso real para la recolección de datos asegurará mejores datos y evitará perder tiempo y dinero.
-
-Aunque las entrevistas estructuradas pueden utilizarse para obtener casi cualquier información, como con los cuestionarios, la información se basa en la opinión personal. Los datos sobre variables como la captura o el esfuerzo están potencialmente sujetos a errores grandes, debido a estimaciones pobres o errores intencionales de información sensible.
-La entrevista, desde un punto de vista general, es una forma específica de interacción social. El investigador se sitúa frente al investigado y le formula preguntas, a partir de cuyas respuestas habrán de surgir los datos de interés. Se establece así un diálogo, pero un diálogo peculiar, asimétrico, donde una de las partes busca recoger informaciones y la otra se nos presenta como fuente de estas informaciones.
-
-### 2.1.2 Observación
-MARSHALL y ROSSMAN (1989) /* hay q usar el formato de IEEE para citas*/ definen la observación como "la descripción sistemática de eventos, comportamientos y artefactos en el contexto social elegido para el estudio" (p.79). Las observaciones permiten al investigador describir situaciones existentes utilizando los cinco sentidos, proporcionando una "fotografía escrita" de la situación bajo estudio, describen la observación participante como el método primario usado por los antropólogos que hacen el trabajo de campo. El trabajo de campo implica
-“La búsqueda activa, la mejora de la memoria, la entrevista informal, la escritura de notas de campo detalladas, y quizás lo más importante, la paciencia”
-La observación de los participantes es el proceso que permite a los investigadores conocer las actividades de las personas estudiadas en el entorno natural mediante la observación y participación en esas actividades.
-
-http://www.qualitative-research.net/index.php/fqs/article/view/466/996 /*usar IEEE */
-
-### 2.1.3 Selección del método de recopilación de información
-Para la recolección de datos se eligió el método de la entrevista, se optó por esta técnica porque es la efectiva para la recolección de datos de los problemas y actividades más comunes que tiene o realiza la institución, fueron varias sesiones de entrevistas que se realizó con los administradores de la biblioteca y ayudo aclarar dudas como:
-Cantidad total de recursos bibliográficos (libros, tesis, revistas, periódicos).
-Si todos los recursos bibliográficos están registrados dentro del sistema.
-Qué problemas tiene con su actual sistema.
-Quien da soporte al sistema actual.
-Como buscan el libro una vez entregado el pedido.
-
 ### 2.1 Arquitectura de software
 Arquitectura de software es el proceso de definir una solución estructural, que conoce todas las técnicas y requerimientos operacionales, optimizando atributos comunes de cualidad como performance, seguridad y manejabilidad. esto envuelve una serie de decisiones basadas en un amplio rango de factores y cada uno de estas decisiones puede tener considerable impacto, sobre todo en el éxito de la aplicación.
 "Arquitectura de software abarca el conjunto de decisiones importantes acerca de la organización de un sistema de software que incluye la selección de los elementos estructurales y sus interfaces mediante el cual el sistema se compone; comportamiento como se especifica en la colaboración entre dichos elementos; composición de estos elementos estructurales y de comportamiento en subsistemas más grandes; y un estilo arquitectónico que guía a esta organización. arquitectura de software también incluye la funcionalidad, facilidad de uso, la resistencia, el rendimiento, la reutilización, la comprensibilidad, las limitaciones económicas y tecnológicas, ventajas y desventajas y las preocupaciones estéticas ".[13]
