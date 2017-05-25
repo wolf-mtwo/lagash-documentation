@@ -3,6 +3,7 @@
 ## MARCO TEÓRICO
 En este capítulo se analizará las diferente arquitecturas de desarrollo de software que se utilizan actualmente, velando de los principios del desarrollo en calidad, escalabilidad seguridad y mantenimiento, del software y la curva de aprendizaje del entorno de desarrollo para los programadores, así también los patrones, antipatrones de diseño, que surgieron a largo de los últimos años.
 
+/*sugiero que vaya dentro de Modelo de Negocio */
 ### 2.1 Técnicas de recolección de datos
 Existen varias técnicas para realizar una investigación, para realizar un investigación de debe de seleccionar la mas adecuada para la organizacion y asi tener una idea mas clara de cómo es el funcionamiento dentro de la organización.
 Ahora veremos las técnicas más utilizadas en la recolección de datos.
@@ -16,11 +17,11 @@ Aunque las entrevistas estructuradas pueden utilizarse para obtener casi cualqui
 La entrevista, desde un punto de vista general, es una forma específica de interacción social. El investigador se sitúa frente al investigado y le formula preguntas, a partir de cuyas respuestas habrán de surgir los datos de interés. Se establece así un diálogo, pero un diálogo peculiar, asimétrico, donde una de las partes busca recoger informaciones y la otra se nos presenta como fuente de estas informaciones.
 
 ### 2.1.2 Observación
-MARSHALL y ROSSMAN (1989) definen la observación como "la descripción sistemática de eventos, comportamientos y artefactos en el contexto social elegido para el estudio" (p.79). Las observaciones permiten al investigador describir situaciones existentes utilizando los cinco sentidos, proporcionando una "fotografía escrita" de la situación bajo estudio, describen la observación participante como el método primario usado por los antropólogos que hacen el trabajo de campo. El trabajo de campo implica
+MARSHALL y ROSSMAN (1989) /* hay q usar el formato de IEEE para citas*/ definen la observación como "la descripción sistemática de eventos, comportamientos y artefactos en el contexto social elegido para el estudio" (p.79). Las observaciones permiten al investigador describir situaciones existentes utilizando los cinco sentidos, proporcionando una "fotografía escrita" de la situación bajo estudio, describen la observación participante como el método primario usado por los antropólogos que hacen el trabajo de campo. El trabajo de campo implica
 “La búsqueda activa, la mejora de la memoria, la entrevista informal, la escritura de notas de campo detalladas, y quizás lo más importante, la paciencia”
 La observación de los participantes es el proceso que permite a los investigadores conocer las actividades de las personas estudiadas en el entorno natural mediante la observación y participación en esas actividades.
 
-http://www.qualitative-research.net/index.php/fqs/article/view/466/996
+http://www.qualitative-research.net/index.php/fqs/article/view/466/996 /*usar IEEE */
 
 ### 2.1.3 Selección del método de recopilación de información
 Para la recolección de datos se eligió el método de la entrevista, se optó por esta técnica porque es la efectiva para la recolección de datos de los problemas y actividades más comunes que tiene o realiza la institución, fueron varias sesiones de entrevistas que se realizó con los administradores de la biblioteca y ayudo aclarar dudas como:
@@ -36,10 +37,10 @@ Como buscan el libro una vez entregado el pedido.
 ### 2.1 Arquitectura de software
 Arquitectura de software es el proceso de definir una solución estructural, que conoce todas las técnicas y requerimientos operacionales, optimizando atributos comunes de cualidad como performance, seguridad y manejabilidad. esto envuelve una serie de decisiones basadas en un amplio rango de factores y cada uno de estas decisiones puede tener considerable impacto, sobre todo en el éxito de la aplicación.
 "Arquitectura de software abarca el conjunto de decisiones importantes acerca de la organización de un sistema de software que incluye la selección de los elementos estructurales y sus interfaces mediante el cual el sistema se compone; comportamiento como se especifica en la colaboración entre dichos elementos; composición de estos elementos estructurales y de comportamiento en subsistemas más grandes; y un estilo arquitectónico que guía a esta organización. arquitectura de software también incluye la funcionalidad, facilidad de uso, la resistencia, el rendimiento, la reutilización, la comprensibilidad, las limitaciones económicas y tecnológicas, ventajas y desventajas y las preocupaciones estéticas ".[13]
-Uno de los ingenieros más reconocidos en el área de desarrollo de software Martin Fowler[14] en su libro Patterns of Enterprise Application Architecture cita “Es el desglose de más alto nivel de un sistema en sus partes; las decisiones que son difíciles de cambiar; hay múltiples arquitecturas en un sistema; lo que es de gran importancia arquitectónica puede cambiar durante la vida de un sistema; y, al final, la arquitectura se reduce a lo que más importante del sistema sea.”[15]
+Fowlwer, uno de los ingenieros más reconocidos en el área de desarrollo de software, dice que la arquitectura es “el desglose de más alto nivel de un sistema en sus partes; las decisiones que son difíciles de cambiar; hay múltiples arquitecturas en un sistema; lo que es de gran importancia arquitectónica puede cambiar durante la vida de un sistema; y, al final, la arquitectura se reduce a lo que más importante del sistema sea”[15].
 
 ### 2.2 Comparaciones.
-La creación de un sitio web o una página de internet en general implica dos factores, el front-end y el back-end.
+La creación de un sitio web o una página de internet en general implica dos factores, el front-end y el back-end. /* para palabras en ingles, usar itálicas */
 Front-end y back-end son términos utilizados para caracterizar las interfaces del programa y los servicios relativos al usuario inicial de estas interfaces y servicios. (El "usuario" puede ser un ser humano o un programa.) Una aplicación "front-end" es aquella con la que los usuarios de la aplicación interactúan directamente.
 
 ### 2.2.1 Front-end y back-end
@@ -49,17 +50,17 @@ En el pasado, cuando alguien hablaba de desarrollo por lo general se refiere al 
 
 El back-end, o el "lado del servidor", es básicamente cómo funciona el sitio, las actualizaciones. Esto se refiere a todo lo que el usuario no puede ver en el navegador, como bases de datos y servidores. En el lado de  back-end los desarrolladores se preocupan más por cuestiones como la seguridad, la estructura y la gestión de contenidos.
 Una aplicación o programa "back-end" sirve indirectamente en apoyo de los servicios front-end, normalmente por estar más cerca del recurso requerido o tener la capacidad de comunicarse con el recurso requerido. La aplicación de del lado del servidor puede interactuar directamente con el front-end.
-El backend normalmente consta de tres partes: un servidor, una aplicación y una base de datos. Si reserva un vuelo o compra entradas de conciertos, normalmente abre un sitio web e interactúa con el frontend. Una vez que haya ingresado esa información, la aplicación la almacena en una base de datos que se creó en un servidor. En aras de la facilidad, sólo pensar en una base de datos como una hoja de cálculo gigante de Excel en su computadora, pero su computadora (servidor) se almacena en algún lugar de Arizona.
+El backend normalmente consta de tres partes: un servidor, una aplicación y una base de datos. Si reserva un vuelo o compra entradas de conciertos, normalmente abre un sitio web e interactúa con el frontend. Una vez que haya ingresado esa información, la aplicación la almacena en una base de datos que se creó en un servidor. 
 
 Toda esa información permanece en el servidor, así que cuando vuelva a iniciar sesión en la aplicación para imprimir sus tickets, toda la información aún está en su cuenta.
 
 ### 2.2.1.1 Single-page application (SPA)
 
 Las aplicaciones de una página (SPAs) son aplicaciones Web que cargan una sola página HTML y actualizan dinámicamente esa página a medida que el usuario interactúa con la aplicación.
-Las SPA utilizan AJAX y HTML5 para crear aplicaciones Web fluidas y sensibles, sin recargas constantes de la página. Sin embargo, esto significa que gran parte del trabajo ocurre en el lado del cliente, Afortunadamente, hay muchos frameworks en JavaScript de código libre que facilitan la creación de SPAs. Entre los más conocidos están Angular, Angular 2, Ember.
+Las SPA utilizan AJAX y HTML5 para crear aplicaciones Web fluidas y sensibles, sin recargas constantes de la página. Sin embargo, esto significa que gran parte del trabajo ocurre en el lado del cliente, Afortunadamente, hay muchos frameworks en JavaScript de código libre que facilitan la creación de SPAs. Entre los más conocidos están Angular, Angular 2 y Ember.
 
 ###  2.2.1.2 Backend For Frontend (BFF)
-Los valiosos servicios soportan muchas variaciones en los clientes, como el móvil frente a la web y diferentes formas de interfaz web. Es tentador diseñar una única API de back-end para apoyar a todos los clientes con una API reutilizable. Pero las necesidades del cliente varían, al igual que las restricciones, como el ancho de banda para los dispositivos móviles frente al deseo de un montón de datos sobre las conexiones web rápidas. Por lo tanto, a menudo es mejor definir diferentes servicios de back-end para cada tipo de cliente front-end. Estos extremos posteriores deben ser desarrollados por equipos alineados con cada extremo frontal para asegurarse de que cada extremo posterior cumple adecuadamente las necesidades de su cliente.
+Los valiosos servicios soportan muchas variaciones en los clientes, como el móvil frente a la web y diferentes formas de interfaz web. Es tentador diseñar una única API de back-end para apoyar a todos los clientes con una API reutilizable. /* el tono de escritura debe ser científico. 3ra persona impersonal */ Pero las necesidades del cliente varían, al igual que las restricciones, como el ancho de banda para los dispositivos móviles frente al deseo de un montón de datos sobre las conexiones web rápidas. Por lo tanto, a menudo es mejor definir diferentes servicios de back-end para cada tipo de cliente front-end. Estos extremos posteriores deben ser desarrollados por equipos alineados con cada extremo frontal para asegurarse de que cada extremo posterior cumple adecuadamente las necesidades de su cliente.
 
 ###  2.2.1.3 Mobile Application Architecture
 El desarrollo de aplicaciones móviles plantea muchos desafíos, como usabilidad, seguridad, integración, conectividad y velocidad. El rápido desarrollo de estas aplicaciones complejas, si no se ejecuta cuidadosamente, puede conducir rápidamente a importantes problemas de soporte. La demanda de aplicaciones móviles ha crecido rápidamente debido a la rápida adopción de la movilidad en los últimos años. A finales de 2017, la demanda de negocios para aplicaciones móviles empresariales crecerá al menos cinco veces más rápido que la capacidad interna de la organización de TI para entregarlas, según Gartner. Ellos recomendaron varias buenas prácticas para superar estos desafíos.
@@ -119,7 +120,9 @@ Como el la introducción de su manifiesto dice[12]: “Un UUID es un identificad
 ### 2.5.2 Códigos de respuesta rápida QR
 Los códigos QR han ganado popularidad en los últimos años por su capacidad de almacenaje de datos y son mucho más efectivo que el código de barras, un código QR puede contener varios tipos de datos mensajes, texto, URL, geolocalización. La capacidad de un QR es muy variado, pero con la ayuda de los UUID los QR pasarían a convertirse en entidades únicas y perfectos a la hora de identificar un recurso bibliográfico, y sin tener que estar asociado a ningún sistema.
 
-## REFERENCIAS
+## REFERENCIAS BIBLIOGRÁFICAS
+
+/* Falta del 1 al 9 */
 
 [10] UUID, Universally unique identifier, disponible en
 https://en.wikipedia.org/wiki/Universally_unique_identifier, accedido el 3 de Octubre 2016
@@ -185,3 +188,11 @@ FYI
 
 https://opensource.com/resources/what-are-microservices
 https://www.nginx.com/blog/microservices-at-netflix-architectural-best-practices/
+
+
+/*
+Sugerencias:
+1. Complementar el texto con citas.  Hay pocas citas en el documento
+2. Complementar el texto con elecciones y fundamentaciones.  Cuando el concepto lo requiera, provee argumentos que sustenten la elección tomada.  Ej. Arquitectura.
+3. Faltan temas como ser: seguridad, calidad, usabilidad del software
+*/
