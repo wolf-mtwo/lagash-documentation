@@ -25,8 +25,7 @@
       - 2.1.2 Modelo de negocio alternativo
       - 2.1.3 Diseño del modelo de negocio
     - 2.3 Ingenieria de software
-      - 2.3.1 Procesos de desarrollo del software
-      - 2.3.2 Metodologías de desarrollo de software
+      - 2.3.1 Metodologías de desarrollo de software
     - 2.4 Arquitectura de software
       - 2.4.1 Patrones de arquitectura de software
       - 2.4.2 Herramientas de diseño y desarrollo de software
