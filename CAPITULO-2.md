@@ -18,16 +18,38 @@ El modelo de negocio alternativo es la representación de la situación mejorada
 Los diagramas de flujo permiten modelar y representar gráficamente todo tipo de sistemas, una de las características principales es que proporcionan información sobre los procesos de forma clara, ordenada y concisa.
 
 *Cuadro 2.1*
+
 *Elementos principales de un diagrama de flujo*
+
 ![Alt text](/anexos/cuatro-1.png?raw=true "")
+
 _**Fuente:** [Elaboración propia]_
 
 A continuación se muestra un modelo de básico de un diagrama de flujo:
 
 *Figura 2.1*
+
 *Diagrama de flujo*
+
 ![Alt text](/anexos/figura-1.png?raw=true "")
+
 _**Fuente:** [Elaboración propia]_
+
+## 2.3 Ingeniería de Software
+La ingeniería de software es “una disciplina que comprende todos los aspectos de la producción de software desde las etapas iniciales de la especificación del sistema, hasta el mantenimiento de este después de que se utiliza” [3].
+El IEEE16 (Instituto de Ingeniería Eléctrica y Electrónica) define que: “la ingeniería de software es la aplicación de un enfoque sistemático, disciplinado y cuantificable al desarrollo, operación y mantenimiento de software [4]. Según Pressman la ingeniería de software es una tecnología con varias capas.
+
+*Figura 2.2*
+
+*Capas de la ingeniería de software*
+
+![Alt text](/anexos/figura-2.png?raw=true "")
+
+_**Fuente:** [11, Fig. 1.3]_
+
+Cualquier enfoque de ingeniería (incluso la de software) debe basarse en un compromiso organizacional con la calidad [4].
+
+La ingeniería de software es de mucha importancia ya que sugiere que se utilicen ciertas estrategias como metodologías, métodos, técnicas y tecnologías de softwares, dando una esencia del verdadero proceso de desarrollo de software las cuales serán aplicadas para la resolución de problemas del proyecto describiendo algunos modelos de desarrollo y sus procesos.
 
 ### 2.1 Arquitectura de software
 Arquitectura de software es el proceso de definir una solución estructural, que conoce todas las técnicas y requerimientos operacionales, optimizando atributos comunes de cualidad como performance, seguridad y manejabilidad. esto envuelve una serie de decisiones basadas en un amplio rango de factores y cada uno de estas decisiones puede tener considerable impacto, sobre todo en el éxito de la aplicación.
@@ -117,12 +139,16 @@ Los códigos QR han ganado popularidad en los últimos años por su capacidad de
 
 ## REFERENCIAS BIBLIOGRÁFICAS
 
-/* Falta del 3 al 9 */
+/* Falta del 5 al 9 */
 [1] Y. Gascón, Revisión de conceptos básicos Modelado de Negocios, disponible en
 http://es.slideshare.net/yamilagascon/revisin-de-conceptos-bsicos-modelado-de-negocios accedido el 24 de Mayo 2017.
 
 [2] J. Montilva, Modelo de Negocio, disponible en
 http://es.slideshare.net/RaulIram/tarea-16614847 accedido el 24 de Mayo 2017.
+
+[3] Ian Sommerville (2005) Ingeniería del Software, 7th edición, Madrid, España, Pearson Educación.
+
+[4] R. S. Pressman, Ingeniería del software: Un enfoque práctico, 7th. Edición, The McGraw-HillCompanies.
 
 [10] UUID, Universally unique identifier, disponible en
 https://en.wikipedia.org/wiki/Universally_unique_identifier, accedido el 3 de Octubre 2016
