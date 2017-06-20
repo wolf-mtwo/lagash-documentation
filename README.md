@@ -18,19 +18,35 @@
     - 1.6 Estudio de factibilidad
       - 1.6.1	Factibilidad técnica
       - 1.6.2	Factibilidad operacional
+
 - CAPÍTULO 2
   - MARCO TEÓRICO
-    - 2.1 Modelo de negocio
-      - 2.1.1 Modelo de negocio actual
-      - 2.1.2 Modelo de negocio alternativo
-      - 2.1.3 Diseño del modelo de negocio
-    - 2.3 Ingenieria de software
-      - 2.3.1 Metodologías de desarrollo de software
-    - 2.4 Arquitectura de software
-      - 2.4.1 Patrones de arquitectura de software
-      - 2.4.2 Herramientas de diseño y desarrollo de software
-      - 2.4.3 Tecnologías de desarrollo de software
-    - 2.5 Aplicaciones web
+  - 2.1 Modelo de negocio
+    - 2.1.1 Modelo de negocio actual
+    - 2.1.2 Modelo de negocio alternativo
+    - 2.1.3 Diseño del modelo de negocio
+  - 2.2 Ingeniería de Software
+    - 2.2.1 Metodologías de desarrollo de software
+    - 2.2.2 Metodologías de desarrollo ágil
+      - **a) Programación Extrema (XP)**
+      - **b) SCRUM**
+    - 2.2.3 Selección de la metodología de desarrollo
+  - 2.3 Arquitectura de software
+    - 2.3.1 Comparaciones
+    - 2.3.2 Front-end y back-end
+    - 2.3.3 Single-page application (SPA)
+    - 2.3.4 Backend For Frontend (BFF)
+    - 2.3.5	Híbrido vs nativo
+      - 2.3.5.1	Android
+    - 2.3.6 Service Oriented Architecture (SOA)
+    - 2.3.7 Multi-layered Architecture (MLA)
+    - 2.3.8 Microservices Architecture (MSA)
+  - 2.4 Identificación única
+  - 2.4.1 Identificador único universal UUID
+  - 2.4.2 Códigos de respuesta rápida QR
+  - 2.5 Aplicaciones web
+
+
 
 # Requisitos basicos basicos
 
