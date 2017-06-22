@@ -1,3 +1,12 @@
+### 2.3 Microservices architecture
+### 2.3.1 Rest API
+### 2.3.2 Los diez mandamientos de microservicios
+### 2.3.3 Patterns
+### 2.3.3.1 API Gateway pattern
+### 2.3.3.2 Database per Service pattern
+### 2.3.3.3 Microservice chassis pattern
+### 2.3.4 12 factores
+
 
 backend and frontend
 http://blog.digitaltutors.com/whats-difference-front-end-back-end/
