@@ -73,6 +73,7 @@ Se puede decir que las metodologías tradicionales ponen por encima de lo demás
 A continuación se presentaran diferentes modelos agiles de proceso. Entre ellas existen mucha similitud sin embargo cada una posee características únicas que las diferencian de las demás.
 
 **a) Programación Extrema (XP)**
+
 La programación extrema, es una metodología de desarrollo ágil, una de las más exitosas en tiempo reciente.
 La programación extrema (XP) es un enfoque de la ingeniería del software formulado por Kent Beck. Es el más destacado de los procesos ágiles de desarrollo de software. Se diferencia de las metodologías tradicionales principalmente en que pone más énfasis en la adaptabilidad que en la previsibilidad.
 
@@ -82,14 +83,15 @@ Pressman dice que “La programación extrema usa un enfoque orientado a objeto 
 XP es una metodología centrada en potenciar las relaciones interpersonales como clave para el éxito en el desarrollo de software, promoviendo el trabajo en equipo y basándose en la realimentación continua entre el cliente y el desarrollador. XP es adecuado para proyectos con requisitos imprecisos y cambiantes.
 
 **b) SCRUM**
+
 SCRUM es una metodología que nace ajena al desarrollo del software, de hecho sus principios fundamentales fueron desarrollados en procesos de reingeniería por Goldratt, Takeuchi y Nonaka en la década de 1980.
 Scrum es un proceso ágil que se puede usar para gestionar controlar desarrollos complejos de software y productos usando prácticas iterativas e incrementales. Es un proceso incremental iterativo para desarrollar cualquier producto o gestionar cualquier trabajo.
 Los actores contemplados en esta metodología son los siguientes:
 
-- Product Owner, conoce y marca las prioridades del proyecto o producto.
-- Scrum Master, es la persona que asegura el seguimiento de la metodología guiando las reuniones y ayudando al equipo ante cualquier problema que pueda aparecer. Su responsabilidad es entre otras, la de hacer de paraguas ante las presiones externas.
-- Scrum Team, son las personas responsables de implementar la funcionalidad o funcionalidades elegidas por el Product Owner.
-- Usuarios o Cliente, son los beneficiarios finales del producto, y son quienes viendo los progresos, pueden aportar ideas, sugerencias o necesidades. que incluye a los desarrolladores.
+- __Product Owner__, conoce y marca las prioridades del proyecto o producto.
+- __Scrum Master__, es la persona que asegura el seguimiento de la metodología guiando las reuniones y ayudando al equipo ante cualquier problema que pueda aparecer. Su responsabilidad es entre otras, la de hacer de paraguas ante las presiones externas.
+- __Scrum Team__, son las personas responsables de implementar la funcionalidad o funcionalidades elegidas por el Product Owner.
+- __Usuarios o Cliente__, son los beneficiarios finales del producto, y son quienes viendo los progresos, pueden aportar ideas, sugerencias o necesidades. que incluye a los desarrolladores.
 
 ### 2.2.3 Selección de la metodología de desarrollo
 Entre las 2 metodologías ágiles descritas anteriormente la más utilizada es la metodología XP, ya que esta metodología propone una estrecha relación entre el equipo de desarrollo y los clientes, estableciendo como base la comunicación.
@@ -97,7 +99,7 @@ Entre las 2 metodologías ágiles descritas anteriormente la más utilizada es l
 ## 2.3 Arquitectura de software
 Arquitectura de software es el proceso de definir una solución estructural, que conoce todas las técnicas y requerimientos operacionales, optimizando atributos comunes de cualidad como performance, seguridad y manejabilidad. esto envuelve una serie de decisiones basadas en un amplio rango de factores y cada uno de estas decisiones puede tener considerable impacto, sobre todo en el éxito de la aplicación.
 "Arquitectura de software abarca el conjunto de decisiones importantes acerca de la organización de un sistema de software que incluye la selección de los elementos estructurales y sus interfaces mediante el cual el sistema se compone; comportamiento como se especifica en la colaboración entre dichos elementos; composición de estos elementos estructurales y de comportamiento en subsistemas más grandes; y un estilo arquitectónico que guía a esta organización. arquitectura de software también incluye la funcionalidad, facilidad de uso, la resistencia, el rendimiento, la reutilización, la comprensibilidad, las limitaciones económicas y tecnológicas, ventajas y desventajas y las preocupaciones estéticas ".[13]
-Fowlwer, uno de los ingenieros más reconocidos en el área de desarrollo de software, dice que la arquitectura es “el desglose de más alto nivel de un sistema en sus partes; las decisiones que son difíciles de cambiar; hay múltiples arquitecturas en un sistema; lo que es de gran importancia arquitectónica puede cambiar durante la vida de un sistema; y, al final, la arquitectura se reduce a lo que más importante del sistema sea”[15].
+Fowlwer, uno de los ingenieros más reconocidos en el área de desarrollo de software, dice que la arquitectura es "el desglose de más alto nivel de un sistema en sus partes; las decisiones que son difíciles de cambiar; hay múltiples arquitecturas en un sistema; lo que es de gran importancia arquitectónica puede cambiar durante la vida de un sistema; y, al final, la arquitectura se reduce a lo que más importante del sistema sea"[8].
 
 ### 2.3.1 Comparaciones
 La creación de un sitio web o una página de internet en general implica dos factores, el __front-end__ y el __back-end__.
@@ -105,12 +107,12 @@ __Front-end__ y __back-end__ son términos utilizados para caracterizar las inte
 
 ### 2.3.2 Front-end y back-end
 El __front-end__ es todo lo relacionado con lo que el usuario ve, incluyendo el diseño y algunos lenguajes como HTML y CSS.
-Cuando discutimos el __"frontend"__ de la web, lo que realmente estamos hablando es la parte de la web con la que puedes ver e interactuar. El frontend generalmente consta de dos partes: el diseño web y el desarrollo web front-end.
+Cuando discutimos el __"front-end"__ de la web, lo que realmente estamos hablando es la parte de la web con la que puedes ver e interactuar. El __frontend__ generalmente consta de dos partes: el diseño web y el desarrollo web front-end.
 En el pasado, cuando alguien hablaba de desarrollo por lo general se refiere al backend, pero en los últimos años ha habido una necesidad real de diferenciar entre los diseñadores que trabajaban estrictamente en Photoshop y los que podían codificar HTML y CSS. Fue aún más lejos cuando los diseñadores cruzaron las líneas para trabajar con JavaScript y jQuery.
 
 El __back-end__, o el "lado del servidor", es básicamente cómo funciona el sitio, las actualizaciones. Esto se refiere a todo lo que el usuario no puede ver en el navegador, como bases de datos y servidores. En el lado de  back-end los desarrolladores se preocupan más por cuestiones como la seguridad, la estructura y la gestión de contenidos.
-Una aplicación o programa __"back-end"__ sirve indirectamente en apoyo de los servicios front-end, normalmente por estar más cerca del recurso requerido o tener la capacidad de comunicarse con el recurso requerido. La aplicación de del lado del servidor puede interactuar directamente con el front-end.
-El backend normalmente consta de tres partes: un servidor, una aplicación y una base de datos. Si reserva un vuelo o compra entradas de conciertos, normalmente abre un sitio web e interactúa con el frontend. Una vez que haya ingresado esa información, la aplicación la almacena en una base de datos que se creó en un servidor.
+Una aplicación o programa __"back-end"__ sirve indirectamente en apoyo de los servicios front-end, normalmente por estar más cerca del recurso requerido o tener la capacidad de comunicarse con el recurso requerido. La aplicación de del lado del servidor puede interactuar directamente con el __front-end__.
+El backend normalmente consta de tres partes: un servidor, una aplicación y una base de datos. Si reserva un vuelo o compra entradas de conciertos, normalmente abre un sitio web e interactúa con el __frontend__. Una vez que haya ingresado esa información, la aplicación la almacena en una base de datos que se creó en un servidor.
 
 Toda esa información permanece en el servidor, así que cuando vuelva a iniciar sesión en la aplicación para imprimir sus tickets, toda la información aún está en su cuenta.
 
@@ -160,17 +162,16 @@ Hay muchas razones por las que este enfoque se considera una manera más fácil 
 Si esta desarrollando una aplicación empresarial de servidor. Debe soportar una variedad de clientes diferentes, incluyendo navegadores de escritorio, navegadores móviles y aplicaciones móviles nativas. La aplicación también puede exponer una API para que terceras partes consuman. También podría integrarse con otras aplicaciones a través de servicios web o un intermediario de mensajes. La aplicación gestiona las solicitudes (solicitudes y mensajes HTTP) mediante la ejecución de la lógica empresarial; Acceder a una base de datos; Intercambiar mensajes con otros sistemas; Y devolver una respuesta HTML / JSON / XML.
 
 ## 2.5 Identificación única
-Existen varias maneras de identificación que se tornaron populares en la actualidad y podemos mencionar entre todos: UUID (Universally unique identifier)[10], y QR (Quick response codes)[11]. Cada una estas formas de identificación se utiliza de forma separada, podemos mencionar que un UUID es una cadena de caracteres y en cambio un QR es un contenedor de datos que se vuelve único en base a su contenido.
+Existen varias maneras de identificación que se tornaron populares en la actualidad y podemos mencionar entre todos: UUID (Universally unique identifier)[7], y QR (Quick response codes)[9]. Cada una estas formas de identificación se utiliza de forma separada, podemos mencionar que un UUID es una cadena de caracteres y en cambio un QR es un contenedor de datos que se vuelve único en base a su contenido.
 
 ### 2.5.1 Identificador único universal UUID
-Como el la introducción de su manifiesto dice[12]: “Un UUID es un identificador que es único a lo largo entre espacio y tiempo… para identificar de forma fiable objetos persistentes a través de una red.” entre sus características se puede mencionar que es un cadena de 32 caracteres alfanuméricos en minúscula con una forma de 8-4-4-4-12 y un total de 36 caracteres. un UUID tendría un parecido a este identificador, ejemplo: 00000000-0000-0000-0000-000000000000, entre las posibilidades de combinaciones de los caracteres alfanuméricos es imposible poder duplicar la generación de uno igual.
+Como el la introducción de su manifiesto dice: "Un UUID es un identificador que es único a lo largo entre espacio y tiempo… para identificar de forma fiable objetos persistentes a través de una red."[10] entre sus características se puede mencionar que es un cadena de 32 caracteres alfanuméricos en minúscula con una forma de 8-4-4-4-12 y un total de 36 caracteres. un UUID tendría un parecido a este identificador, ejemplo: 00000000-0000-0000-0000-000000000000, entre las posibilidades de combinaciones de los caracteres alfanuméricos es imposible poder duplicar la generación de uno igual.
 
 ### 2.5.2 Códigos de respuesta rápida QR
 Los códigos QR han ganado popularidad en los últimos años por su capacidad de almacenaje de datos y son mucho más efectivo que el código de barras, un código QR puede contener varios tipos de datos mensajes, texto, URL, geolocalización. La capacidad de un QR es muy variado, pero con la ayuda de los UUID los QR pasarían a convertirse en entidades únicas y perfectos a la hora de identificar un recurso bibliográfico, y sin tener que estar asociado a ningún sistema.
 
 ## REFERENCIAS BIBLIOGRÁFICAS
 
-/* Falta del 7 al 9 */
 [1] Y. Gascón, Revisión de conceptos básicos Modelado de Negocios, disponible en
 http://es.slideshare.net/yamilagascon/revisin-de-conceptos-bsicos-modelado-de-negocios accedido el 24 de Mayo 2017.
 
@@ -185,72 +186,20 @@ http://es.slideshare.net/RaulIram/tarea-16614847 accedido el 24 de Mayo 2017.
 
 [6] Roger S. Pressman, Ingeniería de software, en Ingeniería del software un enfoque práctico.7ª edición, México: Mexicana, 2010, Cap.1, pp. 10
 
-[10] UUID, Universally unique identifier, disponible en
+[7] UUID, Universally unique identifier, disponible en
 https://en.wikipedia.org/wiki/Universally_unique_identifier, accedido el 3 de Octubre 2016
 
-[14] Wikipedia, Martin Fowler
-https://es.wikipedia.org/wiki/Martin_Fowler, accedido el 12 de Octubre 2016
-[15]  Martin Fowler, Patterns of Enterprise Application Architecture,
+[8]  Martin Fowler, Patterns of Enterprise Application Architecture,
 ftp://ftp.heanet.ie/mirrors/sourceforge/w/we/webtune/Patterns%20of%20Enterprise%20Application%20Architecture.pdf, accedido el 12 de Octubre 2016
 
-[11] QR, Quick response codes, disponible en
+[9] QR, Quick response codes, disponible en
 http://www.qrcode.com/en/about/, accedido el 3 de Octubre 2016
-[12] UUID, Definition, disponible en
+
+[10] UUID, Definition, disponible en
 http://www.ietf.org/rfc/rfc4122.txt, accedido el 4 de Octubre 2016
+
 [13] patterns & practices Developer Center, What is Software Architecture?, disponible en
 https://msdn.microsoft.com/en-us/library/ff650706.aspx, accedido el 12 de Octubre 2016
-
-backend and frontend
-http://blog.digitaltutors.com/whats-difference-front-end-back-end/
-13 de Diciembre 2016
-http://blog.teamtreehouse.com/i-dont-speak-your-language-frontend-vs-backend
-13 de Diciembre 2016
-Marshall, Catherine & Rossman, Gretchen B. (1989). Designing qualitative research. Newbury Park, CA: Sage.
-
-SPA
-http://singlepageappbook.com/goal.html
-13 de Diciembre 2016
-
-BFF
-https://www.thoughtworks.com/radar/techniques/bff-backend-for-frontends
-13 de Diciembre 2016
-
-Mobile Application Architecture Guide
-libro
-Mobile Application Architecture Guide
-14 de Diciembre 2016
-
-Observation
-http://www.qualitative-research.net/index.php/fqs/article/view/466/996
-29 de Diciembre 2016
-
-Mobile Application Architecture
-http://smartbridge.com/architecture-prevails-mobile-application-development/
-14 de Diciembre 2016
-
-http://microservices.io/patterns/microservices.html
-
-https://es.wikipedia.org/wiki/Front-end_y_back-end
-
-http://thenewstack.io/ten-commandments-microservices/
-
-https://12factor.net/es/
-
-https://es.wikipedia.org/wiki/Single-page_application
-
-Mobile app services, web, mobile and integration
-https://azure.microsoft.com/en-us/documentation/articles/app-service-mobile-value-prop/
-
-FOO file
-https://www.google.com.bo/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=soa%20what%20is%20it
-
-http://www.service-architecture.com/articles/web-services/service-oriented_architecture_soa_definition.html
-
-FYI
-
-https://opensource.com/resources/what-are-microservices
-https://www.nginx.com/blog/microservices-at-netflix-architectural-best-practices/
-
 
 /*
 Sugerencias:
