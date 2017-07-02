@@ -17,21 +17,21 @@ El modelo de negocio alternativo es la representación de la situación mejorada
 ### 2.1.3 Diseño del modelo de negocio
 Los diagramas de flujo permiten modelar y representar gráficamente todo tipo de sistemas, una de las características principales es que proporcionan información sobre los procesos de forma clara, ordenada y concisa.
 
-*Cuadro 2.1*
+**Cuadro 2.1**
 
-*Elementos principales de un diagrama de flujo*
+**Elementos principales de un diagrama de flujo**
 
-![Alt text](/anexos/cuadro-1.png?raw=true "")
+![Alt text](/anexos/cuadro-1.png "")
 
 _**Fuente:** [Elaboración propia]_
 
 A continuación se muestra un modelo de básico de un diagrama de flujo:
 
-*Figura 2.1*
+**Figura 2.1**
 
-*Diagrama de flujo*
+**Diagrama de flujo**
 
-![Alt text](/anexos/figura-1.png?raw=true "")
+![Alt text](/anexos/figura-1.png "")
 
 _**Fuente:** [Elaboración propia]_
 
@@ -39,11 +39,11 @@ _**Fuente:** [Elaboración propia]_
 La ingeniería de software es "una disciplina que comprende todos los aspectos de la producción de software desde las etapas iniciales de la especificación del sistema, hasta el mantenimiento de este después de que se utiliza" [3].
 El IEEE16 (Instituto de Ingeniería Eléctrica y Electrónica) define que: "la ingeniería de software es la aplicación de un enfoque sistemático, disciplinado y cuantificable al desarrollo, operación y mantenimiento de software [4]. Según Pressman la ingeniería de software es una tecnología con varias capas.
 
-*Figura 2.2*
+**Figura 2.2**
 
-*Capas de la ingeniería de software*
+**Capas de la ingeniería de software**
 
-![Alt text](/anexos/figura-2.png?raw=true "")
+![Alt text](/anexos/figura-2.png "")
 
 _**Fuente:** [11, Fig. 1.3]_
 
@@ -61,11 +61,11 @@ El desarrollo ágil de software es un grupo de metodologías de desarrollo de so
 Potencialmente, casi todos los métodos ágiles son adecuados para la adaptación. La conveniencia de situación puede considerarse como una característica de distinción entre los métodos ágiles y los métodos tradicionales, que son mucho más rígidos y preceptivos.
 Asimismo, las metodologías convencionales tienden a acumular los riesgos y dificultades que surgen en el desarrollo del producto al final del proyecto, como puede apreciarse en la **figura 2.3**, repercutiendo en retrasos en la entrega de productos o influyendo en la incorrecta ejecución de las últimas fases del ciclo de vida.
 
-*Figura 2.3*
+**Figura 2.3**
 
-*Distribución del riesgo*
+**Distribución del riesgo**
 
-![Alt text](/anexos/figura-3.png?raw=true "")
+![Alt text](/anexos/figura-3.png "")
 
 _**Fuente:** [5]_
 
@@ -99,8 +99,8 @@ En el presente proyecto se aplicará la metodología ágil XP, cuya característ
 
 ## 2.3 Arquitectura de software
 Arquitectura de software es el proceso de definir una solución estructural, que conoce todas las técnicas y requerimientos operacionales, optimizando atributos comunes de cualidad como performance, seguridad y manejabilidad. esto envuelve una serie de decisiones basadas en un amplio rango de factores y cada uno de estas decisiones puede tener considerable impacto, sobre todo en el éxito de la aplicación.
-"Arquitectura de software abarca el conjunto de decisiones importantes acerca de la organización de un sistema de software que incluye la selección de los elementos estructurales y sus interfaces mediante el cual el sistema se compone; comportamiento como se especifica en la colaboración entre dichos elementos; composición de estos elementos estructurales y de comportamiento en subsistemas más grandes; y un estilo arquitectónico que guía a esta organización. arquitectura de software también incluye la funcionalidad, facilidad de uso, la resistencia, el rendimiento, la reutilización, la comprensibilidad, las limitaciones económicas y tecnológicas, ventajas y desventajas y las preocupaciones estéticas ".[13]
-Fowlwer, uno de los ingenieros más reconocidos en el área de desarrollo de software, dice que la arquitectura es "el desglose de más alto nivel de un sistema en sus partes; las decisiones que son difíciles de cambiar; hay múltiples arquitecturas en un sistema; lo que es de gran importancia arquitectónica puede cambiar durante la vida de un sistema; y, al final, la arquitectura se reduce a lo que más importante del sistema sea"[8].
+"Arquitectura de software abarca el conjunto de decisiones importantes acerca de la organización de un sistema de software que incluye la selección de los elementos estructurales y sus interfaces mediante el cual el sistema se compone; comportamiento como se especifica en la colaboración entre dichos elementos; composición de estos elementos estructurales y de comportamiento en subsistemas más grandes; y un estilo arquitectónico que guía a esta organización. arquitectura de software también incluye la funcionalidad, facilidad de uso, la resistencia, el rendimiento, la reutilización, la comprensibilidad, las limitaciones económicas y tecnológicas, ventajas y desventajas y las preocupaciones estéticas". [13]
+Fowlwer, uno de los ingenieros más reconocidos en el área de desarrollo de software, dice que la arquitectura es "el desglose de más alto nivel de un sistema en sus partes; las decisiones que son difíciles de cambiar; hay múltiples arquitecturas en un sistema; lo que es de gran importancia arquitectónica puede cambiar durante la vida de un sistema; y, al final, la arquitectura se reduce a lo que más importante del sistema sea" [8].
 
 ### 2.3.1 Comparaciones
 La creación de un sitio web o una página de internet en general implica dos factores, el _front-end_ y el _back-end_.
@@ -266,7 +266,7 @@ _**Fuente:** [19, fig. 2.3]_
 En el desarrollo de aplicaciones para dispositivos móviles existen: la aplicación web movil, aplicación nativa y la aplicación hibrida, a continuación se describirán cada uno de ellos.
 
 ### 2.5.1 Aplicaciones nativas
-Este tipo de aplicaciones están hechas para ejecutarse en un dispositivo y sistema operativo específico. Así, la mayor parte de las aplicaciones descargadas de la app store de apple son aplicaciones que sólo van a correr sobre iphone e ipad. Este tipo de aplicaciones se crean con distintos tipos de lenguajes. Las desarrolladas para iOS lo hacen con los lenguajes: Objective C, C, or C++. Las aplicaciones desarrolladas para el sistema operativo Android lo hacen con lenguaje Java. Este tipo de aplicaciones corren de forma más eficiente sobre estos dispositivos ya que sus componentes están diseñados de forma específica para este sistema operativo. Además, este tipo de aplicaciones pueden emplear todos los sensores y elementos del teléfono: camara, gps, acelerómetro, agenda, etc. Esta es una diferencia fundamental con respecto a las aplicaciones web [20].
+Este tipo de aplicaciones están hechas para ejecutarse en un dispositivo y sistema operativo específico. Así, la mayor parte de las aplicaciones descargadas de la app store de apple son aplicaciones que sólo van a correr sobre iphone e ipad. Este tipo de aplicaciones se crean con distintos tipos de lenguajes. Las desarrolladas para iOS lo hacen con los lenguajes: Objective C, C, o C++. Las aplicaciones desarrolladas para el sistema operativo Android lo hacen con lenguaje Java. Este tipo de aplicaciones corren de forma más eficiente sobre estos dispositivos ya que sus componentes están diseñados de forma específica para este sistema operativo. Además, este tipo de aplicaciones pueden emplear todos los sensores y elementos del teléfono: camara, gps, acelerómetro, agenda, etc. Esta es una diferencia fundamental con respecto a las aplicaciones web [20].
 En la figura siguiente vemos los principales entornos, en función del sistema operativo del dispositivo:
 
 **Figura 2.10**
@@ -327,63 +327,63 @@ Además del total acceso a los elementos del teléfono las aplicaciones nativas 
 
 _**Fuente:** [21]_
 
-## 2.5 Identificación única
-Existen varias maneras de identificación que se tornaron populares en la actualidad y podemos mencionar entre todos: UUID (Universally unique identifier)[7], y QR (Quick response codes)[9]. Cada una estas formas de identificación se utiliza de forma separada, podemos mencionar que un UUID es una cadena de caracteres y en cambio un QR es un contenedor de datos que se vuelve único en base a su contenido.
+## 2.6 Indexación unica
+Existen varias maneras de identificación que se tornaron populares en la actualidad y podemos mencionar entre ellos: UUID (Universally unique identifier) [7], y QR (Quick response codes) [9]. Cada una estas formas de identificación se utiliza de forma separada, podemos mencionar que un UUID es una cadena de caracteres y en cambio un QR es un contenedor de datos que se vuelve único en base a su contenido.
 
-### 2.5.1 Identificador único universal UUID
-Como el la introducción de su manifiesto dice: "Un UUID es un identificador que es único a lo largo entre espacio y tiempo… para identificar de forma fiable objetos persistentes a través de una red."[10] entre sus características se puede mencionar que es un cadena de 32 caracteres alfanuméricos en minúscula con una forma de 8-4-4-4-12 y un total de 36 caracteres. un UUID tendría un parecido a este identificador, ejemplo: 00000000-0000-0000-0000-000000000000, entre las posibilidades de combinaciones de los caracteres alfanuméricos es imposible poder duplicar la generación de uno igual.
+### 2.6.1 Identificador único universal (UUID)
+Un UUID es un identificador que es único a lo largo entre espacio y tiempo... para identificar de forma fiable objetos persistentes a través de una red. [10] entre sus características se puede mencionar que  un UUID es una cadena de 32 caracteres alfanuméricos en minúscula con una forma de 8-4-4-4-12 y un total de 36 caracteres. un UUID tendría un parecido a este identificador, ejemplo: 00000000-0000-0000-0000-000000000000, entre las posibilidades de combinaciones de los caracteres alfanuméricos es imposible poder duplicar la generación de uno igual.
 
-### 2.5.2 Códigos de respuesta rápida QR
+### 2.6.2 Códigos de respuesta rápida (QR)
 Los códigos QR han ganado popularidad en los últimos años por su capacidad de almacenaje de datos y son mucho más efectivo que el código de barras, un código QR puede contener varios tipos de datos mensajes, texto, URL, geolocalización. La capacidad de un QR es muy variado, pero con la ayuda de los UUID los QR pasarían a convertirse en entidades únicas y perfectos a la hora de identificar un recurso bibliográfico, y sin tener que estar asociado a ningún sistema.
 
 ## REFERENCIAS BIBLIOGRÁFICAS
 
-[1] Y. Gascón, Revisión de conceptos básicos Modelado de Negocios, disponible en
-http://es.slideshare.net/yamilagascon/revisin-de-conceptos-bsicos-modelado-de-negocios accedido el 24 de Mayo 2017.
+[1] Y. Gascón, _Revisión de conceptos básicos Modelado de Negocios._ Disponible en:
+http://es.slideshare.net/yamilagascon/revisin-de-conceptos-bsicos-modelado-de-negocios
 
-[2] J. Montilva, Modelo de Negocio, disponible en
-http://es.slideshare.net/RaulIram/tarea-16614847 accedido el 24 de Mayo 2017.
+[2] J. Montilva, _Modelo de Negocio._ Disponible en:
+http://es.slideshare.net/RaulIram/tarea-16614847
 
-[3] Ian Sommerville (2005) Ingeniería del Software, 7th edición, Madrid, España, Pearson Educación.
+[3] Ian Sommerville (2005) _Ingeniería del Software._ 7th edición, Madrid, España, Pearson Educación.
 
-[4] R. S. Pressman, Ingeniería del software: Un enfoque práctico, 7th. Edición, The McGraw-HillCompanies.
+[4] R. S. Pressman, _Ingeniería del software: Un enfoque práctico._ 7th. Edición, The McGraw-HillCompanies.
 
-[5] Pilar Rodríguez Gonzales, Estudio de la aplicación de metodologías ágiles para la evolución de productos software, Master en tecnologías de la información. Universidad Politécnica De Madrid 2008
+[5] Pilar Rodríguez Gonzales, _Estudio de la aplicación de metodologías ágiles para la evolución de productos software._ Master en tecnologías de la información. Universidad Politécnica De Madrid 2008
 
-[6] Roger S. Pressman, Ingeniería de software, en Ingeniería del software un enfoque práctico.7ª 1edición, México: Mexicana, 2010, Cap.1, pp. 10
+[6] Roger S. Pressman, _Ingeniería de software._ en Ingeniería del software un enfoque práctico.7ª 1edición, México: Mexicana, 2010, Cap.1, pp. 10
 
-[7] UUID, Universally unique identifier, disponible en
-https://en.wikipedia.org/wiki/Universally_unique_identifier, accedido el 3 de Octubre 2016
+[7] UUID, _Universally unique identifier._ Disponible en:
+https://en.wikipedia.org/wiki/Universally_unique_identifier
 
-[8]  Martin Fowler, Patterns of Enterprise Application Architecture,
-ftp://ftp.heanet.ie/mirrors/sourceforge/w/we/webtune/Patterns%20of%20Enterprise%20Application%20Architecture.pdf, accedido el 12 de Octubre 2016
+[8]  Martin Fowler, _Patterns of Enterprise Application Architecture._ Disponible en:
+ftp://ftp.heanet.ie/mirrors/sourceforge/w/we/webtune/Patterns%20of%20Enterprise%20Application%20Architecture.pdf
 
-[9] QR, Quick response codes, disponible en
-http://www.qrcode.com/en/about/, accedido el 3 de Octubre 2016
+[9] QR, _Quick response codes._ Disponible en:
+http://www.qrcode.com/en/about/
 
-[10] UUID, Definition, disponible en
-http://www.ietf.org/rfc/rfc4122.txt, accedido el 4 de Octubre 2016
+[10] UUID, _Definition_, Disponible en:
+http://www.ietf.org/rfc/rfc4122.txt
 
-[13] patterns & practices Developer Center, What is Software Architecture?, disponible en
-https://msdn.microsoft.com/en-us/library/ff650706.aspx, accedido el 12 de Octubre 2016
+[13] patterns & practices Developer Center, _What is Software Architecture?,_ Disponible en:
+https://msdn.microsoft.com/en-us/library/ff650706.aspx
 
-[14] Angel Cobo, "Internet y la programación de ordenadores" en PHP y MySQL. 1ª Edición. España: Díaz de Santos, 2005. Cap. Nº 1, 12 pp. 13-20.
+[14] Angel Cobo, _"Internet y la programación de ordenadores" en PHP y MySQL._ 1ª Edición. España: Díaz de Santos, 2005. Cap. Nº 1, 12 pp. 13-20.
 
-[15] Sergio Lujan Mora, "¿Que es una aplicación web?" en Programación en Internet. 1ª Edición. España: Club Universitario, 2010.
+[15] Sergio Lujan Mora, _"¿Que es una aplicación web?" en Programación en Internet._ 1ª Edición. España: Club Universitario, 2010.
 
-[16] Duncan Mackenzie, "Servicio web XML" en Aprendiendo Visual Basic.Net Lecciones Avanzadas. 1ª Edición. México: Pearson Educación.
+[16] Duncan Mackenzie, _"Servicio web XML" en Aprendiendo Visual Basic.Net Lecciones Avanzadas._ 1ª Edición. México: Pearson Educación.
 
-[17] Manual de desarrollo web, 1ª Edición, ISBN, México, 2010.
+[17] _Manual de desarrollo web,_ 1ª Edición, ISBN, México, 2010.
 
-[18] Nicholas C. Zakas, "Ajax" en Alto rendimiento de JavaScript. 1ª Edición. EE. UU.: O'Reylly Media, Inc., 2010. Cap. Nº 7, 8 pp, pag. 134.
+[18] Nicholas C. Zakas, _"Ajax" en Alto rendimiento de JavaScript._ 1ª Edición. EE. UU.: O'Reylly Media, Inc., 2010. Cap. Nº 7, 8 pp, pag. 134.
 
-[19] Sebastian Bassi, "JSON" en serialización de datos. 4ª Edición. Argentina: Gemes Digitales, 2013. Cap 5, 4 pp, 30-31.
+[19] Sebastian Bassi, _"JSON" en serialización de datos._ 4ª Edición. Argentina: Gemes Digitales, 2013. Cap 5, 4 pp, 30-31.
 
-[20] Geospatial. Tipos de aplicaciones móviles. Disponible en: http://geospatialtraininges.com/recursos-gratuitos/tipos-de-aplicaciones-moviles/
+[20] Geospatial, _Tipos de aplicaciones móviles_. Disponible en: http://geospatialtraininges.com/recursos-gratuitos/tipos-de-aplicaciones-moviles/
 
-[21] GeoChalkboard. Anatomy of a Hybrid Mobile GIS Application Disponible en: http://www.geospatialtraining.com/blog/index.php/anatomy-of-a-hybrid-mobile-gis-application/
+[21] GeoChalkboard, _Anatomy of a Hybrid Mobile GIS Application_. Disponible en: http://www.geospatialtraining.com/blog/index.php/anatomy-of-a-hybrid-mobile-gis-application/
 
-[22] Yeicy Juliana Molina Rivera, Jonathan Sandoval Cardona, Santiago Alberto Toledo Franco, “Sistema Operativo Android: Características y Funcionalidad para Dispositivos Móviles” Tesis en Licenciatura en Ingeniería de Sistemas y Computación. Universidad Tecnológica de Pereira.
+[22] Yeicy Juliana Molina Rivera, Jonathan Sandoval Cardona, Santiago Alberto Toledo Franco, _Sistema Operativo Android: Características y Funcionalidad para Dispositivos Móviles Tesis en Licenciatura en Ingeniería de Sistemas y Computación._ Universidad Tecnológica de Pereira.
 
 
 /*
