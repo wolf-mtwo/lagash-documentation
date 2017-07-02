@@ -41,12 +41,11 @@
     - 2.3.6 Service Oriented Architecture (SOA)
     - 2.3.7 Multi-layered Architecture (MLA)
     - 2.3.8 Microservices Architecture (MSA)
+  - 2.4 Selección de la arquitectura de software [no yet]
   - 2.4 Identificación única
   - 2.4.1 Identificador único universal UUID
   - 2.4.2 Códigos de respuesta rápida QR
   - 2.5 Aplicaciones web
-
-
 
 # Requisitos basicos basicos
 
