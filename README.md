@@ -30,22 +30,52 @@
     - 2.2.2 Metodologías de desarrollo ágil
       - **a) Programación Extrema (XP)**
       - **b) SCRUM**
-    - 2.2.3 Selección de la metodología de desarrollo
+    - 2.2.3 Selección de la metodología de desarrollo **[mejorar]**
+    - 2.2.3 Elección de la metodología a implementar **[mejorar]**
   - 2.3 Arquitectura de software
     - 2.3.1 Comparaciones
     - 2.3.2 Front-end y back-end
     - 2.3.3 Single-page application (SPA)
     - 2.3.4 Backend For Frontend (BFF)
-    - 2.3.5	Híbrido vs nativo
-      - 2.3.5.1	Android
+    - 2.3.5	Híbrido vs nativo **[remove]**
+      - 2.3.5.1	Android **[remove]**
     - 2.3.6 Service Oriented Architecture (SOA)
     - 2.3.7 Multi-layered Architecture (MLA)
     - 2.3.8 Microservices Architecture (MSA)
-  - 2.4 Selección de la arquitectura de software [no yet]
-  - 2.4 Identificación única
+    - 2.3.9 Selección de la arquitectura de software **[no yet]**
+      2.2.9 Justificación de la arquitectura a usar **[no yet]**
+  - 2.5 Aplicaciones web
+    - Arquitectura Cliente/Servidor
+    - Servicios web
+      - Justificación del servicio web e intercambio de datos
+      - SOAP (Simple Objet Access Protocol)
+      - REST (Representational State Transfer)
+    - Intercambio de datos
+      - Lenguaje de marcado extensible (XML)
+      - Notación de objetos de JavaScript (JSON)
+  - Tipos de aplicaciones móviles
+    - Aplicaciones nativas
+    - Aplicaciones web móviles
+    - Aplicaciones híbridas
+    - Elección de la aplicación móvil
+  - 2.4 Indexación unica
   - 2.4.1 Identificador único universal UUID
   - 2.4.2 Códigos de respuesta rápida QR
-  - 2.5 Aplicaciones web
+  - Lenguajes de programación
+    - C Sharp
+    - Java
+    - JavaScript
+    - Comparación de lenguajes de progrmación **[re-escrivir todo sacar propias concluciones]**
+  Conclusión **[validar]**
+  Elección  del lenguaje de programación
+  - Calidad del software
+    - Pruebas unitarias
+    - Usabilidad
+    - Seguridad del sistema
+    - Seguridad informática
+    -   Fundamentos
+  - otros
+    - Elección del idioma
 
 # Requisitos basicos basicos
 

@@ -88,10 +88,10 @@ SCRUM es una metodología que nace ajena al desarrollo del software, de hecho su
 Scrum es un proceso ágil que se puede usar para gestionar controlar desarrollos complejos de software y productos usando prácticas iterativas e incrementales. Es un proceso incremental iterativo para desarrollar cualquier producto o gestionar cualquier trabajo.
 Los actores contemplados en esta metodología son los siguientes:
 
-- __Product Owner__, conoce y marca las prioridades del proyecto o producto.
-- __Scrum Master__, es la persona que asegura el seguimiento de la metodología guiando las reuniones y ayudando al equipo ante cualquier problema que pueda aparecer. Su responsabilidad es entre otras, la de hacer de paraguas ante las presiones externas.
-- __Scrum Team__, son las personas responsables de implementar la funcionalidad o funcionalidades elegidas por el Product Owner.
-- __Usuarios o Cliente__, son los beneficiarios finales del producto, y son quienes viendo los progresos, pueden aportar ideas, sugerencias o necesidades. que incluye a los desarrolladores.
+- **Product Owner**, conoce y marca las prioridades del proyecto o producto.
+- **Scrum Master**, es la persona que asegura el seguimiento de la metodología guiando las reuniones y ayudando al equipo ante cualquier problema que pueda aparecer. Su responsabilidad es entre otras, la de hacer de paraguas ante las presiones externas.
+- **Scrum Team**, son las personas responsables de implementar la funcionalidad o funcionalidades elegidas por el Product Owner.
+- **Usuarios o Cliente**, son los beneficiarios finales del producto, y son quienes viendo los progresos, pueden aportar ideas, sugerencias o necesidades. que incluye a los desarrolladores.
 
 ### 2.2.3 Selección de la metodología de desarrollo
 Entre las 2 metodologías ágiles descritas anteriormente la más utilizada es la metodología XP, ya que esta metodología propone una estrecha relación entre el equipo de desarrollo y los clientes, estableciendo como base la comunicación.
@@ -102,17 +102,17 @@ Arquitectura de software es el proceso de definir una solución estructural, que
 Fowlwer, uno de los ingenieros más reconocidos en el área de desarrollo de software, dice que la arquitectura es "el desglose de más alto nivel de un sistema en sus partes; las decisiones que son difíciles de cambiar; hay múltiples arquitecturas en un sistema; lo que es de gran importancia arquitectónica puede cambiar durante la vida de un sistema; y, al final, la arquitectura se reduce a lo que más importante del sistema sea"[8].
 
 ### 2.3.1 Comparaciones
-La creación de un sitio web o una página de internet en general implica dos factores, el __front-end__ y el __back-end__.
-__Front-end__ y __back-end__ son términos utilizados para caracterizar las interfaces del programa y los servicios relativos al usuario inicial de estas interfaces y servicios. (El "usuario" puede ser un ser humano o un programa.) Una aplicación __"front-end"__ es aquella con la que los usuarios de la aplicación interactúan directamente.
+La creación de un sitio web o una página de internet en general implica dos factores, el _front-end_ y el _back-end_.
+_Front-end_ y _back-end_ son términos utilizados para caracterizar las interfaces del programa y los servicios relativos al usuario inicial de estas interfaces y servicios. (El "usuario" puede ser un ser humano o un programa.) Una aplicación _"front-end"_ es aquella con la que los usuarios de la aplicación interactúan directamente.
 
 ### 2.3.2 Front-end y back-end
-El __front-end__ es todo lo relacionado con lo que el usuario ve, incluyendo el diseño y algunos lenguajes como HTML y CSS.
-Cuando discutimos el __"front-end"__ de la web, lo que realmente estamos hablando es la parte de la web con la que puedes ver e interactuar. El __frontend__ generalmente consta de dos partes: el diseño web y el desarrollo web front-end.
+El _front-end_ es todo lo relacionado con lo que el usuario ve, incluyendo el diseño y algunos lenguajes como HTML y CSS.
+Cuando discutimos el _"front-end"_ de la web, lo que realmente estamos hablando es la parte de la web con la que puedes ver e interactuar. El _frontend_ generalmente consta de dos partes: el diseño web y el desarrollo web front-end.
 En el pasado, cuando alguien hablaba de desarrollo por lo general se refiere al backend, pero en los últimos años ha habido una necesidad real de diferenciar entre los diseñadores que trabajaban estrictamente en Photoshop y los que podían codificar HTML y CSS. Fue aún más lejos cuando los diseñadores cruzaron las líneas para trabajar con JavaScript y jQuery.
 
-El __back-end__, o el "lado del servidor", es básicamente cómo funciona el sitio, las actualizaciones. Esto se refiere a todo lo que el usuario no puede ver en el navegador, como bases de datos y servidores. En el lado de  back-end los desarrolladores se preocupan más por cuestiones como la seguridad, la estructura y la gestión de contenidos.
-Una aplicación o programa __"back-end"__ sirve indirectamente en apoyo de los servicios front-end, normalmente por estar más cerca del recurso requerido o tener la capacidad de comunicarse con el recurso requerido. La aplicación de del lado del servidor puede interactuar directamente con el __front-end__.
-El backend normalmente consta de tres partes: un servidor, una aplicación y una base de datos. Si reserva un vuelo o compra entradas de conciertos, normalmente abre un sitio web e interactúa con el __frontend__. Una vez que haya ingresado esa información, la aplicación la almacena en una base de datos que se creó en un servidor.
+El _back-end_, o el "lado del servidor", es básicamente cómo funciona el sitio, las actualizaciones. Esto se refiere a todo lo que el usuario no puede ver en el navegador, como bases de datos y servidores. En el lado de  back-end los desarrolladores se preocupan más por cuestiones como la seguridad, la estructura y la gestión de contenidos.
+Una aplicación o programa _"back-end"_ sirve indirectamente en apoyo de los servicios front-end, normalmente por estar más cerca del recurso requerido o tener la capacidad de comunicarse con el recurso requerido. La aplicación de del lado del servidor puede interactuar directamente con el _front-end_.
+El backend normalmente consta de tres partes: un servidor, una aplicación y una base de datos. Si reserva un vuelo o compra entradas de conciertos, normalmente abre un sitio web e interactúa con el _frontend_. Una vez que haya ingresado esa información, la aplicación la almacena en una base de datos que se creó en un servidor.
 
 Toda esa información permanece en el servidor, así que cuando vuelva a iniciar sesión en la aplicación para imprimir sus tickets, toda la información aún está en su cuenta.
 
@@ -121,16 +121,16 @@ La aplicacion de una sola página (SPA) son aplicaciones Web que cargan una sola
 Las SPA utilizan AJAX y HTML5 para crear aplicaciones Web fluidas y sensibles, sin recargas constantes de la página. Sin embargo, esto significa que gran parte del trabajo ocurre en el lado del cliente, Afortunadamente, hay muchos frameworks en JavaScript de código libre que facilitan la creación de SPAs. Entre los más conocidos están Angular, Angular 2 y Ember.
 
 ### 2.3.4 Back-end For Front-end (BFF)
-Los servicios soportan muchas variaciones en los clientes, como el móvil frente a la web y diferentes formas de interfaz web. Es tentador diseñar una única API de __back-end__ para apoyar a todos los clientes con una API reutilizable. Pero las necesidades del cliente varían, al igual que las restricciones, como el ancho de banda para los dispositivos móviles frente al deseo de un montón de datos sobre las conexiones web rápidas. Por lo tanto, a menudo es mejor definir diferentes servicios de back-end para cada tipo de cliente front-end. Estos extremos posteriores deben ser desarrollados por equipos alineados con cada extremo frontal para asegurarse de que cada extremo posterior cumple adecuadamente las necesidades de su cliente.
+Los servicios soportan muchas variaciones en los clientes, como el móvil frente a la web y diferentes formas de interfaz web. Es tentador diseñar una única API de _back-end_ para apoyar a todos los clientes con una API reutilizable. Pero las necesidades del cliente varían, al igual que las restricciones, como el ancho de banda para los dispositivos móviles frente al deseo de un montón de datos sobre las conexiones web rápidas. Por lo tanto, a menudo es mejor definir diferentes servicios de back-end para cada tipo de cliente front-end. Estos extremos posteriores deben ser desarrollados por equipos alineados con cada extremo frontal para asegurarse de que cada extremo posterior cumple adecuadamente las necesidades de su cliente.
 
 ### 2.3.5 Híbrido vs nativo
-Una aplicación nativa es una aplicación de __smartphone__ desarrollada específicamente para un sistema operativo móvil (piense en Objective-C o Swift para iOS vs. Java para Android).
+Una aplicación nativa es una aplicación de _smartphone_ desarrollada específicamente para un sistema operativo móvil (piense en Objective-C o Swift para iOS vs. Java para Android).
 Dado que la aplicación se desarrolla dentro de un ecosistema maduro siguiendo las directrices técnicas y de experiencia del usuario del sistema operativo (por ejemplo, swipes, gestos definidos por la aplicación, encabezado alineado a la izquierda en Android, encabezado alineado centralmente en iOS, etcétera), no sólo tiene la ventaja de más rápido Pero también "se siente bien". Lo que significa sentir bien es que la interacción en la aplicación tiene un aspecto coherente con la mayoría de las otras aplicaciones nativas del dispositivo. El usuario final tiene más probabilidades de aprender a navegar y utilizar la aplicación más rápidamente. Finalmente, las aplicaciones nativas tienen la ventaja significativa de poder acceder y utilizar fácilmente las capacidades incorporadas del dispositivo del usuario (por ejemplo, GPS, libreta de direcciones, cámara, etc.). Cuando un usuario envía mensajes de texto, toma fotos utilizando la aplicación predeterminada del dispositivo, establece recordatorios o utiliza la aplicación de música del dispositivo (la que viene con el teléfono), está utilizando aplicaciones nativas.
 
 #### 2.3.5.1	Android
 La diferencia de Android con respecto a todos los sistemas operativos nombrados es que es un software de código abierto.
-Un __software__ de código abierto es gratis y accesible a todo el mundo. El objetivo es que, con la colaboración de todos, se consiga crear un sistema operativo eficiente.
-Por tanto, no es de extrañar que en torno al 80 por ciento de los dispositivos móviles en Europa y el mundo entero funcionan con Android. Precisamente Google se ha defendido de las críticas recordando que "Android ha ayudado a fomentar un ecosistema notable, importante y sostenible, basado en un __software__ de fuente abierta y abierta innovación".
+Un _software_ de código abierto es gratis y accesible a todo el mundo. El objetivo es que, con la colaboración de todos, se consiga crear un sistema operativo eficiente.
+Por tanto, no es de extrañar que en torno al 80 por ciento de los dispositivos móviles en Europa y el mundo entero funcionan con Android. Precisamente Google se ha defendido de las críticas recordando que "Android ha ayudado a fomentar un ecosistema notable, importante y sostenible, basado en un _software_ de fuente abierta y abierta innovación".
 
 ### 2.3.6 Service Oriented Architecture (SOA)
 La arquitectura orientada a servicios (SOA) es un enfoque utilizado para crear una arquitectura basada en el uso de servicios. Los servicios (como los servicios Web RESTful) realizan alguna función pequeña, como la producción de datos, la validación de un cliente o la prestación de servicios analíticos simples.
