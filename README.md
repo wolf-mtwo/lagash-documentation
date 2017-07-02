@@ -28,10 +28,9 @@
   - 2.2 Ingeniería de Software
     - 2.2.1 Metodologías de desarrollo de software
     - 2.2.2 Metodologías de desarrollo ágil
-      - **a) Programación Extrema (XP)**
-      - **b) SCRUM**
-    - 2.2.3 Selección de la metodología de desarrollo **[mejorar]**
-    - 2.2.3 Elección de la metodología a implementar **[mejorar]**
+      - a) Programación Extrema (XP)
+      - b) SCRUM
+    - 2.2.3 Selección de la metodología de desarrollo
   - 2.3 Arquitectura de software
     - 2.3.1 Comparaciones
     - 2.3.2 Front-end y back-end
