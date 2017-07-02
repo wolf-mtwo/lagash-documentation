@@ -21,7 +21,7 @@ Los diagramas de flujo permiten modelar y representar gráficamente todo tipo de
 
 *Elementos principales de un diagrama de flujo*
 
-![Alt text](/anexos/cuatro-1.png?raw=true "")
+![Alt text](/anexos/cuadro-1.png?raw=true "")
 
 _**Fuente:** [Elaboración propia]_
 
@@ -163,12 +163,12 @@ Hay muchas razones por las que este enfoque se considera una manera más fácil 
 Si esta desarrollando una aplicación empresarial de servidor. Debe soportar una variedad de clientes diferentes, incluyendo navegadores de escritorio, navegadores móviles y aplicaciones móviles nativas. La aplicación también puede exponer una API para que terceras partes consuman. También podría integrarse con otras aplicaciones a través de servicios web o un intermediario de mensajes. La aplicación gestiona las solicitudes (solicitudes y mensajes HTTP) mediante la ejecución de la lógica empresarial; Acceder a una base de datos; Intercambiar mensajes con otros sistemas; Y devolver una respuesta HTML / JSON / XML.
 
 ## 2.4 Aplicaciones web
-La aparición de los servicios web a principios de los 90’s, supuso una verdadera revolución en el campo de la informática y las telecomunicaciones. Con la integración de este nuevo servicio, Internet inicio una rápida transición hacia el ámbito empresarial y supuso un enorme impulso al crecimiento de la red. Lo que había surgido en plena guerra fría como un proyecto militar y que posteriormente fue dirigiéndose hacia el ámbito científico y académico, se empezó a convertir en un perfecto “escaparate virtual” en el que las empresas pudieran ofrecer sus productos y servicios rompiendo barreras geográficas y de comunicaciones [9]. En la actualidad las empresas no ven únicamente el servicio web como un mero escaparate o medio publicitario de enorme difusión. Internet, y en particular el servicio web, abre a las empresas enormes posibilidades. La utilización de tecnologías web permite agilizar los procesos, mejorar la productividad y aumentar la eficacia, además de abrir las puertas a nuevas formas de negocio en el mercado global que facilita Internet.
+La aparición de los servicios web a principios de los 90’s, supuso una verdadera revolución en el campo de la informática y las telecomunicaciones. Con la integración de este nuevo servicio, Internet inicio una rápida transición hacia el ámbito empresarial y supuso un enorme impulso al crecimiento de la red. Lo que había surgido en plena guerra fría como un proyecto militar y que posteriormente fue dirigiéndose hacia el ámbito científico y académico, se empezó a convertir en un perfecto "escaparate virtual" en el que las empresas pudieran ofrecer sus productos y servicios rompiendo barreras geográficas y de comunicaciones [14]. En la actualidad las empresas no ven únicamente el servicio web como un mero escaparate o medio publicitario de enorme difusión. Internet, y en particular el servicio web, abre a las empresas enormes posibilidades. La utilización de tecnologías web permite agilizar los procesos, mejorar la productividad y aumentar la eficacia, además de abrir las puertas a nuevas formas de negocio en el mercado global que facilita Internet.
 
 ### 2.4.1 Arquitectura Cliente/Servidor
 Cliente/Servidor es una arquitectura de red en la que cada ordenador o proceso en la red es cliente o servidor. Normalmente, los servidores son ordenadores potentes dedicados a gestionar unidades de disco , tráfico de red, datos o incluso aplicaciones, mientras que los clientes son máquinas menos potentes y usan los recursos que ofrecen los servidores.
 
-Según [10] un sistema Cliente/Servidor suele presentar las siguientes características:
+Según [15] un sistema Cliente/Servidor suele presentar las siguientes características:
 * Una combinación de la parte cliente (_front-end_) que interactúa con el usuario y la parte servidor (_back-end_) que interactúa con los recursos compartidos (bases de datos).
 * La parte cliente y servidor tienen diferentes necesidades de recursos a la hora de ejecutarse: velocidad de procesador, memoria, velocidad y capacidad de los discos duros, dispositivos de entrada/salida, etc.
 * El entorno suele ser heterogéneo y multivendedor. El hardware y sistema operativo del cliente y el servidor suelen diferir.
@@ -196,50 +196,71 @@ La arquitectura Cliente/Servidor nos permite la separación de funciones en tres
 _**Fuente:** [Elaboración propia]_
 
 ### 2.4.2 Servicios web
+Los servicios web son una de las últimas nuevas tecnologías que han llegado a la informática.
+Servicio web representa un recurso de información o un proceso de negocio, al que puede acceder otra aplicación a través de la web y con el cual se puede comunicar a través de protocolos estándares de internet. La particularidad que tienen los servicios web es que están diseñados para permitir la comunicación de una aplicación con otra, sin intervención humana.
+Según [16] existen diferentes estándares que especifican la forma de definir servicios web sobre HTTP, de forma que a la hora de desarrollar servicios web, a continuación se verá los dos principales estándares para definir servicios web.
 
-Los servicios web son una de las últimas nuevas tecnologías que han llegado a la informática. Servicio web representa un recurso de información o un proceso de negocio, al que puede acceder otra aplicación a través de la web y con el cual se puede comunicar a través de protocolos estándares de internet. La particularidad que tienen los servicios web es que están diseñados para permitir la comunicación de una aplicación con otra, sin intervención humana. Según [11] existen diferentes estándares que especifican la forma de definir servicios web sobre HTTP, de forma que a la hora de desarrollar servicios web, a continuación se verá los dos principales estándares para definir servicios web.
+**Figura 2.6**
 
-Figura 2.4
-Ejemplo del trabajo del Servicio Web
-FIG 6
-Fuente. [11, fig. 5.1]
+**Ejemplo del trabajo del Servicio Web**
+
+![Alt text](/anexos/figura-6.jpg "")
+
+_**Fuente:** [16, fig. 5.1]_
 
 #### 2.4.2.1 Justificación del servicio web e intercambio de datos
-
-REST es un estilo arquitectónico, una forma de exponer servicios o funcionalidades de un sistema, sea desarrollado en cualquier lenguaje de programación. Pretende exponer y separar ciertas partes de las funcionalidades de una forma adecuada con GET y POST. La función es ordenar, acomodar y hacer más sencilla la programación para luego poder darle un buen mantenimiento después de terminar el desarrollo. REST son más pequeñas, más concisas y no contienen toda la información o metadatos como lo hacen las solicitudes de SOAP y normalmente no están validadas por el cliente antes de enviar por esto son pequeños y considerablemente más rápidas, a diferencia de SOAP, los datos devueltos por un servicio REST pueden estar en gran variedad de formatos. Se utilizará el formato de intercambio de datos JSON porque es más liviano que XML porque utiliza menos metadatos, es más pequeño y también pueden devolver archivos binarios, imágenes, etc. Y no solo así intercambio de datos en texto.
+REST es un estilo arquitectónico, una forma de exponer servicios o funcionalidades de un sistema, sea desarrollado en cualquier lenguaje de programación. Pretende exponer y separar ciertas partes de las funcionalidades de una forma adecuada con GET y POST. La función es ordenar, acomodar y hacer más sencilla la programación para luego poder darle un buen mantenimiento después de terminar el desarrollo.
+REST son más pequeñas, más concisas y no contienen toda la información o metadatos como lo hacen las solicitudes de SOAP y normalmente no están validadas por el cliente antes de enviar por esto son pequeños y considerablemente más rápidas, a diferencia de SOAP, los datos devueltos por un servicio REST pueden estar en gran variedad de formatos. Se utilizará el formato de intercambio de datos JSON porque es más liviano que XML porque utiliza menos metadatos, es más pequeño y también pueden devolver archivos binarios, imágenes, etc. Y no solo así intercambio de datos en texto.
 
 #### 2.4.2.2 SOAP (Simple Objet Access Protocol)
+Es un estándar del W3C que define como objetos remotos pueden comunicarse mediante el intercambio de XML.
+La idea básica es que en la comunicación hay dos partes (cliente y servidor), una de las cuales (el servidor) presta una serie de servicios que son consumidos por la otra (cliente).
+Lo más habitual es que el servidor haga pública la especificación de sus servicios mediante un documento WSDL (Web Service Description Lenguage) que se puede utilizar construyendo un cliente que invoque tales servicios.
+Los servicios web SOAP están orientados a funcionalidad. El servidor implementa una serie de funcionalidades y le dice al mundo como pueden invocarse [16].
+SOAP fue diseñado originalmente por varias empresas, entre ellas Microsoft, para permitir una gran comunicación entre objetos en los programas. En un sentido, la finalidad de SOAP fue el primero en definir una forma de usar objetos en Internet, con protocolos y formatos estándar, en lugar de los formatos binarios y los protocolos propietarios [17].
 
-Es un estándar del W3C que define como objetos remotos pueden comunicarse mediante el intercambio de XML. La idea básica es que en la comunicación hay dos partes (cliente y servidor), una de las cuales (el servidor) presta una serie de servicios que son consumidos por la otra (cliente). Lo más habitual es que el servidor haga pública la especificación de sus servicios mediante un documento WSDL (Web Service Description Lenguage) que se puede utilizar construyendo un cliente que invoque tales servicios. Los servicios web SOAP están orientados a funcionalidad. El servidor implementa una serie de funcionalidades y le dice al mundo como pueden invocarse [11]. SOAP fue diseñado originalmente por varias empresas, entre ellas Microsoft, para permitir una gran comunicación entre objetos en los programas. En un sentido, la finalidad de SOAP
-19
-fue el primero en definir una forma de usar objetos en Internet, con protocolos y formatos estándar, en lugar de los formatos binarios y los protocolos propietarios [12].
+**Figura 2.7**
 
-Figura 2.5
-Arquitectura SOAP
-IMG 7
-Fuente. [12, fig. 3.4]
+**Arquitectura SOAP**
+
+![Alt text](/anexos/figura-7.jpg "")
+
+_**Fuente:** [17, fig. 3.4]_
 
 #### 2.4.2.3 REST (Representational State Transfer)
+Es un conjunto de técnicas orientadas a crear servicios web en los que se renuncia a la posibilidad de especificar la interfaz de los servicios de forma abstracta a cambio de contar con una convención que permite manejar la información mediante una serie de operaciones estándar. La convención utilizada no es otra que el protocolo HTTP.
+Según [17], los servicios REST están orientados a la manipulación de recursos. En un servicio REST, tenemos una URL por cada recurso que se gestiona, y que se realiza una tarea diferente sobre dicho recurso en función del método HTTP que se vaya a utilizar.
 
-Es un conjunto de técnicas orientadas a crear servicios web en los que se renuncia a la posibilidad de especificar la interfaz de los servicios de forma abstracta a cambio de contar con una convención que permite manejar la información mediante una serie de operaciones estándar. La convención utilizada no es otra que el protocolo HTTP. Según [12], los servicios REST están orientados a la manipulación de recursos. En un servicio REST, tenemos una URL por cada recurso (documento, entidad, etc) que se gestiona, y que se realiza una tarea diferente sobre dicho recurso en función del método HTTP que se vaya a utilizar.
+**Figura 2.8**
 
-Figura 2.6 Estructura REST Fuente. [12, fig. 4.1]
+**Estructura REST Fuente**
+
+![Alt text](/anexos/figura-8.jpg "")
+
+_**Fuente:** [17, fig. 4.1]_
 
 Los principios de REST son los siguientes:
-El estado de la aplicación y la funcionalidad están divididos en recursos.
-Todos los recursos son accesibles de forma única mediante una síntesis común en forma de enlaces a hipermedios.
-Todos los recursos comparten una interfaz común para la transferencia de estado entre el cliente y el recurso, consistente en un conjunto estricto de operaciones bien definidas.
-Un protocolo Cliente/Servidor que no guarde el estado, cuyos resultados puedan almacenarse en una memoria cache, y que este claramente separado en capas.
+* El estado de la aplicación y la funcionalidad están divididos en recursos.
+* Todos los recursos son accesibles de forma única mediante una síntesis común en forma de enlaces a hipermedios.
+* Todos los recursos comparten una interfaz común para la transferencia de estado entre el cliente y el recurso, consistente en un conjunto estricto de operaciones bien definidas.
+* Un protocolo Cliente/Servidor que no guarde el estado, cuyos resultados puedan almacenarse en una memoria cache, y que este claramente separado en capas.
 
 ### 2.4.3 Intercambio de datos
-
 Para intercambiar datos entre el sistema web y la aplicación Android, se utilizará JSON, porque es liviano, ya que sus datos se almacenan en vectores y registros, mientras que XML almacena los datos en árboles, de manera que resulta más difícil familiarizar a los lenguajes orientados a objetos. De esta manera, JSON hace más sencillo importar datos a diferentes lenguajes de programación.
 
 #### 2.4.3.1 Lenguaje de marcado extensible (XML)
-
+XML es conocido también como un archivo de configuración, también es utilizado para el mapeo de base de datos implicado directamente en el desarrollo de software, "fue desarrollado inicialmente para internet, pero gracias a las distintas DTD a las que puede asociarse, puede servir en la actualidad para distintas aplicaciones como formato de intercambio o como sistema de almacenamiento de datos" [18]. Es un lenguaje muy similar a HTML pero su función principal es describir datos sin mostrarlos como es el caso de HTML. XML es un formato que permite la lectura de datos a través de diferentes aplicaciones.
 
 #### 2.4.3.2 Notación de objetos de JavaScript (JSON)
+Se define como archivo de datos, es utilizado como archivo de configuración, JSON (JavaScript Object Notation) es un formato ligero de intercambio de datos. Para las máquinas es simple interpretarlo y generarlo. JSON es un formato utilizado en JavaScript para serializar datos. Se lo usa como formato de intercambio de datos "liviano" (en comparación con XML), y tiene la particularidad que los datos en este formato son leídos de manera directa en JS. Se basa en la construcción de una lista ordenada de valores, listas de objetos, que pueden incluir a su vez tablas hash, objetos con una colección de pares nombre/valor [19].
 
+**Figura 2.9**
+
+**Sintaxis y estructura de JSON Fuente**
+
+![Alt text](/anexos/figura-9.jpg "")
+
+_**Fuente:** [19, fig. 2.3]_
 
 ## 2.5 Identificación única
 Existen varias maneras de identificación que se tornaron populares en la actualidad y podemos mencionar entre todos: UUID (Universally unique identifier)[7], y QR (Quick response codes)[9]. Cada una estas formas de identificación se utiliza de forma separada, podemos mencionar que un UUID es una cadena de caracteres y en cambio un QR es un contenedor de datos que se vuelve único en base a su contenido.
@@ -280,6 +301,18 @@ http://www.ietf.org/rfc/rfc4122.txt, accedido el 4 de Octubre 2016
 
 [13] patterns & practices Developer Center, What is Software Architecture?, disponible en
 https://msdn.microsoft.com/en-us/library/ff650706.aspx, accedido el 12 de Octubre 2016
+
+[14] Angel Cobo, "Internet y la programación de ordenadores" en PHP y MySQL. 1ª Edición. España: Díaz de Santos, 2005. Cap. Nº 1, 12 pp. 13-20.
+
+[15] Sergio Lujan Mora, "¿Que es una aplicación web?" en Programación en Internet. 1ª Edición. España: Club Universitario, 2010.
+
+[16] Duncan Mackenzie, "Servicio web XML" en Aprendiendo Visual Basic.Net Lecciones Avanzadas. 1ª Edición. México: Pearson Educación.
+
+[17] Manual de desarrollo web, 1ª Edición, ISBN, México, 2010.
+
+[18] Nicholas C. Zakas, "Ajax" en Alto rendimiento de JavaScript. 1ª Edición. EE. UU.: O'Reylly Media, Inc., 2010. Cap. Nº 7, 8 pp, pag. 134.
+
+[19] Sebastian Bassi, "JSON" en serialización de datos. 4ª Edición. Argentina: Gemes Digitales, 2013. Cap 5, 4 pp, 30-31.
 
 /*
 Sugerencias:
