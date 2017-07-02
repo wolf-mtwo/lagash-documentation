@@ -262,6 +262,71 @@ Se define como archivo de datos, es utilizado como archivo de configuración, JS
 
 _**Fuente:** [19, fig. 2.3]_
 
+## 2.5 Tipos de aplicaciones móviles
+En el desarrollo de aplicaciones para dispositivos móviles existen: la aplicación web movil, aplicación nativa y la aplicación hibrida, a continuación se describirán cada uno de ellos.
+
+### 2.5.1 Aplicaciones nativas
+Este tipo de aplicaciones están hechas para ejecutarse en un dispositivo y sistema operativo específico. Así, la mayor parte de las aplicaciones descargadas de la app store de apple son aplicaciones que sólo van a correr sobre iphone e ipad. Este tipo de aplicaciones se crean con distintos tipos de lenguajes. Las desarrolladas para iOS lo hacen con los lenguajes: Objective C, C, or C++. Las aplicaciones desarrolladas para el sistema operativo Android lo hacen con lenguaje Java. Este tipo de aplicaciones corren de forma más eficiente sobre estos dispositivos ya que sus componentes están diseñados de forma específica para este sistema operativo. Además, este tipo de aplicaciones pueden emplear todos los sensores y elementos del teléfono: camara, gps, acelerómetro, agenda, etc. Esta es una diferencia fundamental con respecto a las aplicaciones web [20].
+En la figura siguiente vemos los principales entornos, en función del sistema operativo del dispositivo:
+
+**Figura 2.10**
+
+**Sistemas operativos de dispositivos móviles**
+
+![Alt text](/anexos/figura-10.jpg "")
+
+_**Fuente:** [21]_
+
+Las aplicaciones nativas tienen pleno acceso a la API del sistema operativo en el que se desarrollan. Su código fuente hace que las llamadas a la API de sistema operativo específico para acceder a los diferentes servicios disponibles en la plataforma. Esto variará según la plataforma, pero todas las aplicaciones de forma nativa desarrollados tienen acceso completo a las funciones previstas. Esto incluye funciones tales como el almacenamiento de datos, la ubicación, la cámara, altavoz, micrófono, y otros.
+
+**Figura 2.11**
+
+**Interacción aplicaciones nativas**
+
+![Alt text](/anexos/figura-11.jpg "")
+
+_**Fuente:** [21]_
+
+### 2.5.2 Aplicaciones web móviles
+Las aplicaciones web móviles, a diferencia de las aplicaciones nativas, se ejecutan dentro del navegador del teléfono.
+La principal relevancia de utilizar aplicaciones web es que son multiplataforma, se podrá crear una aplicación una vez y distribuirlo hacia todas las plataformas y con algunos ajustes para el correcto funcionamiento en todos los dispositivos pero no implicará un desarrollo por cada plataforma.
+La aplicación web es aquella que se encuentra instalada en un servidor tipo web o un browser y necesita de él para ejecutarse, dicho navegador debe de ser compatible con las tecnologías con las cuales se realiza el aplicativo WEB. Estas aplicaciones están desarrolladas con HTML, CSS y Javascript. [22]
+
+**Figura 2.12**
+
+**Interacción aplicaciones web móviles**
+
+![Alt text](/anexos/figura-12.jpg "")
+
+_**Fuente:** [21]_
+
+A pesar de los grandes avances de HTML5 al no estar haciendo un desarrollo nativo con las SDKs y APIs disponibles para cada plataforma se está perdiendo una parte importante de la funcionalidad del dispositivo así como en apariencia, siendo complicado que la interfaz se sienta tan ligada al teléfono como en casos nativos. También puede ser complicado lograr un solo diseño que se adapte perfectamente a todos los dispositivos a la vez.
+
+### 2.5.3 Aplicaciones híbridas
+Las aplicaciones híbridas asocian lo mejor de los dos anteriores modelos. Este tipo de aplicaciones permite el uso de tecnologías multiplataforma como HTML, Javascript y CSS pero permiten acceder a buena parte de los dispositivos y sensores del teléfono. Buena parte de la infraestructura es tipo web y la comunicación con los elementos del teléfono se hace mediante comunicadores tales como phonegap Un buen ejemplo de aplicaciones híbridas es Facebook. Se descarga de la app store y cuenta con todas las características de una aplicación nativa pero requiere ser actualizada ocasionalmente. [20]
+El proceso de desarrollo para este tipo de aplicaciones es algo más complicado. Al igual que para las aplicaciones nativas, el código una vez creado se compila a un ejecutable. Además, también como en las aplicaciones Web se genera código HTML, CSS y Javascript a ejecutar en un navegador. Ambos códigos se compilan para ser subidos mediante un paquete distribuible a la app store.
+
+**Figura 2.13**
+
+**Interacción aplicaciones hibridas**
+
+![Alt text](/anexos/figura-13.jpg "")
+
+_**Fuente:** [21]_
+
+### 2.5.4 Elección de la aplicación móvil
+Para el desarrollo de la aplicación de este proyecto se utilizará la aplicación nativa, ya que la conexión a internet no es necesaria y no requiere una constante actualización de la aplicación.
+Cabe destacar que las aplicaciones nativas tienen acceso total a las utilidades del sistema operativo del dispositivo: Dispositivos de almacenamiento, cámara, gps, acelerómetro, etc.
+Además del total acceso a los elementos del teléfono las aplicaciones nativas no requieren de conexión web para ser ejecutadas. Es importante destacar que las aplicaciones nativas tendrán mucha más visibilidad ya que se distribuyen a través de la app store de los fabricantes. [20]
+
+**Figura 2.14**
+
+**Comparación de tipo de aplicaciones**
+
+![Alt text](/anexos/figura-14.jpg "")
+
+_**Fuente:** [21]_
+
 ## 2.5 Identificación única
 Existen varias maneras de identificación que se tornaron populares en la actualidad y podemos mencionar entre todos: UUID (Universally unique identifier)[7], y QR (Quick response codes)[9]. Cada una estas formas de identificación se utiliza de forma separada, podemos mencionar que un UUID es una cadena de caracteres y en cambio un QR es un contenedor de datos que se vuelve único en base a su contenido.
 
@@ -313,6 +378,13 @@ https://msdn.microsoft.com/en-us/library/ff650706.aspx, accedido el 12 de Octubr
 [18] Nicholas C. Zakas, "Ajax" en Alto rendimiento de JavaScript. 1ª Edición. EE. UU.: O'Reylly Media, Inc., 2010. Cap. Nº 7, 8 pp, pag. 134.
 
 [19] Sebastian Bassi, "JSON" en serialización de datos. 4ª Edición. Argentina: Gemes Digitales, 2013. Cap 5, 4 pp, 30-31.
+
+[20] Geospatial. Tipos de aplicaciones móviles. Disponible en: http://geospatialtraininges.com/recursos-gratuitos/tipos-de-aplicaciones-moviles/
+
+[21] GeoChalkboard. Anatomy of a Hybrid Mobile GIS Application Disponible en: http://www.geospatialtraining.com/blog/index.php/anatomy-of-a-hybrid-mobile-gis-application/
+
+[22] Yeicy Juliana Molina Rivera, Jonathan Sandoval Cardona, Santiago Alberto Toledo Franco, “Sistema Operativo Android: Características y Funcionalidad para Dispositivos Móviles” Tesis en Licenciatura en Ingeniería de Sistemas y Computación. Universidad Tecnológica de Pereira.
+
 
 /*
 Sugerencias:
