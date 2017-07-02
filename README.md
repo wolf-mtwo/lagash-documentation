@@ -2,22 +2,22 @@
 
 - CAPÍTULO 1
   - EL PROBLEMA
-    - 1.1  Antecedentes
-    - 1.2 Problema
-      - 1.2.1 Situación problemática
-      - 1.2.2 Formulación del problema
-    - 1.3 Objetivos
-      - 1.3.1 Objetivo general
-      - 1.3.2 Objetivos específicos
-    - 1.4 Justificación
-      - 1.4.1 Justificación técnica
-      - 1.4.2 Justificación social
-    - 1.5  Límites y Alcances
-      - 1.5.1 Límites
-      - 1.5.2 Alcances
-    - 1.6 Estudio de factibilidad
-      - 1.6.1	Factibilidad técnica
-      - 1.6.2	Factibilidad operacional
+  - 1.1 Antecedentes
+  - 1.2 Problema
+    - 1.2.1 Situación problemática
+    - 1.2.2 Formulación del problema
+  - 1.3 Objetivos
+    - 1.3.1 Objetivo general
+    - 1.3.2 Objetivos específicos
+  - 1.4 Justificación
+    - 1.4.1 Justificación técnica
+    - 1.4.2 Justificación social
+  - 1.5 Límites y Alcances
+    - 1.5.1 Límites
+    - 1.5.2 Alcances
+  - 1.6 Estudio de factibilidad
+    - 1.6.1	Factibilidad técnica
+    - 1.6.2	Factibilidad operacional
 
 - CAPÍTULO 2
   - MARCO TEÓRICO
@@ -44,38 +44,36 @@
     - 2.3.8 Microservices Architecture (MSA)
     - 2.3.9 Selección de la arquitectura de software **[no yet]**
       2.2.9 Justificación de la arquitectura a usar **[no yet]**
-  - 2.5 Aplicaciones web
-    - Arquitectura Cliente/Servidor
-    - Servicios web
-      - Justificación del servicio web e intercambio de datos
-      - SOAP (Simple Objet Access Protocol)
-      - REST (Representational State Transfer)
-    - Intercambio de datos
-      - Lenguaje de marcado extensible (XML)
-      - Notación de objetos de JavaScript (JSON)
-  - Tipos de aplicaciones móviles
-    - Aplicaciones nativas
-    - Aplicaciones web móviles
-    - Aplicaciones híbridas
-    - Elección de la aplicación móvil
-  - 2.4 Indexación unica
-  - 2.4.1 Identificador único universal UUID
-  - 2.4.2 Códigos de respuesta rápida QR
-  - Lenguajes de programación
-    - C Sharp
-    - Java
-    - JavaScript
-    - Comparación de lenguajes de progrmación **[re-escrivir todo sacar propias concluciones]**
-  Conclusión **[validar]**
-  Elección  del lenguaje de programación
-  - Calidad del software
-    - Pruebas unitarias
-    - Usabilidad
-    - Seguridad del sistema
-    - Seguridad informática
-    -   Fundamentos
-  - otros
-    - Elección del idioma
+  - 2.4 Aplicaciones web
+    - 2.4.1 Arquitectura Cliente/Servidor
+    - 2.4.2 Servicios web
+      - 2.4.2.1 Justificación del servicio web e intercambio de datos
+      - 2.4.2.2 SOAP (Simple Objet Access Protocol)
+      - 2.4.2.3 REST (Representational State Transfer)
+    - 2.4.3 Intercambio de datos
+      - 2.4.3.1 Lenguaje de marcado extensible (XML)
+      - 2.4.3.2 Notación de objetos de JavaScript (JSON)
+  - 2.5 Tipos de aplicaciones móviles
+    - 2.5.1 Aplicaciones nativas
+    - 2.5.2 Aplicaciones web móviles
+    - 2.5.3 Aplicaciones híbridas
+    - 2.5.4 Elección de la aplicación móvil
+  - 2.6 Indexación unica
+    - 2.6.1 Identificador único universal UUID
+    - 2.6.2 Códigos de respuesta rápida QR
+  - 2.7 Lenguajes de programación
+    - 2.7.1 C Sharp (C#)
+    - 2.7.2 Java
+    - 2.7.3 JavaScript
+    - 2.7.4 Comparación de lenguajes de progrmación **[re-escrivir todo sacar propias concluciones]**
+    - 2.7.5 Conclusión **[validar]**
+    - 2.7.6 Elección  del lenguaje de programación
+  - 2.8 Calidad del software
+    - 2.8.1 Pruebas unitarias
+    - 2.8.2 Usabilidad
+    - 2.8.3 Seguridad del sistema
+    - 2.8.4 Seguridad informática
+      - 2.8.4.1 Fundamentos
 
 # Requisitos basicos basicos
 
