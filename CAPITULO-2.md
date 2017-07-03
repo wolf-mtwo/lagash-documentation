@@ -104,41 +104,32 @@ Fowlwer, uno de los ingenieros más reconocidos en el área de desarrollo de sof
 
 ### 2.3.1 Comparaciones
 La creación de un sitio web o una página de internet en general implica dos factores, el _front-end_ y el _back-end_.
-_Front-end_ y _back-end_ son términos utilizados para caracterizar las interfaces del programa y los servicios relativos al usuario inicial de estas interfaces y servicios. (El "usuario" puede ser un ser humano o un programa.) Una aplicación _"front-end"_ es aquella con la que los usuarios de la aplicación interactúan directamente.
+_Front-end_ y _back-end_ son términos utilizados para caracterizar las interfaces del programa y los servicios relativos al usuario inicial de estas interfaces y servicios. (El "usuario" puede ser un ser humano o un programa.) Una aplicación _front-end_ es aquella con la que los usuarios de la aplicación interactúan directamente.
 
-### 2.3.2 Front-end y back-end
+#### 2.3.2.1 Front-end y back-end
 El _front-end_ es todo lo relacionado con lo que el usuario ve, incluyendo el diseño y algunos lenguajes como HTML y CSS.
-Cuando discutimos el _"front-end"_ de la web, lo que realmente estamos hablando es la parte de la web con la que puedes ver e interactuar. El _frontend_ generalmente consta de dos partes: el diseño web y el desarrollo web front-end.
+Cuando discutimos el _front-end_ de la web, lo que realmente estamos hablando es la parte de la web con la que puedes ver e interactuar. El _frontend_ generalmente consta de dos partes: el diseño web y el desarrollo web front-end.
 En el pasado, cuando alguien hablaba de desarrollo por lo general se refiere al backend, pero en los últimos años ha habido una necesidad real de diferenciar entre los diseñadores que trabajaban estrictamente en Photoshop y los que podían codificar HTML y CSS. Fue aún más lejos cuando los diseñadores cruzaron las líneas para trabajar con JavaScript y jQuery.
 
 El _back-end_, o el "lado del servidor", es básicamente cómo funciona el sitio, las actualizaciones. Esto se refiere a todo lo que el usuario no puede ver en el navegador, como bases de datos y servidores. En el lado de  back-end los desarrolladores se preocupan más por cuestiones como la seguridad, la estructura y la gestión de contenidos.
-Una aplicación o programa _"back-end"_ sirve indirectamente en apoyo de los servicios front-end, normalmente por estar más cerca del recurso requerido o tener la capacidad de comunicarse con el recurso requerido. La aplicación de del lado del servidor puede interactuar directamente con el _front-end_.
-El backend normalmente consta de tres partes: un servidor, una aplicación y una base de datos. Si reserva un vuelo o compra entradas de conciertos, normalmente abre un sitio web e interactúa con el _frontend_. Una vez que haya ingresado esa información, la aplicación la almacena en una base de datos que se creó en un servidor.
+Una aplicación o programa _back-end_ sirve indirectamente en apoyo de los servicios front-end, normalmente por estar más cerca del recurso requerido o tener la capacidad de comunicarse con el recurso requerido. La aplicación de del lado del servidor puede interactuar directamente con el _front-end_.
+El backend normalmente consta de tres partes: un servidor, una aplicación y una base de datos. Si reserva un vuelo o compra entradas de conciertos, normalmente abre un sitio web e interactúa con el _front-end_. Una vez que haya ingresado esa información, la aplicación la almacena en una base de datos que se creó en un servidor.
 
 Toda esa información permanece en el servidor, así que cuando vuelva a iniciar sesión en la aplicación para imprimir sus tickets, toda la información aún está en su cuenta.
 
-### 2.3.3 Single-page application (SPA)
-La aplicacion de una sola página (SPA) son aplicaciones Web que cargan una sola página HTML y actualizan dinámicamente esa página a medida que el usuario interactúa con la aplicación.
+#### 2.3.2.2 Aplicación de una sola página (SPA)
+La aplicacion de una sola página son aplicaciones Web que cargan una sola página HTML y actualizan dinámicamente esa página a medida que el usuario interactúa con la aplicación.
 Las SPA utilizan AJAX y HTML5 para crear aplicaciones Web fluidas y sensibles, sin recargas constantes de la página. Sin embargo, esto significa que gran parte del trabajo ocurre en el lado del cliente, Afortunadamente, hay muchos frameworks en JavaScript de código libre que facilitan la creación de SPAs. Entre los más conocidos están Angular, Angular 2 y Ember.
 
-### 2.3.4 Back-end For Front-end (BFF)
+#### 2.3.2.3 Back-end For Front-end (BFF)
 Los servicios soportan muchas variaciones en los clientes, como el móvil frente a la web y diferentes formas de interfaz web. Es tentador diseñar una única API de _back-end_ para apoyar a todos los clientes con una API reutilizable. Pero las necesidades del cliente varían, al igual que las restricciones, como el ancho de banda para los dispositivos móviles frente al deseo de un montón de datos sobre las conexiones web rápidas. Por lo tanto, a menudo es mejor definir diferentes servicios de back-end para cada tipo de cliente front-end. Estos extremos posteriores deben ser desarrollados por equipos alineados con cada extremo frontal para asegurarse de que cada extremo posterior cumple adecuadamente las necesidades de su cliente.
 
-### 2.3.5 Híbrido vs nativo
-Una aplicación nativa es una aplicación de _smartphone_ desarrollada específicamente para un sistema operativo móvil (piense en Objective-C o Swift para iOS vs. Java para Android).
-Dado que la aplicación se desarrolla dentro de un ecosistema maduro siguiendo las directrices técnicas y de experiencia del usuario del sistema operativo (por ejemplo, swipes, gestos definidos por la aplicación, encabezado alineado a la izquierda en Android, encabezado alineado centralmente en iOS, etcétera), no sólo tiene la ventaja de más rápido Pero también "se siente bien". Lo que significa sentir bien es que la interacción en la aplicación tiene un aspecto coherente con la mayoría de las otras aplicaciones nativas del dispositivo. El usuario final tiene más probabilidades de aprender a navegar y utilizar la aplicación más rápidamente. Finalmente, las aplicaciones nativas tienen la ventaja significativa de poder acceder y utilizar fácilmente las capacidades incorporadas del dispositivo del usuario (por ejemplo, GPS, libreta de direcciones, cámara, etc.). Cuando un usuario envía mensajes de texto, toma fotos utilizando la aplicación predeterminada del dispositivo, establece recordatorios o utiliza la aplicación de música del dispositivo (la que viene con el teléfono), está utilizando aplicaciones nativas.
-
-#### 2.3.5.1	Android
-La diferencia de Android con respecto a todos los sistemas operativos nombrados es que es un software de código abierto.
-Un _software_ de código abierto es gratis y accesible a todo el mundo. El objetivo es que, con la colaboración de todos, se consiga crear un sistema operativo eficiente.
-Por tanto, no es de extrañar que en torno al 80 por ciento de los dispositivos móviles en Europa y el mundo entero funcionan con Android. Precisamente Google se ha defendido de las críticas recordando que "Android ha ayudado a fomentar un ecosistema notable, importante y sostenible, basado en un _software_ de fuente abierta y abierta innovación".
-
-### 2.3.6 Service Oriented Architecture (SOA)
-La arquitectura orientada a servicios (SOA) es un enfoque utilizado para crear una arquitectura basada en el uso de servicios. Los servicios (como los servicios Web RESTful) realizan alguna función pequeña, como la producción de datos, la validación de un cliente o la prestación de servicios analíticos simples.
+### 2.3.2 Arquitectura orientada a Servicios (SOA)
+La arquitectura orientada a servicios es un enfoque utilizado para crear una arquitectura basada en el uso de servicios. Los servicios (como los servicios Web RESTful) realizan alguna función pequeña, como la producción de datos, la validación de un cliente o la prestación de servicios analíticos simples.
 Además de construir y exponer servicios, SOA tiene la capacidad de aprovechar estos servicios una y otra vez dentro de las aplicaciones (conocidas como aplicaciones compuestas). SOA abordando la mayoría de los principales sistemas como servicios, y la abstracción de los servicios en un único dominio donde se forman en soluciones.
 Las arquitecturas orientadas al servicio no son algo nuevo. La primera arquitectura orientada a servicios para muchas personas en el pasado fue con el uso de DCOM u ORB (Object Request Brokers) basado en la especificación CORBA.
 
-### 2.3.7 Multi-layered Architecture (MLA)
+### 2.3.3 Arquitectura multi/N capas (MLA)
 La arquitectura de una aplicación N-capas se caracteriza por la descomposición funcional de las aplicaciones, los componentes de servicio y su implementación distribuida, proporcionando escalabilidad, disponibilidad, capacidad de administración y utilización de recursos mejoradas. Cada nivel es completamente independiente de todos los demás niveles, excepto los inmediatamente superiores e inferiores. La comunicación entre niveles es típicamente asíncrona para soportar mejor escalabilidad.
 Las arquitecturas de nivel N generalmente tienen al menos tres partes lógicas separadas, cada una ubicada en un servidor físico separado. Cada parte es responsable de la funcionalidad específica. Cuando se utiliza un enfoque de diseño en capas, se despliega una capa en un nivel si más de un servicio o aplicación depende de la funcionalidad expuesta por la capa.
 Los principales beneficios de la arquitectura en N-capas / 3-capas son:
@@ -150,7 +141,7 @@ Disponibilidad. Las aplicaciones pueden aprovechar la arquitectura modular de si
 Como un ejemplo, la capa de presentación no debe almacenar datos confidenciales, mientras que esto puede almacenarse en las capas de datos y de negocio.
 Considere la posibilidad de utilizar sólo tres niveles si está desarrollando una aplicación de intranet donde todos los servidores están ubicados dentro de la red privada; O una aplicación de Internet en la que los requisitos de seguridad no restringen el despliegue de la lógica de negocios en el servidor Web o en la Web que se enfrenta al público. Considere la posibilidad de utilizar más de tres capas si los requisitos de seguridad dictaminan que la lógica empresarial no se puede implementar en la red perimetral o que la aplicación utiliza mucho los recursos y desea descargarla a otro servidor.
 
-### 2.3.8 Microservices Architecture (MSA)
+### 2.3.4 Arquitectura de Microservicios (MSA)
 La arquitectura de microservicio, es un método de desarrollo de software que ha crecido en popularidad en los últimos años. Para muchos desarrolladores se ha convertido en la forma preferida de crear aplicaciones empresariales. Gracias a su escalabilidad, este método arquitectónico se considera especialmente ideal cuando se tiene que habilitar el soporte para una amplia gama de plataformas y dispositivos, que abarcan la web, el móvil, Internet de las cosas y los portátiles, o simplemente cuando no está seguro de qué tipo de dispositivos Usted tendrá que apoyar en un futuro cada vez más nublado.
 La idea detrás de los microservicios es que algunos tipos de aplicaciones se vuelven más fáciles de construir y mantener cuando se dividen en piezas más pequeñas y componibles que trabajan juntas. Cada componente se desarrolla por separado, y la aplicación es entonces simplemente la suma de sus componentes constituyentes. Esto es en contraste con una aplicación tradicional, "monolítica", que es todo desarrollado en una sola pieza.
 Si bien no existe una definición estándar y formal de microservicios, existen ciertas características que nos ayudan a identificar el estilo. Esencialmente, la arquitectura de microservicios es un método de desarrollo de aplicaciones de software como un conjunto de servicios modulares, desplegables de forma independiente, en los que cada servicio ejecuta un proceso único y se comunica a través de un mecanismo ligero y bien definido para servir una meta de negocio.
@@ -161,6 +152,10 @@ Para empezar a entender la arquitectura microservicios, ayuda a considerar su op
 
 Hay muchas razones por las que este enfoque se considera una manera más fácil de desarrollar grandes aplicaciones, aplicaciones empresariales particulares y varios tipos de software como servicio entregado a través de Internet.
 Si esta desarrollando una aplicación empresarial de servidor. Debe soportar una variedad de clientes diferentes, incluyendo navegadores de escritorio, navegadores móviles y aplicaciones móviles nativas. La aplicación también puede exponer una API para que terceras partes consuman. También podría integrarse con otras aplicaciones a través de servicios web o un intermediario de mensajes. La aplicación gestiona las solicitudes (solicitudes y mensajes HTTP) mediante la ejecución de la lógica empresarial; Acceder a una base de datos; Intercambiar mensajes con otros sistemas; Y devolver una respuesta HTML / JSON / XML.
+
+### 2.3.5 Justificación de la arquitectura
+Habiendo analizado las distintas tecnologias, se llegó a la conclusión que se va a usar la arquitectura de microservicios, debido a que es una de las arquitecturas modernas que se esta utilizando en desarrollo de software, tiene características de ejecución rápida, además, puede ser utilizada en clientes como los dispositivos móviles.
+Así mismo, los servicios se utiliza para responder a eventos; usualmente a las acciones del usuario, e invocar peticiones a la capa de datos. Por otro lado, el sistema también puede operar con más de un cliente a la vez, haciendo que el tiempo de desarrollo se redusca considerablemente. Sin embargo, por razones de facilidad de mantenimiento y una estructuración eficiente del código, la arquitectura de microservicio ha sido dividida en N-Capas. Cabe resaltar que en la arquitectura N-Capas, cualquier capa superior contiene solamente la declaración de métodos para comunicarse con alguna con capa inferior a través de una interface.
 
 ## 2.4 Aplicaciones web
 La aparición de los servicios web a principios de los 90’s, supuso una verdadera revolución en el campo de la informática y las telecomunicaciones. Con la integración de este nuevo servicio, Internet inicio una rápida transición hacia el ámbito empresarial y supuso un enorme impulso al crecimiento de la red. Lo que había surgido en plena guerra fría como un proyecto militar y que posteriormente fue dirigiéndose hacia el ámbito científico y académico, se empezó a convertir en un perfecto "escaparate virtual" en el que las empresas pudieran ofrecer sus productos y servicios rompiendo barreras geográficas y de comunicaciones [14]. En la actualidad las empresas no ven únicamente el servicio web como un mero escaparate o medio publicitario de enorme difusión. Internet, y en particular el servicio web, abre a las empresas enormes posibilidades. La utilización de tecnologías web permite agilizar los procesos, mejorar la productividad y aumentar la eficacia, además de abrir las puertas a nuevas formas de negocio en el mercado global que facilita Internet.
@@ -336,10 +331,10 @@ Un UUID es un identificador que es único a lo largo entre espacio y tiempo... p
 ### 2.6.2 Códigos de respuesta rápida (QR)
 Los códigos QR han ganado popularidad en los últimos años por su capacidad de almacenaje de datos y son mucho más efectivo que el código de barras, un código QR puede contener varios tipos de datos mensajes, texto, URL, geolocalización. La capacidad de un QR es muy variado, pero con la ayuda de los UUID los QR pasarían a convertirse en entidades únicas y perfectos a la hora de identificar un recurso bibliográfico, y sin tener que estar asociado a ningún sistema.
 
-### 2.8 Calidad del software
+## 2.8 Calidad del software
 Es software que se aplica de manera útil que crea un producto, que proporciona valor medible a quienes lo producen y a quienes lo utilizan.
 
-#### 2.8.1 Pruebas unitarias
+### 2.8.1 Pruebas unitarias
 Las pruebas unitarias se utilizan para ejecutar otro código fuente llamando directamente a los métodos de una clase, pasando los parámetros apropiado, si incluye instrucciones ASSERT, éstas pueden probar los valores que se generan con respecto a los valores esperados. Los métodos de pruebas unitarias residen en clases Test, que se almacenan en archivos de código fuente [25].
 
 Unit Test es un trozo decódigo desarrollado con el único objetivo deverificar que una rutina o función de nuestro código está funcionando según se espera [26].
@@ -353,11 +348,11 @@ Para que una prueba unitaria funciones correctamente se debe seguir los siguient
 El objetivo de las pruebas unitarias es aislar cada parte del programa y mostrar que las partes individuales del código son correctas.
 Por la estructura de la arquitectura del presente proyecto la facilidad de uso de las pruebas unitarias es más aplicable ya que a nivel del cliente se realizaran Unit Testing.
 
-#### 2.8.2 Usabilidad
+### 2.8.2 Usabilidad
 La Usabilidad es la medida de la calidad de la experiencia que tiene un usuario cuando interactúa con un producto o sistema. Esto se mide a través del estudio de la relación que seproduce entre las herramientas y quienes las utilizan, para determinar la eficiencia en el uso de los diferentes elementos ofrecidos en las pantallas y la efectividad en el cumplimiento de las tareas que se pueden llevar a cabo através de ellas.
 Otra definición es la que entrega el académico Yusef Hassan (Universidad de Granada) al indicar que "la usabilidad es la disciplina que estudia la forma de diseñar Sitios Web para que los usuarios puedan interactuar con ellos de la forma más fácil, cómoda e intuitiva posible" y agregar que "la mejor forma de crear un sitio web usable es realizando un diseño centrado en el usuario, diseñando para y por el usuario, en contraposición a lo que podrá ser un diseño centrado en la tecnología o uno centrado en la creatividad u originalidad" [25].
 
-#### 2.8.3 Seguridad del sistema
+### 2.8.3 Seguridad del sistema
 Los principios de seguridad de la información están basadas en confidencialidad, integridad, disponibilidad y autenticidad.
 Los mecanismos básicos de seguridad, según la norma ISO 17799 es la preservación de la confidencialidad, integridad y disponibilidad de información, también toma en cuenta las propiedades de privacidad, identificación, control de accesos y la fidelidad [27].
 

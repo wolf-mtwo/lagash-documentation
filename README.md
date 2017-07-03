@@ -33,16 +33,13 @@
     - 2.2.3 Selección de la metodología de desarrollo
   - 2.3 Arquitectura de software
     - 2.3.1 Comparaciones
-    - 2.3.2 Front-end y back-end
-    - 2.3.3 Single-page application (SPA)
-    - 2.3.4 Backend For Frontend (BFF)
-    - 2.3.5	Híbrido vs nativo **[remove]**
-      - 2.3.5.1	Android **[remove]**
-    - 2.3.6 Service Oriented Architecture (SOA)
-    - 2.3.7 Multi-layered Architecture (MLA)
-    - 2.3.8 Microservices Architecture (MSA)
-    - 2.3.9 Selección de la arquitectura de software **[no yet]**
-      2.2.9 Justificación de la arquitectura a usar **[no yet]**
+      - 2.3.2.1 Front-end y back-end
+      - 2.3.2.2 Single-page application (SPA)
+      - 2.3.2.3 Backend For Frontend (BFF)
+    - 2.3.2 Service Oriented Architecture (SOA)
+    - 2.3.3 Multi-layered Architecture (MLA)
+    - 2.3.4 Microservices Architecture (MSA)
+    - 2.3.5 Justificación de la arquitectura
   - 2.4 Aplicaciones web
     - 2.4.1 Arquitectura Cliente/Servidor
     - 2.4.2 Servicios web
@@ -60,13 +57,13 @@
   - 2.6 Indexación unica
     - 2.6.1 Identificador único universal UUID
     - 2.6.2 Códigos de respuesta rápida QR
-  - 2.7 Lenguajes de programación
-    - 2.7.1 C Sharp (C#)
-    - 2.7.2 Java
-    - 2.7.3 JavaScript
-    - 2.7.4 Comparación de lenguajes de progrmación **[re-escrivir todo sacar propias concluciones]**
+  - 2.7 Lenguajes de programación **[no yet]**
+    - 2.7.1 C Sharp (C#) **[no yet]**
+    - 2.7.2 Java **[no yet]**
+    - 2.7.3 JavaScript **[no yet]**
+    - 2.7.4 Justificacion de los lenguajes de programación **[no yet]**
     - 2.7.5 Conclusión **[validar]**
-    - 2.7.6 Elección  del lenguaje de programación
+    - 2.7.6 Elección del lenguaje de programación **[no yet]**
   - 2.8 Calidad del software
     - 2.8.1 Pruebas unitarias
     - 2.8.2 Usabilidad
