@@ -71,8 +71,6 @@
     - 2.8.1 Pruebas unitarias
     - 2.8.2 Usabilidad
     - 2.8.3 Seguridad del sistema
-    - 2.8.4 Seguridad informática
-      - 2.8.4.1 Fundamentos
 
 # Requisitos basicos basicos
 

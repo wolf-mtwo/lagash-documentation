@@ -336,59 +336,121 @@ Un UUID es un identificador que es único a lo largo entre espacio y tiempo... p
 ### 2.6.2 Códigos de respuesta rápida (QR)
 Los códigos QR han ganado popularidad en los últimos años por su capacidad de almacenaje de datos y son mucho más efectivo que el código de barras, un código QR puede contener varios tipos de datos mensajes, texto, URL, geolocalización. La capacidad de un QR es muy variado, pero con la ayuda de los UUID los QR pasarían a convertirse en entidades únicas y perfectos a la hora de identificar un recurso bibliográfico, y sin tener que estar asociado a ningún sistema.
 
+### 2.8 Calidad del software
+Es software que se aplica de manera útil que crea un producto, que proporciona valor medible a quienes lo producen y a quienes lo utilizan.
+
+#### 2.8.1 Pruebas unitarias
+Las pruebas unitarias se utilizan para ejecutar otro código fuente llamando directamente a los métodos de una clase, pasando los parámetros apropiado, si incluye instrucciones ASSERT, éstas pueden probar los valores que se generan con respecto a los valores esperados. Los métodos de pruebas unitarias residen en clases Test, que se almacenan en archivos de código fuente [25].
+
+Unit Test es un trozo decódigo desarrollado con el único objetivo deverificar que una rutina o función de nuestro código está funcionando según se espera [26].
+Para asegurar la calidad del código entregado se realizan pruebas unitarias, es la mejor forma de detectar errores en el desarrollo [25]
+Para que una prueba unitaria funciones correctamente se debe seguir los siguientes requisitos.
+•	**Completas.** Deben cubrir la mayor cantidad de código.
+•	**Repetibles o reutilizables.** No se deben crear pruebas que solo puedan ser ejecutadas una sola vez.
+•	**Independientes.** La ejecución de una prueba no debe afectar a la ejecución de otra.
+•	**Profesionales.** Las pruebas deben ser consideradas igual que el código, con la misma profesionalidad y documentación.
+
+El objetivo de las pruebas unitarias es aislar cada parte del programa y mostrar que las partes individuales del código son correctas.
+Por la estructura de la arquitectura del presente proyecto la facilidad de uso de las pruebas unitarias es más aplicable ya que a nivel del cliente se realizaran Unit Testing.
+
+#### 2.8.2 Usabilidad
+La Usabilidad es la medida de la calidad de la experiencia que tiene un usuario cuando interactúa con un producto o sistema. Esto se mide a través del estudio de la relación que seproduce entre las herramientas y quienes las utilizan, para determinar la eficiencia en el uso de los diferentes elementos ofrecidos en las pantallas y la efectividad en el cumplimiento de las tareas que se pueden llevar a cabo através de ellas.
+Otra definición es la que entrega el académico Yusef Hassan (Universidad de Granada) al indicar que "la usabilidad es la disciplina que estudia la forma de diseñar Sitios Web para que los usuarios puedan interactuar con ellos de la forma más fácil, cómoda e intuitiva posible" y agregar que "la mejor forma de crear un sitio web usable es realizando un diseño centrado en el usuario, diseñando para y por el usuario, en contraposición a lo que podrá ser un diseño centrado en la tecnología o uno centrado en la creatividad u originalidad" [25].
+
+#### 2.8.3 Seguridad del sistema
+Los principios de seguridad de la información están basadas en confidencialidad, integridad, disponibilidad y autenticidad.
+Los mecanismos básicos de seguridad, según la norma ISO 17799 es la preservación de la confidencialidad, integridad y disponibilidad de información, también toma en cuenta las propiedades de privacidad, identificación, control de accesos y la fidelidad [27].
+
+Para lograr sus objetivos la seguridad informática se fundamenta en tres principios, que debe cumplir todo sistema informático [23]:
+
+* **Confidencialidad.** Se refiere a la privacidad de los elementos de información almacenados y procesados en un sistema informático, Basándose en este principio, las herramientas de seguridad informática deben proteger el sistema de invasiones y accesos por parte de personas o programas no autorizados. Este principio es particularmente importante en sistemas distribuidos, es decir, aquellos en los que los usuarios, computadores y datos residen en localidades diferentes, pero están física y lógicamente interconectados.
+
+En el presente proyecto se tomara en cuenta la gestión de usuarios que incluye normas de confidencialidad lo cual se describe a continuación.
+  -	**Tiempo de sesión abierta.** En el sistema se tomara en cuenta el tiempo de espera en acciones del usuario con el sistema.
+  -	**Fortaleza de la contraseña.** La contraseña debe tener un número  mínimo de caracteres con símbolos.
+  -	**Intentos continuos permitidos.** El número de intentos para el ingreso al sistema es de tres, posteriormente se bloqueara el sistema.
+  -	**Encriptación de los datos.** En el proceso de autentificación los datos que se ingresen como usuario y contraseña serán protegido.
+
+*	**Integridad.** Se refiere a la validez y consistencia de los elementos de información almacenados y procesador en un sistema informático. Basándose en este principio, las herramientas de seguridad informática deben asegurar que los procesos de actualización estén bien sincronizados y no se dupliquen, de forma que todos los elementos del sistema manipulen adecuadamente los mismos datos. Este principio es importante en sistemas descentralizados, es decir, aquellos en los que diferentes usuarios, computadores y procesos comparten la misma información.
+
+Al realizar acciones,  el sistema garantiza que los datos fueron procesados de manera correcta para ello se realizara pruebas unitarias de manera constante, ya que la metodología seleccionada para el desarrollo del sistema apoya.
+
+* **Disponibilidad.** Se refiere a la continuidad de acceso a los elementos de información almacenados y procesados en un sistema informático, basándose en este principio, las herramientas de seguridad informática deber reforzar la permanencia del sistema informático, en condiciones de actividad adecuadas para que los usuarios accedan a los datos con la frecuencia y dedicación que requieran.
+
+Este principio es importante en sistemas informáticos cuyo compromiso con el usuario, es prestar serviciopermanente.
+
+* **Autenticidad.** Es el proceso que se realiza para la identificación del usuario, en el desarrollo del proyecto se tomaran en cuenta los siguientes métodos de autentificación para la verificación de identidad.
+  -	**Autentificación de usuario.** Previene el ingreso a personas no autorizadas, el usuario se da conocer mediante un  nombre de usuario y su respectiva contraseña
+  -	**Permiso por roles.** Restringe al sistema de usuario no autorizados para ciertas funcionalidades del sistema, aplicando en ella la integración de la información.
+  -	**Modalidad de accesos.** El ingreso al sistema con ciertos accesos permitidos por un rol, teniendo la capacidad de desactivar un usuario en caso de contingencias a prepararse.
+  -	**Monitoreo del control de acceso.** El control de acceso es controlado automáticamente, obteniendo los datos necesarios de las acciones realzadas.
+Se ve conveniente desarrollar un control de seguridad en diferentes aspectos del sistema para prevenir posibles ataques.
+Los datos que se muestran en la siguiente tabla son considerados para un soporte de seguridad del sistema.
+
 ## REFERENCIAS BIBLIOGRÁFICAS
 
-[1] Y. Gascón, _Revisión de conceptos básicos Modelado de Negocios._ Disponible en:
+[1] Y. Gascón, _Revisión de conceptos básicos Modelado de Negocios,_ Disponible en:
 http://es.slideshare.net/yamilagascon/revisin-de-conceptos-bsicos-modelado-de-negocios
 
-[2] J. Montilva, _Modelo de Negocio._ Disponible en:
+[2] J. Montilva, _Modelo de Negocio,_ Disponible en:
 http://es.slideshare.net/RaulIram/tarea-16614847
 
-[3] Ian Sommerville (2005) _Ingeniería del Software._ 7th edición, Madrid, España, Pearson Educación.
+[3] Ian Sommerville (2005) _Ingeniería del Software,_ 7th edición, Madrid, España, Pearson Educación.
 
-[4] R. S. Pressman, _Ingeniería del software: Un enfoque práctico._ 7th. Edición, The McGraw-HillCompanies.
+[4] R. S. Pressman, _Ingeniería del software: Un enfoque práctico,_ 7th. Edición, The McGraw-HillCompanies.
 
-[5] Pilar Rodríguez Gonzales, _Estudio de la aplicación de metodologías ágiles para la evolución de productos software._ Master en tecnologías de la información. Universidad Politécnica De Madrid 2008
+[5] Pilar Rodríguez Gonzales, _Estudio de la aplicación de metodologías ágiles para la evolución de productos software,_ Master en tecnologías de la información. Universidad Politécnica De Madrid 2008
 
-[6] Roger S. Pressman, _Ingeniería de software._ en Ingeniería del software un enfoque práctico.7ª 1edición, México: Mexicana, 2010, Cap.1, pp. 10
+[6] Roger S. Pressman, _Ingeniería de software,_ en Ingeniería del software un enfoque práctico.7ª 1edición, México: Mexicana, 2010, Cap.1, pp. 10
 
-[7] UUID, _Universally unique identifier._ Disponible en:
+[7] UUID, _Universally unique identifier,_ Disponible en:
 https://en.wikipedia.org/wiki/Universally_unique_identifier
 
-[8]  Martin Fowler, _Patterns of Enterprise Application Architecture._ Disponible en:
+[8]  Martin Fowler, _Patterns of Enterprise Application Architecture,_ Disponible en:
 ftp://ftp.heanet.ie/mirrors/sourceforge/w/we/webtune/Patterns%20of%20Enterprise%20Application%20Architecture.pdf
 
-[9] QR, _Quick response codes._ Disponible en:
+[9] QR, _Quick response codes,_ Disponible en:
 http://www.qrcode.com/en/about/
 
-[10] UUID, _Definition_, Disponible en:
+[10] UUID, _Definition,_ Disponible en:
 http://www.ietf.org/rfc/rfc4122.txt
 
 [13] patterns & practices Developer Center, _What is Software Architecture?,_ Disponible en:
 https://msdn.microsoft.com/en-us/library/ff650706.aspx
 
-[14] Angel Cobo, _"Internet y la programación de ordenadores" en PHP y MySQL._ 1ª Edición. España: Díaz de Santos, 2005. Cap. Nº 1, 12 pp. 13-20.
+[14] Angel Cobo, _"Internet y la programación de ordenadores" en PHP y MySQL,_ 1ª Edición. España: Díaz de Santos, 2005. Cap. Nº 1, 12 pp. 13-20.
 
-[15] Sergio Lujan Mora, _"¿Que es una aplicación web?" en Programación en Internet._ 1ª Edición. España: Club Universitario, 2010.
+[15] Sergio Lujan Mora, _"¿Que es una aplicación web?" en Programación en Internet,_ 1ª Edición. España: Club Universitario, 2010.
 
-[16] Duncan Mackenzie, _"Servicio web XML" en Aprendiendo Visual Basic.Net Lecciones Avanzadas._ 1ª Edición. México: Pearson Educación.
+[16] Duncan Mackenzie, _"Servicio web XML" en Aprendiendo Visual Basic.Net Lecciones Avanzadas,_ 1ª Edición. México: Pearson Educación.
 
 [17] _Manual de desarrollo web,_ 1ª Edición, ISBN, México, 2010.
 
-[18] Nicholas C. Zakas, _"Ajax" en Alto rendimiento de JavaScript._ 1ª Edición. EE. UU.: O'Reylly Media, Inc., 2010. Cap. Nº 7, 8 pp, pag. 134.
+[18] Nicholas C. Zakas, _"Ajax" en Alto rendimiento de JavaScript,_ 1ª Edición. EE. UU.: O'Reylly Media, Inc., 2010. Cap. Nº 7, 8 pp, pag. 134.
 
-[19] Sebastian Bassi, _"JSON" en serialización de datos._ 4ª Edición. Argentina: Gemes Digitales, 2013. Cap 5, 4 pp, 30-31.
+[19] Sebastian Bassi, _"JSON" en serialización de datos,_ 4ª Edición. Argentina: Gemes Digitales, 2013. Cap 5, 4 pp, 30-31.
 
-[20] Geospatial, _Tipos de aplicaciones móviles_. Disponible en: http://geospatialtraininges.com/recursos-gratuitos/tipos-de-aplicaciones-moviles/
+[20] Geospatial, _Tipos de aplicaciones móviles,_ Disponible en: http://geospatialtraininges.com/recursos-gratuitos/tipos-de-aplicaciones-moviles/
 
-[21] GeoChalkboard, _Anatomy of a Hybrid Mobile GIS Application_. Disponible en: http://www.geospatialtraining.com/blog/index.php/anatomy-of-a-hybrid-mobile-gis-application/
+[21] GeoChalkboard, _Anatomy of a Hybrid Mobile GIS Application,_ Disponible en: http://www.geospatialtraining.com/blog/index.php/anatomy-of-a-hybrid-mobile-gis-application/
 
-[22] Yeicy Juliana Molina Rivera, Jonathan Sandoval Cardona, Santiago Alberto Toledo Franco, _Sistema Operativo Android: Características y Funcionalidad para Dispositivos Móviles Tesis en Licenciatura en Ingeniería de Sistemas y Computación._ Universidad Tecnológica de Pereira.
+[22] Yeicy Juliana Molina Rivera, Jonathan Sandoval Cardona, Santiago Alberto Toledo Franco, _Sistema Operativo Android: Características y Funcionalidad para Dispositivos Móviles Tesis en Licenciatura en Ingeniería de Sistemas y Computación,_ Universidad Tecnológica de Pereira.
+
+[23]	R. S. Pressman, _Software y la Ingeniería de  Software, Ingeniería de  Software (un enfoque práctico),_ ISBM 978-607-15-0314-5, Libro de edición México, 2010.
+
+[24]	J.Rodríguez, _Pruebas Unitarias, 2011,_ Disponible en:
+http://es.slideshare.net/ocomur/pruebas-unitarias-9368721?next_slideshow=1
+
+[25]	A. Policarpio, _Modelo incremental,_ Disponible en:
+http://phpwebquest.org/cursocep/webquest/soporte_tabbed_w.php?id_actividad=18518&id_pagina=1
+
+[26]	I, Tecnología, _Ingeniería de  Software,_ Libro de edición E.E.U.U., Marzo 2009.
+
+[27]	E. Pérez, Seguridad y auditoria informática, ISO 17799 , noviembre 27 , 2011, Disponible en: http://es.slideshare.net/luchoapazam1/seguridad-y-auditoria-informatica-iso-17799
 
 
 /*
 Sugerencias:
 1. Complementar el texto con citas.  Hay pocas citas en el documento
 2. Complementar el texto con elecciones y fundamentaciones.  Cuando el concepto lo requiera, provee argumentos que sustenten la elección tomada.  Ej. Arquitectura.
-3. Faltan temas como ser: seguridad, calidad, usabilidad del software
 */
