@@ -34,11 +34,11 @@
   - 2.3 Arquitectura de software
     - 2.3.1 Comparaciones
       - 2.3.2.1 Front-end y back-end
-      - 2.3.2.2 Single-page application (SPA)
-      - 2.3.2.3 Backend For Frontend (BFF)
-    - 2.3.2 Service Oriented Architecture (SOA)
-    - 2.3.3 Multi-layered Architecture (MLA)
-    - 2.3.4 Microservices Architecture (MSA)
+      - 2.3.2.2 Aplicación de una sola página (SPA)
+      - 2.3.2.3 Back-end para Front-end (BFF)
+    - 2.3.2 Arquitectura orientada a Servicios (SOA)
+    - 2.3.3 Arquitectura multi/N capas (MLA)
+    - 2.3.4 Arquitectura de Microservicios (MSA)
     - 2.3.5 Justificación de la arquitectura
   - 2.4 Aplicaciones web
     - 2.4.1 Arquitectura Cliente/Servidor

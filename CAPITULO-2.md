@@ -1,7 +1,7 @@
 # CAPÍTULO 2
 
 ## MARCO TEÓRICO
-En este capítulo se analizará las diferente arquitecturas de desarrollo de software que se utilizan actualmente, velando de los principios del desarrollo en calidad, escalabilidad seguridad y mantenimiento, del software y la curva de aprendizaje del entorno de desarrollo para los programadores, así también los patrones, antipatrones de diseño, que surgieron a largo de los últimos años.
+En este capítulo se analizará las diferente arquitecturas de desarrollo de software que se utilizan actualmente, velando de los principios del desarrollo en calidad, escalabilidad seguridad y mantenimiento, del software y la curva de aprendizaje del entorno de desarrollo para los programadores, así también los patrones, anti-patrones de diseño, que surgieron a largo de los últimos años.
 
 ## 2.1 Modelo de negocio
 El "Modelo de Negocio" se define como un proceso de representación de uno o más aspectos o elementos de una empresa u organización. Se busca modelar las actividades que se hacen dentro de una empresa la cual va a tener un fin; los aspectos que se desean modelar son su propósito, estructura, funcionalidad, dinámica, logística de negocios y sus componentes como fines, procesos de negocio, regla de negocio, objeto de negocio, actores y unidades organizativas [1].
@@ -36,7 +36,7 @@ A continuación se muestra un modelo de básico de un diagrama de flujo:
 _**Fuente:** [Elaboración propia]_
 
 ## 2.2 Ingeniería de Software
-La ingeniería de software es "una disciplina que comprende todos los aspectos de la producción de software desde las etapas iniciales de la especificación del sistema, hasta el mantenimiento de este después de que se utiliza" [3].
+La ingeniería de software es "una disciplina que comprende todos los aspectos de la producción de software desde las etapas iníciales de la especificación del sistema, hasta el mantenimiento de este después de que se utiliza" [3].
 El IEEE16 (Instituto de Ingeniería Eléctrica y Electrónica) define que: "la ingeniería de software es la aplicación de un enfoque sistemático, disciplinado y cuantificable al desarrollo, operación y mantenimiento de software [4]. Según Pressman la ingeniería de software es una tecnología con varias capas.
 
 **Figura 2.2**
@@ -49,12 +49,12 @@ _**Fuente:** [11, Fig. 1.3]_
 
 Cualquier enfoque de ingeniería (incluso la de software) debe basarse en un compromiso organizacional con la calidad [4].
 
-La ingeniería de software es de mucha importancia ya que sugiere que se utilicen ciertas estrategias como metodologías, métodos, técnicas y tecnologías de softwares, dando una esencia del verdadero proceso de desarrollo de software las cuales serán aplicadas para la resolución de problemas del proyecto describiendo algunos modelos de desarrollo y sus procesos.
+La ingeniería de software es de mucha importancia ya que sugiere que se utilicen ciertas estrategias como metodologías, métodos, técnicas y tecnologías de software, dando una esencia del verdadero proceso de desarrollo de software las cuales serán aplicadas para la resolución de problemas del proyecto describiendo algunos modelos de desarrollo y sus procesos.
 
 ### 2.2.1 Metodologías de desarrollo de software
 La metodología de software es un conjunto de procedimientos, técnicas, herramientas y un soporte documental que ayuda a los desarrolladores a realizar nuevo software.
 La elección de metodología o procesos de desarrollo de software es de trascendental importancia, porque es la que nos guiara para alcanzar el objetivo de culminar el proyecto. Para eso se planteara una comparación entre las diversas metodologías.
-Para el presente proyecto desde inicio se consideró aplicar algún proceso de desarrollo ágil principalmente debido a un alto grado de incertidumbre en cuanto a los requerimientos funcionales se refiere. Sin embargo, es necesario realizar un breve análisis de modelos de desarrollo ágil existentes y tomar la decisión correcta respecto al proceso que mas se adecua a las condiciones del proyecto. Por lo tanto, a continuación se describen tres modelos candidatos a ser aplicados en el proyecto y posteriormente se comparan sus características principales.
+Para el presente proyecto desde inicio se consideró aplicar algún proceso de desarrollo ágil principalmente debido a un alto grado de incertidumbre en cuanto a los requerimientos funcionales se refiere. Sin embargo, es necesario realizar un breve análisis de modelos de desarrollo ágil existentes y tomar la decisión correcta respecto al proceso que más se adecua a las condiciones del proyecto. Por lo tanto, a continuación se describen tres modelos candidatos a ser aplicados en el proyecto y posteriormente se comparan sus características principales.
 
 ### 2.2.2 Metodologías de desarrollo ágil
 El desarrollo ágil de software es un grupo de metodologías de desarrollo de software que se basan en principios similares. Las metodologías ágiles promueven generalmente un proceso de gestión de proyectos que fomenta el trabajo en equipo, la organización y responsabilidad propia, un conjunto de mejores prácticas de ingeniería que permiten la entrega rápida de software de alta calidad, y un enfoque de negocio que alinea el desarrollo con las necesidades del cliente.
@@ -95,25 +95,31 @@ Los actores contemplados en esta metodología son los siguientes:
 
 ### 2.2.3 Selección de la metodología de desarrollo
 Entre las 2 metodologías ágiles descritas anteriormente la más utilizada es la metodología XP, ya que esta metodología propone una estrecha relación entre el equipo de desarrollo y los clientes, estableciendo como base la comunicación.
+
 En el presente proyecto se aplicará la metodología ágil XP, cuya característica principal consiste en contemplar y dar respuesta a las necesidades dinámicas del cliente. Mediante la identificación y reducción del riesgo por medio de un desarrollo iterativo, con capacidad de respuesta ante cambios, permitiendo la adaptación a nuevos requisitos de la organización, mostrando resultados tangibles, logrando de esta forma efectividad y reduciendo riesgos, pero sin eliminar, la necesidad de documentación escrita.
 
 ## 2.3 Arquitectura de software
 Arquitectura de software es el proceso de definir una solución estructural, que conoce todas las técnicas y requerimientos operacionales, optimizando atributos comunes de cualidad como performance, seguridad y manejabilidad. esto envuelve una serie de decisiones basadas en un amplio rango de factores y cada uno de estas decisiones puede tener considerable impacto, sobre todo en el éxito de la aplicación.
+
 "Arquitectura de software abarca el conjunto de decisiones importantes acerca de la organización de un sistema de software que incluye la selección de los elementos estructurales y sus interfaces mediante el cual el sistema se compone; comportamiento como se especifica en la colaboración entre dichos elementos; composición de estos elementos estructurales y de comportamiento en subsistemas más grandes; y un estilo arquitectónico que guía a esta organización. arquitectura de software también incluye la funcionalidad, facilidad de uso, la resistencia, el rendimiento, la reutilización, la comprensibilidad, las limitaciones económicas y tecnológicas, ventajas y desventajas y las preocupaciones estéticas". [13]
+
 Fowlwer, uno de los ingenieros más reconocidos en el área de desarrollo de software, dice que la arquitectura es "el desglose de más alto nivel de un sistema en sus partes; las decisiones que son difíciles de cambiar; hay múltiples arquitecturas en un sistema; lo que es de gran importancia arquitectónica puede cambiar durante la vida de un sistema; y, al final, la arquitectura se reduce a lo que más importante del sistema sea" [8].
 
 ### 2.3.1 Comparaciones
 La creación de un sitio web o una página de internet en general implica dos factores, el _front-end_ y el _back-end_.
+
 _Front-end_ y _back-end_ son términos utilizados para caracterizar las interfaces del programa y los servicios relativos al usuario inicial de estas interfaces y servicios. (El "usuario" puede ser un ser humano o un programa.) Una aplicación _front-end_ es aquella con la que los usuarios de la aplicación interactúan directamente.
 
 #### 2.3.2.1 Front-end y back-end
 El _front-end_ es todo lo relacionado con lo que el usuario ve, incluyendo el diseño y algunos lenguajes como HTML y CSS.
-Cuando discutimos el _front-end_ de la web, lo que realmente estamos hablando es la parte de la web con la que puedes ver e interactuar. El _frontend_ generalmente consta de dos partes: el diseño web y el desarrollo web front-end.
+Cuando discutimos el _front-end_ de la web, lo que realmente estamos hablando es la parte de la web con la que puedes ver e interactuar. El _front-end_ generalmente consta de dos partes: el diseño web y el desarrollo web front-end.
 En el pasado, cuando alguien hablaba de desarrollo por lo general se refiere al backend, pero en los últimos años ha habido una necesidad real de diferenciar entre los diseñadores que trabajaban estrictamente en Photoshop y los que podían codificar HTML y CSS. Fue aún más lejos cuando los diseñadores cruzaron las líneas para trabajar con JavaScript y jQuery.
 
 El _back-end_, o el "lado del servidor", es básicamente cómo funciona el sitio, las actualizaciones. Esto se refiere a todo lo que el usuario no puede ver en el navegador, como bases de datos y servidores. En el lado de  back-end los desarrolladores se preocupan más por cuestiones como la seguridad, la estructura y la gestión de contenidos.
+
 Una aplicación o programa _back-end_ sirve indirectamente en apoyo de los servicios front-end, normalmente por estar más cerca del recurso requerido o tener la capacidad de comunicarse con el recurso requerido. La aplicación de del lado del servidor puede interactuar directamente con el _front-end_.
-El backend normalmente consta de tres partes: un servidor, una aplicación y una base de datos. Si reserva un vuelo o compra entradas de conciertos, normalmente abre un sitio web e interactúa con el _front-end_. Una vez que haya ingresado esa información, la aplicación la almacena en una base de datos que se creó en un servidor.
+
+El _back-end_ normalmente consta de tres partes: un servidor, una aplicación y una base de datos. Si reserva un vuelo o compra entradas de conciertos, normalmente abre un sitio web e interactúa con el _front-end_. Una vez que haya ingresado esa información, la aplicación la almacena en una base de datos que se creó en un servidor.
 
 Toda esa información permanece en el servidor, así que cuando vuelva a iniciar sesión en la aplicación para imprimir sus tickets, toda la información aún está en su cuenta.
 
@@ -121,41 +127,48 @@ Toda esa información permanece en el servidor, así que cuando vuelva a iniciar
 La aplicacion de una sola página son aplicaciones Web que cargan una sola página HTML y actualizan dinámicamente esa página a medida que el usuario interactúa con la aplicación.
 Las SPA utilizan AJAX y HTML5 para crear aplicaciones Web fluidas y sensibles, sin recargas constantes de la página. Sin embargo, esto significa que gran parte del trabajo ocurre en el lado del cliente, Afortunadamente, hay muchos frameworks en JavaScript de código libre que facilitan la creación de SPAs. Entre los más conocidos están Angular, Angular 2 y Ember.
 
-#### 2.3.2.3 Back-end For Front-end (BFF)
+#### 2.3.2.3 Back-end para Front-end (BFF)
 Los servicios soportan muchas variaciones en los clientes, como el móvil frente a la web y diferentes formas de interfaz web. Es tentador diseñar una única API de _back-end_ para apoyar a todos los clientes con una API reutilizable. Pero las necesidades del cliente varían, al igual que las restricciones, como el ancho de banda para los dispositivos móviles frente al deseo de un montón de datos sobre las conexiones web rápidas. Por lo tanto, a menudo es mejor definir diferentes servicios de back-end para cada tipo de cliente front-end. Estos extremos posteriores deben ser desarrollados por equipos alineados con cada extremo frontal para asegurarse de que cada extremo posterior cumple adecuadamente las necesidades de su cliente.
 
 ### 2.3.2 Arquitectura orientada a Servicios (SOA)
 La arquitectura orientada a servicios es un enfoque utilizado para crear una arquitectura basada en el uso de servicios. Los servicios (como los servicios Web RESTful) realizan alguna función pequeña, como la producción de datos, la validación de un cliente o la prestación de servicios analíticos simples.
+
 Además de construir y exponer servicios, SOA tiene la capacidad de aprovechar estos servicios una y otra vez dentro de las aplicaciones (conocidas como aplicaciones compuestas). SOA abordando la mayoría de los principales sistemas como servicios, y la abstracción de los servicios en un único dominio donde se forman en soluciones.
+
 Las arquitecturas orientadas al servicio no son algo nuevo. La primera arquitectura orientada a servicios para muchas personas en el pasado fue con el uso de DCOM u ORB (Object Request Brokers) basado en la especificación CORBA.
 
 ### 2.3.3 Arquitectura multi/N capas (MLA)
 La arquitectura de una aplicación N-capas se caracteriza por la descomposición funcional de las aplicaciones, los componentes de servicio y su implementación distribuida, proporcionando escalabilidad, disponibilidad, capacidad de administración y utilización de recursos mejoradas. Cada nivel es completamente independiente de todos los demás niveles, excepto los inmediatamente superiores e inferiores. La comunicación entre niveles es típicamente asíncrona para soportar mejor escalabilidad.
 Las arquitecturas de nivel N generalmente tienen al menos tres partes lógicas separadas, cada una ubicada en un servidor físico separado. Cada parte es responsable de la funcionalidad específica. Cuando se utiliza un enfoque de diseño en capas, se despliega una capa en un nivel si más de un servicio o aplicación depende de la funcionalidad expuesta por la capa.
-Los principales beneficios de la arquitectura en N-capas / 3-capas son:
-Mantenibilidad. Debido a que cada nivel es independiente de los otros niveles, las actualizaciones o cambios se pueden llevar a cabo sin afectar la aplicación en su conjunto.
-Escalabilidad. Dado que los niveles se basan en el despliegue de capas, la ampliación de una aplicación es razonablemente sencilla.
-Flexibilidad. Debido a que cada nivel puede ser administrado o escalado de forma independiente, la flexibilidad se incrementa.
-Disponibilidad. Las aplicaciones pueden aprovechar la arquitectura modular de sistemas habilitadores que utilizan componentes fácilmente escalables, lo que aumenta la disponibilidad.
+
+Los principales beneficios de la arquitectura en N-capas/3-capas son:
+_Mantenibilidad._ Debido a que cada nivel es independiente de los otros niveles, las actualizaciones o cambios se pueden llevar a cabo sin afectar la aplicación en su conjunto.
+_Escalabilidad._ Dado que los niveles se basan en el despliegue de capas, la ampliación de una aplicación es razonablemente sencilla.
+_Flexibilidad._ Debido a que cada nivel puede ser administrado o escalado de forma independiente, la flexibilidad se incrementa.
+_Disponibilidad._ Las aplicaciones pueden aprovechar la arquitectura modular de sistemas habilitadores que utilizan componentes fácilmente escalables, lo que aumenta la disponibilidad.
 
 Como un ejemplo, la capa de presentación no debe almacenar datos confidenciales, mientras que esto puede almacenarse en las capas de datos y de negocio.
 Considere la posibilidad de utilizar sólo tres niveles si está desarrollando una aplicación de intranet donde todos los servidores están ubicados dentro de la red privada; O una aplicación de Internet en la que los requisitos de seguridad no restringen el despliegue de la lógica de negocios en el servidor Web o en la Web que se enfrenta al público. Considere la posibilidad de utilizar más de tres capas si los requisitos de seguridad dictaminan que la lógica empresarial no se puede implementar en la red perimetral o que la aplicación utiliza mucho los recursos y desea descargarla a otro servidor.
 
-### 2.3.4 Arquitectura de Microservicios (MSA)
-La arquitectura de microservicio, es un método de desarrollo de software que ha crecido en popularidad en los últimos años. Para muchos desarrolladores se ha convertido en la forma preferida de crear aplicaciones empresariales. Gracias a su escalabilidad, este método arquitectónico se considera especialmente ideal cuando se tiene que habilitar el soporte para una amplia gama de plataformas y dispositivos, que abarcan la web, el móvil, Internet de las cosas y los portátiles, o simplemente cuando no está seguro de qué tipo de dispositivos Usted tendrá que apoyar en un futuro cada vez más nublado.
+### 2.3.4 Arquitectura de Micro-servicios (MSA)
+La arquitectura de micro-servicio, es un método de desarrollo de software que ha crecido en popularidad en los últimos años. Para muchos desarrolladores se ha convertido en la forma preferida de crear aplicaciones empresariales. Gracias a su escalabilidad, este método arquitectónico se considera especialmente ideal cuando se tiene que habilitar el soporte para una amplia gama de plataformas y dispositivos, que abarcan la web, el móvil, Internet de las cosas y los portátiles, o simplemente cuando no está seguro de qué tipo de dispositivos Usted tendrá que apoyar en un futuro cada vez más nublado.
+
 La idea detrás de los microservicios es que algunos tipos de aplicaciones se vuelven más fáciles de construir y mantener cuando se dividen en piezas más pequeñas y componibles que trabajan juntas. Cada componente se desarrolla por separado, y la aplicación es entonces simplemente la suma de sus componentes constituyentes. Esto es en contraste con una aplicación tradicional, "monolítica", que es todo desarrollado en una sola pieza.
-Si bien no existe una definición estándar y formal de microservicios, existen ciertas características que nos ayudan a identificar el estilo. Esencialmente, la arquitectura de microservicios es un método de desarrollo de aplicaciones de software como un conjunto de servicios modulares, desplegables de forma independiente, en los que cada servicio ejecuta un proceso único y se comunica a través de un mecanismo ligero y bien definido para servir una meta de negocio.
 
-El modo en que los servicios se comunican entre sí depende de los requisitos de su aplicación, pero muchos desarrolladores usan HTTP / REST con JSON o Protobuf. El REST (Representational State Transfer) es un método de integración útil debido a su comparativamente menor complejidad sobre otros protocolos.
+Si bien no existe una definición estándar y formal de microservicios, existen ciertas características que nos ayudan a identificar el estilo. Esencialmente, la arquitectura de micro-servicios es un método de desarrollo de aplicaciones de software como un conjunto de servicios modulares, desplegables de forma independiente, en los que cada servicio ejecuta un proceso único y se comunica a través de un mecanismo ligero y bien definido para servir una meta de negocio.
 
-Para empezar a entender la arquitectura microservicios, ayuda a considerar su opuesto: el estilo arquitectónico monolítico. A diferencia de los microservicios, la aplicación monolítica siempre se construye como una unidad única y autónoma. En un modelo cliente-servidor, la aplicación del lado del servidor es un monolito que maneja las solicitudes HTTP, ejecuta la lógica y recupera / actualiza los datos en la base de datos subyacente. El problema con una arquitectura monolítica, sin embargo, es que todos los ciclos de cambio suelen terminar ligados entre sí. Una modificación realizada en una pequeña sección de una aplicación puede requerir la creación e implementación de una versión totalmente nueva. Si necesita escalar funciones específicas de una aplicación, puede que tenga que escalar la aplicación completa en lugar de sólo los componentes deseados. Aquí es donde la creación de microservicios puede venir al rescate.
+El modo en que los servicios se comunican entre sí depende de los requisitos de su aplicación, pero muchos desarrolladores usan HTTP/REST con JSON. REST (Representational State Transfer) es un método de integración útil debido a su comparativamente menor complejidad sobre otros protocolos.
+
+Para empezar a entender la arquitectura micro-servicios, ayuda a considerar su opuesto: el estilo arquitectónico monolítico. A diferencia de los micro-servicios, la aplicación monolítica siempre se construye como una unidad única y autónoma. En un modelo cliente-servidor, la aplicación del lado del servidor es un monolito que maneja las solicitudes HTTP, ejecuta la lógica y recupera/actualiza los datos en la base de datos subyacente. El problema con una arquitectura monolítica, sin embargo, es que todos los ciclos de cambio suelen terminar ligados entre sí. Una modificación realizada en una pequeña sección de una aplicación puede requerir la creación e implementación de una versión totalmente nueva. Si necesita escalar funciones específicas de una aplicación, puede que tenga que escalar la aplicación completa en lugar de sólo los componentes deseados. Aquí es donde la creación de micro-servicios puede venir al rescate.
 
 Hay muchas razones por las que este enfoque se considera una manera más fácil de desarrollar grandes aplicaciones, aplicaciones empresariales particulares y varios tipos de software como servicio entregado a través de Internet.
-Si esta desarrollando una aplicación empresarial de servidor. Debe soportar una variedad de clientes diferentes, incluyendo navegadores de escritorio, navegadores móviles y aplicaciones móviles nativas. La aplicación también puede exponer una API para que terceras partes consuman. También podría integrarse con otras aplicaciones a través de servicios web o un intermediario de mensajes. La aplicación gestiona las solicitudes (solicitudes y mensajes HTTP) mediante la ejecución de la lógica empresarial; Acceder a una base de datos; Intercambiar mensajes con otros sistemas; Y devolver una respuesta HTML / JSON / XML.
+
+Si está desarrollando una aplicación empresarial de servidor. Debe soportar una variedad de clientes diferentes, incluyendo navegadores de escritorio, navegadores móviles y aplicaciones móviles nativas. La aplicación también puede exponer una API para que terceras partes consuman. También podría integrarse con otras aplicaciones a través de servicios web o un intermediario de mensajes. La aplicación gestiona las solicitudes (solicitudes y mensajes HTTP) mediante la ejecución de la lógica empresarial; Acceder a una base de datos; Intercambiar mensajes con otros sistemas; Y devolver una respuesta HTML / JSON / XML.
 
 ### 2.3.5 Justificación de la arquitectura
-Habiendo analizado las distintas tecnologias, se llegó a la conclusión que se va a usar la arquitectura de microservicios, debido a que es una de las arquitecturas modernas que se esta utilizando en desarrollo de software, tiene características de ejecución rápida, además, puede ser utilizada en clientes como los dispositivos móviles.
-Así mismo, los servicios se utiliza para responder a eventos; usualmente a las acciones del usuario, e invocar peticiones a la capa de datos. Por otro lado, el sistema también puede operar con más de un cliente a la vez, haciendo que el tiempo de desarrollo se redusca considerablemente. Sin embargo, por razones de facilidad de mantenimiento y una estructuración eficiente del código, la arquitectura de microservicio ha sido dividida en N-Capas. Cabe resaltar que en la arquitectura N-Capas, cualquier capa superior contiene solamente la declaración de métodos para comunicarse con alguna con capa inferior a través de una interface.
+Habiendo analizado las distintas tecnologías, se llegó a la conclusión que se va a usar la arquitectura de micro-servicios, debido a que es una de las arquitecturas modernas que se está utilizando en desarrollo de software, tiene características de ejecución rápida, además, puede ser utilizada en clientes como los dispositivos móviles.
+
+Así mismo, los servicios se utiliza para responder a eventos; usualmente a las acciones del usuario, e invocar peticiones a la capa de datos. Por otro lado, el sistema también puede operar con más de un cliente a la vez, haciendo que el tiempo de desarrollo se reduzca considerablemente. Sin embargo, por razones de facilidad de mantenimiento y una estructuración eficiente del código, la arquitectura de micro-servicio ha sido dividida en N-Capas. Cabe resaltar que en la arquitectura N-Capas, cualquier capa superior contiene solamente la declaración de métodos para comunicarse con alguna con capa inferior a través de una interface.
 
 ## 2.4 Aplicaciones web
 La aparición de los servicios web a principios de los 90’s, supuso una verdadera revolución en el campo de la informática y las telecomunicaciones. Con la integración de este nuevo servicio, Internet inicio una rápida transición hacia el ámbito empresarial y supuso un enorme impulso al crecimiento de la red. Lo que había surgido en plena guerra fría como un proyecto militar y que posteriormente fue dirigiéndose hacia el ámbito científico y académico, se empezó a convertir en un perfecto "escaparate virtual" en el que las empresas pudieran ofrecer sus productos y servicios rompiendo barreras geográficas y de comunicaciones [14]. En la actualidad las empresas no ven únicamente el servicio web como un mero escaparate o medio publicitario de enorme difusión. Internet, y en particular el servicio web, abre a las empresas enormes posibilidades. La utilización de tecnologías web permite agilizar los procesos, mejorar la productividad y aumentar la eficacia, además de abrir las puertas a nuevas formas de negocio en el mercado global que facilita Internet.
@@ -199,18 +212,20 @@ Según [16] existen diferentes estándares que especifican la forma de definir s
 
 **Ejemplo del trabajo del Servicio Web**
 
-![Alt text](/anexos/figura-6.jpg "")
+![Alt text](/anexos/figura-6.png "")
 
 _**Fuente:** [16, fig. 5.1]_
 
 #### 2.4.2.1 Justificación del servicio web e intercambio de datos
 REST es un estilo arquitectónico, una forma de exponer servicios o funcionalidades de un sistema, sea desarrollado en cualquier lenguaje de programación. Pretende exponer y separar ciertas partes de las funcionalidades de una forma adecuada con GET y POST. La función es ordenar, acomodar y hacer más sencilla la programación para luego poder darle un buen mantenimiento después de terminar el desarrollo.
+
 REST son más pequeñas, más concisas y no contienen toda la información o metadatos como lo hacen las solicitudes de SOAP y normalmente no están validadas por el cliente antes de enviar por esto son pequeños y considerablemente más rápidas, a diferencia de SOAP, los datos devueltos por un servicio REST pueden estar en gran variedad de formatos. Se utilizará el formato de intercambio de datos JSON porque es más liviano que XML porque utiliza menos metadatos, es más pequeño y también pueden devolver archivos binarios, imágenes, etc. Y no solo así intercambio de datos en texto.
 
 #### 2.4.2.2 SOAP (Simple Objet Access Protocol)
 Es un estándar del W3C que define como objetos remotos pueden comunicarse mediante el intercambio de XML.
 La idea básica es que en la comunicación hay dos partes (cliente y servidor), una de las cuales (el servidor) presta una serie de servicios que son consumidos por la otra (cliente).
 Lo más habitual es que el servidor haga pública la especificación de sus servicios mediante un documento WSDL (Web Service Description Lenguage) que se puede utilizar construyendo un cliente que invoque tales servicios.
+
 Los servicios web SOAP están orientados a funcionalidad. El servidor implementa una serie de funcionalidades y le dice al mundo como pueden invocarse [16].
 SOAP fue diseñado originalmente por varias empresas, entre ellas Microsoft, para permitir una gran comunicación entre objetos en los programas. En un sentido, la finalidad de SOAP fue el primero en definir una forma de usar objetos en Internet, con protocolos y formatos estándar, en lugar de los formatos binarios y los protocolos propietarios [17].
 
@@ -218,7 +233,7 @@ SOAP fue diseñado originalmente por varias empresas, entre ellas Microsoft, par
 
 **Arquitectura SOAP**
 
-![Alt text](/anexos/figura-7.jpg "")
+![Alt text](/anexos/figura-7.png "")
 
 _**Fuente:** [17, fig. 3.4]_
 
@@ -230,7 +245,7 @@ Según [17], los servicios REST están orientados a la manipulación de recursos
 
 **Estructura REST Fuente**
 
-![Alt text](/anexos/figura-8.jpg "")
+![Alt text](/anexos/figura-8.png "")
 
 _**Fuente:** [17, fig. 4.1]_
 
@@ -253,12 +268,12 @@ Se define como archivo de datos, es utilizado como archivo de configuración, JS
 
 **Sintaxis y estructura de JSON Fuente**
 
-![Alt text](/anexos/figura-9.jpg "")
+![Alt text](/anexos/figura-9.png "")
 
 _**Fuente:** [19, fig. 2.3]_
 
 ## 2.5 Tipos de aplicaciones móviles
-En el desarrollo de aplicaciones para dispositivos móviles existen: la aplicación web movil, aplicación nativa y la aplicación hibrida, a continuación se describirán cada uno de ellos.
+En el desarrollo de aplicaciones para dispositivos móviles existen: la aplicación web móvil, aplicación nativa y la aplicación hibrida, a continuación se describirán cada uno de ellos.
 
 ### 2.5.1 Aplicaciones nativas
 Este tipo de aplicaciones están hechas para ejecutarse en un dispositivo y sistema operativo específico. Así, la mayor parte de las aplicaciones descargadas de la app store de apple son aplicaciones que sólo van a correr sobre iphone e ipad. Este tipo de aplicaciones se crean con distintos tipos de lenguajes. Las desarrolladas para iOS lo hacen con los lenguajes: Objective C, C, o C++. Las aplicaciones desarrolladas para el sistema operativo Android lo hacen con lenguaje Java. Este tipo de aplicaciones corren de forma más eficiente sobre estos dispositivos ya que sus componentes están diseñados de forma específica para este sistema operativo. Además, este tipo de aplicaciones pueden emplear todos los sensores y elementos del teléfono: camara, gps, acelerómetro, agenda, etc. Esta es una diferencia fundamental con respecto a las aplicaciones web [20].
@@ -268,7 +283,7 @@ En la figura siguiente vemos los principales entornos, en función del sistema o
 
 **Sistemas operativos de dispositivos móviles**
 
-![Alt text](/anexos/figura-10.jpg "")
+![Alt text](/anexos/figura-10.png "")
 
 _**Fuente:** [21]_
 
@@ -278,7 +293,7 @@ Las aplicaciones nativas tienen pleno acceso a la API del sistema operativo en e
 
 **Interacción aplicaciones nativas**
 
-![Alt text](/anexos/figura-11.jpg "")
+![Alt text](/anexos/figura-11.png "")
 
 _**Fuente:** [21]_
 
@@ -291,7 +306,7 @@ La aplicación web es aquella que se encuentra instalada en un servidor tipo web
 
 **Interacción aplicaciones web móviles**
 
-![Alt text](/anexos/figura-12.jpg "")
+![Alt text](/anexos/figura-12.png "")
 
 _**Fuente:** [21]_
 
@@ -299,30 +314,33 @@ A pesar de los grandes avances de HTML5 al no estar haciendo un desarrollo nativ
 
 ### 2.5.3 Aplicaciones híbridas
 Las aplicaciones híbridas asocian lo mejor de los dos anteriores modelos. Este tipo de aplicaciones permite el uso de tecnologías multiplataforma como HTML, Javascript y CSS pero permiten acceder a buena parte de los dispositivos y sensores del teléfono. Buena parte de la infraestructura es tipo web y la comunicación con los elementos del teléfono se hace mediante comunicadores tales como phonegap Un buen ejemplo de aplicaciones híbridas es Facebook. Se descarga de la app store y cuenta con todas las características de una aplicación nativa pero requiere ser actualizada ocasionalmente. [20]
+
 El proceso de desarrollo para este tipo de aplicaciones es algo más complicado. Al igual que para las aplicaciones nativas, el código una vez creado se compila a un ejecutable. Además, también como en las aplicaciones Web se genera código HTML, CSS y Javascript a ejecutar en un navegador. Ambos códigos se compilan para ser subidos mediante un paquete distribuible a la app store.
 
 **Figura 2.13**
 
 **Interacción aplicaciones hibridas**
 
-![Alt text](/anexos/figura-13.jpg "")
+![Alt text](/anexos/figura-13.png "")
 
 _**Fuente:** [21]_
 
 ### 2.5.4 Elección de la aplicación móvil
 Para el desarrollo de la aplicación de este proyecto se utilizará la aplicación nativa, ya que la conexión a internet no es necesaria y no requiere una constante actualización de la aplicación.
+
 Cabe destacar que las aplicaciones nativas tienen acceso total a las utilidades del sistema operativo del dispositivo: Dispositivos de almacenamiento, cámara, gps, acelerómetro, etc.
+
 Además del total acceso a los elementos del teléfono las aplicaciones nativas no requieren de conexión web para ser ejecutadas. Es importante destacar que las aplicaciones nativas tendrán mucha más visibilidad ya que se distribuyen a través de la app store de los fabricantes. [20]
 
 **Figura 2.14**
 
 **Comparación de tipo de aplicaciones**
 
-![Alt text](/anexos/figura-14.jpg "")
+![Alt text](/anexos/figura-14.png "")
 
 _**Fuente:** [21]_
 
-## 2.6 Indexación unica
+## 2.6 Indexación única
 Existen varias maneras de identificación que se tornaron populares en la actualidad y podemos mencionar entre ellos: UUID (Universally unique identifier) [7], y QR (Quick response codes) [9]. Cada una estas formas de identificación se utiliza de forma separada, podemos mencionar que un UUID es una cadena de caracteres y en cambio un QR es un contenedor de datos que se vuelve único en base a su contenido.
 
 ### 2.6.1 Identificador único universal (UUID)
@@ -337,19 +355,22 @@ Es software que se aplica de manera útil que crea un producto, que proporciona 
 ### 2.8.1 Pruebas unitarias
 Las pruebas unitarias se utilizan para ejecutar otro código fuente llamando directamente a los métodos de una clase, pasando los parámetros apropiado, si incluye instrucciones ASSERT, éstas pueden probar los valores que se generan con respecto a los valores esperados. Los métodos de pruebas unitarias residen en clases Test, que se almacenan en archivos de código fuente [25].
 
-Unit Test es un trozo decódigo desarrollado con el único objetivo deverificar que una rutina o función de nuestro código está funcionando según se espera [26].
-Para asegurar la calidad del código entregado se realizan pruebas unitarias, es la mejor forma de detectar errores en el desarrollo [25]
+Unit Test es un trozo de código desarrollado con el único objetivo de verificar que una rutina o función de nuestro código está funcionando según se espera [26].
+Para asegurar la calidad del código entregado se realizan pruebas unitarias, es la mejor forma de detectar errores en el desarrollo [25].
+
 Para que una prueba unitaria funciones correctamente se debe seguir los siguientes requisitos.
-•	**Completas.** Deben cubrir la mayor cantidad de código.
-•	**Repetibles o reutilizables.** No se deben crear pruebas que solo puedan ser ejecutadas una sola vez.
-•	**Independientes.** La ejecución de una prueba no debe afectar a la ejecución de otra.
-•	**Profesionales.** Las pruebas deben ser consideradas igual que el código, con la misma profesionalidad y documentación.
+
+  - **Completas.** Deben cubrir la mayor cantidad de código.
+  - **Repetibles o reutilizables.** No se deben crear pruebas que solo puedan ser ejecutadas una sola vez.
+  - **Independientes.** La ejecución de una prueba no debe afectar a la ejecución de otra.
+  - **Profesionales.** Las pruebas deben ser consideradas igual que el código, con la misma profesionalidad y documentación.
 
 El objetivo de las pruebas unitarias es aislar cada parte del programa y mostrar que las partes individuales del código son correctas.
 Por la estructura de la arquitectura del presente proyecto la facilidad de uso de las pruebas unitarias es más aplicable ya que a nivel del cliente se realizaran Unit Testing.
 
 ### 2.8.2 Usabilidad
-La Usabilidad es la medida de la calidad de la experiencia que tiene un usuario cuando interactúa con un producto o sistema. Esto se mide a través del estudio de la relación que seproduce entre las herramientas y quienes las utilizan, para determinar la eficiencia en el uso de los diferentes elementos ofrecidos en las pantallas y la efectividad en el cumplimiento de las tareas que se pueden llevar a cabo através de ellas.
+La Usabilidad es la medida de la calidad de la experiencia que tiene un usuario cuando interactúa con un producto o sistema. Esto se mide a través del estudio de la relación que se produce entre las herramientas y quienes las utilizan, para determinar la eficiencia en el uso de los diferentes elementos ofrecidos en las pantallas y la efectividad en el cumplimiento de las tareas que se pueden llevar a cabo a través de ellas.
+
 Otra definición es la que entrega el académico Yusef Hassan (Universidad de Granada) al indicar que "la usabilidad es la disciplina que estudia la forma de diseñar Sitios Web para que los usuarios puedan interactuar con ellos de la forma más fácil, cómoda e intuitiva posible" y agregar que "la mejor forma de crear un sitio web usable es realizando un diseño centrado en el usuario, diseñando para y por el usuario, en contraposición a lo que podrá ser un diseño centrado en la tecnología o uno centrado en la creatividad u originalidad" [25].
 
 ### 2.8.3 Seguridad del sistema
@@ -358,7 +379,7 @@ Los mecanismos básicos de seguridad, según la norma ISO 17799 es la preservaci
 
 Para lograr sus objetivos la seguridad informática se fundamenta en tres principios, que debe cumplir todo sistema informático [23]:
 
-* **Confidencialidad.** Se refiere a la privacidad de los elementos de información almacenados y procesados en un sistema informático, Basándose en este principio, las herramientas de seguridad informática deben proteger el sistema de invasiones y accesos por parte de personas o programas no autorizados. Este principio es particularmente importante en sistemas distribuidos, es decir, aquellos en los que los usuarios, computadores y datos residen en localidades diferentes, pero están física y lógicamente interconectados.
+**Confidencialidad.** Se refiere a la privacidad de los elementos de información almacenados y procesados en un sistema informático, Basándose en este principio, las herramientas de seguridad informática deben proteger el sistema de invasiones y accesos por parte de personas o programas no autorizados. Este principio es particularmente importante en sistemas distribuidos, es decir, aquellos en los que los usuarios, computadores y datos residen en localidades diferentes, pero están física y lógicamente interconectados.
 
 En el presente proyecto se tomara en cuenta la gestión de usuarios que incluye normas de confidencialidad lo cual se describe a continuación.
   -	**Tiempo de sesión abierta.** En el sistema se tomara en cuenta el tiempo de espera en acciones del usuario con el sistema.
@@ -366,15 +387,15 @@ En el presente proyecto se tomara en cuenta la gestión de usuarios que incluye 
   -	**Intentos continuos permitidos.** El número de intentos para el ingreso al sistema es de tres, posteriormente se bloqueara el sistema.
   -	**Encriptación de los datos.** En el proceso de autentificación los datos que se ingresen como usuario y contraseña serán protegido.
 
-*	**Integridad.** Se refiere a la validez y consistencia de los elementos de información almacenados y procesador en un sistema informático. Basándose en este principio, las herramientas de seguridad informática deben asegurar que los procesos de actualización estén bien sincronizados y no se dupliquen, de forma que todos los elementos del sistema manipulen adecuadamente los mismos datos. Este principio es importante en sistemas descentralizados, es decir, aquellos en los que diferentes usuarios, computadores y procesos comparten la misma información.
+**Integridad.** Se refiere a la validez y consistencia de los elementos de información almacenados y procesador en un sistema informático. Basándose en este principio, las herramientas de seguridad informática deben asegurar que los procesos de actualización estén bien sincronizados y no se dupliquen, de forma que todos los elementos del sistema manipulen adecuadamente los mismos datos. Este principio es importante en sistemas descentralizados, es decir, aquellos en los que diferentes usuarios, computadores y procesos comparten la misma información.
 
 Al realizar acciones,  el sistema garantiza que los datos fueron procesados de manera correcta para ello se realizara pruebas unitarias de manera constante, ya que la metodología seleccionada para el desarrollo del sistema apoya.
 
-* **Disponibilidad.** Se refiere a la continuidad de acceso a los elementos de información almacenados y procesados en un sistema informático, basándose en este principio, las herramientas de seguridad informática deber reforzar la permanencia del sistema informático, en condiciones de actividad adecuadas para que los usuarios accedan a los datos con la frecuencia y dedicación que requieran.
+**Disponibilidad.** Se refiere a la continuidad de acceso a los elementos de información almacenados y procesados en un sistema informático, basándose en este principio, las herramientas de seguridad informática deber reforzar la permanencia del sistema informático, en condiciones de actividad adecuadas para que los usuarios accedan a los datos con la frecuencia y dedicación que requieran.
 
-Este principio es importante en sistemas informáticos cuyo compromiso con el usuario, es prestar serviciopermanente.
+Este principio es importante en sistemas informáticos cuyo compromiso con el usuario, es prestar servicio permanente.
 
-* **Autenticidad.** Es el proceso que se realiza para la identificación del usuario, en el desarrollo del proyecto se tomaran en cuenta los siguientes métodos de autentificación para la verificación de identidad.
+**Autenticidad.** Es el proceso que se realiza para la identificación del usuario, en el desarrollo del proyecto se tomaran en cuenta los siguientes métodos de autentificación para la verificación de identidad.
   -	**Autentificación de usuario.** Previene el ingreso a personas no autorizadas, el usuario se da conocer mediante un  nombre de usuario y su respectiva contraseña
   -	**Permiso por roles.** Restringe al sistema de usuario no autorizados para ciertas funcionalidades del sistema, aplicando en ella la integración de la información.
   -	**Modalidad de accesos.** El ingreso al sistema con ciertos accesos permitidos por un rol, teniendo la capacidad de desactivar un usuario en caso de contingencias a prepararse.
