@@ -64,6 +64,19 @@ Desarrollar un sistema Web para la gestión y búsqueda de materiales bibliográ
 -	Generar reportes de búsquedas de los materiales bibliográficos.
 
 ### 1.4 Justificación
+
+Una metodología que permita transformar aplicaciones monolíticas a microservicios
+ofrece un marco de trabajo para un equipo de desarrollo donde se puede estructurar, planificar
+y controlar el proceso de transformación hacia una arquitectura distribuida. Una metodología
+con este fin deberá estar en capacidad de ayudar a evaluar la factibilidad de una
+transformación a microservicios y de analizar la fragmentación del código para hacerlo de
+manera incremental y confiable, otro fin importante de la metodología es ayudar a lograr que
+el monolito pueda ser escalable desde el aspecto técnico por medio de la fragmentación. De
+igual manera la metodología permitirá que los coordinadores de los equipos de desarrollo
+puedan realizar un mejor seguimiento de la integración continua y los despliegues en
+producción de los microservicio al igual que lograr ser más asertivos en la asignación de
+actividades de acuerdo a las experticias y trabajo previo de cada persona.
+
 #### 1.4.1 Justificación técnica
 La arquitectura de micro-servicios permitirá una mejor distribución de carga de trabajo en los diferentes componentes que se implementara en la construcción de sistema, teniendo vistas y módulos especialistas para cada funcionalidad del sistema que tiene la biblioteca Sigart Klauss.
 

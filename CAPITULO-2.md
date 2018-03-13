@@ -350,6 +350,35 @@ Un UUID es un identificador que es único a lo largo entre espacio y tiempo... p
 ### 2.6.2 Códigos de respuesta rápida (QR)
 Los códigos QR han ganado popularidad en los últimos años por su capacidad de almacenaje de datos y son mucho más efectivo que el código de barras, un código QR puede contener varios tipos de datos mensajes, texto, URL, geolocalización. La capacidad de un QR es muy variado, pero con la ayuda de los UUID los QR pasarían a convertirse en entidades únicas y perfectos a la hora de identificar un recurso bibliográfico, y sin tener que estar asociado a ningún sistema.
 
+
+## 2.7 Lenguajes de programación
+
+Un lenguaje de programación es un lenguaje formal diseñado para realizar procesos que pueden ser llevados a cabo por máquinas como las computadoras.
+Pueden usarse para crear programas que controlen el comportamiento físico y lógico de una máquina, para expresar algoritmos con precisión, o como modo de comunicación humana.
+Está formado por un conjunto de símbolos y reglas sintácticas y semánticas que definen su estructura y el significado de sus elementos y expresiones. Al proceso por el cual se escribe, se prueba, se depura, se compila (de ser necesario) y se mantiene el código fuente de un programa informático se le llama programación.
+
+### 2.7.1 C Sharp (C#)
+
+C# es un lenguaje elegante, con seguridad de tipos y orientado a objetos, que permite a los desarrolladores crear una gran variedad de aplicaciones seguras y sólidas que se ejecutan en .NET Framework .NET. Puede usar C# para crear aplicaciones cliente de Windows, servicios web XML, componentes distribuidos, aplicaciones cliente-servidor, aplicaciones de base de datos y muchas, muchas más cosas.
+
+### 2.7.2 Java
+
+Java es un lenguaje de programación y una plataforma informática comercializada por primera vez en 1995 por Sun Microsystems. Hay muchas aplicaciones y sitios web que no funcionarán a menos que tenga Java instalado y cada día se crean más. Java es rápido, seguro y fiable. Desde portátiles hasta centros de datos, desde consolas para juegos hasta súper computadoras, desde teléfonos móviles hasta Internet, Java está en todas partes.
+
+### 2.7.3 JavaScript
+
+Javascript es un lenguaje con muchas posibilidades, utilizado para crear pequeños programas que luego son insertados en una página web y en programas más grandes, orientados a objetos mucho más complejos. Con Javascript podemos crear diferentes efectos e interactuar con nuestros usuarios.
+
+Este lenguaje posee varias características, entre ellas podemos mencionar que es un lenguaje basado en acciones que posee menos restricciones. Además, es un lenguaje que utiliza Windows y sistemas X-Windows, gran parte de la programación en este lenguaje está centrada en describir objetos, escribir funciones que respondan a movimientos del mouse, aperturas, utilización de teclas, cargas de páginas entre otros.
+
+### 2.7.4 Conclusión
+
+La decisión de qué lenguaje de programación usar a la hora del desarrollo aplicaciones web, siempre será tema de controversia. Las diferencias entre estos, generalmente se encuentran en la plataforma que requieran. Por ello podrá observarse que la elección del lenguaje, tenderá más hacia el gusto del usuario, que al resultado de evaluar el rendimiento de las herramientas.
+
+### 2.7.5 Elección del lenguaje de programación
+
+La arquitectura de microservicios sin duda tiene muchas ventajas. En particular permite ser agnostico con los lenguajes de programacion. Aun asi los tres lenguajes mecionados seran utilizados dentro el sistema ya que cada una cuenta con gran potencial en las areas que se realizara su implementación.
+
 ## 2.8 Calidad del software
 Es software que se aplica de manera útil que crea un producto, que proporciona valor medible a quienes lo producen y a quienes lo utilizan.
 

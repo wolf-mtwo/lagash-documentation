@@ -57,13 +57,12 @@
   - 2.6 Indexación unica
     - 2.6.1 Identificador único universal UUID
     - 2.6.2 Códigos de respuesta rápida QR
-  - 2.7 Lenguajes de programación **[no yet]**
-    - 2.7.1 C Sharp (C#) **[no yet]**
-    - 2.7.2 Java **[no yet]**
-    - 2.7.3 JavaScript **[no yet]**
-    - 2.7.4 Justificacion de los lenguajes de programación **[no yet]**
-    - 2.7.5 Conclusión **[validar]**
-    - 2.7.6 Elección del lenguaje de programación **[no yet]**
+  - 2.7 Lenguajes de programación
+    - 2.7.1 C Sharp (C#)
+    - 2.7.2 Java
+    - 2.7.3 JavaScript
+    - 2.7.4 Conclusión
+    - 2.7.5 Elección del lenguaje de programación
   - 2.8 Calidad del software
     - 2.8.1 Pruebas unitarias
     - 2.8.2 Usabilidad
