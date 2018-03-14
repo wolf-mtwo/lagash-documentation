@@ -1,0 +1,86 @@
+#%RAML 0.8
+
+title: Lagash
+version: 1
+baseUri: http://localhost:5570/
+mediaType: application/json
+
+/:
+  description: Servicios basicosdel sistema
+  post:
+    description: Retorna el tiempo de actividad de los servicios
+    body:
+    responses:
+      200:
+        body:
+          application/json:
+            schema: |
+              {
+                "version": "0.0.0",
+                "uptime": "2018-03-13T20:45:57.3229933-04:00"
+              }
+
+/v1:
+  description: Servicios de autenticación del sistema
+  /login:
+    post:
+      description: Crea un nueva session para un usuario
+      body:
+        application/json:
+          schema: !include schema/login/data.json
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/login/response.json
+  /logout:
+    post:
+      description: Cierra la session de usuario
+      responses:
+        200:
+
+/v1/users:
+  description: Servicios de creacion, edicion y eliminacion de los recusos bibliograficos
+  post:
+    description: Crea un nuevo usuario
+    body:
+      application/json:
+        schema: !include schema/user/user.post.json
+    responses:
+      200:
+        body:
+          application/json:
+            schema: !include schema/user/user.json
+  get:
+    description: Recuperar todos los usuarios
+    responses:
+      200:
+        body:
+          application/json:
+            schema: !include schema/user/user.array.json
+
+  /{user_id}:
+    get:
+      description: Recuperar un usuario especifico
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/user/user.json
+    put:
+      description: Edita un usuario especifico
+      body:
+        application/json:
+          schema: !include schema/user/user.post.json
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/user/user.json
+    delete:
+      description: Elimina un usuario especifico
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/user/user.json

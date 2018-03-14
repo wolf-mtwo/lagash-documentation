@@ -126,7 +126,7 @@ _**Fuente:** [Elaboración propia]_
 
 El requerimiento cumple las expectativas para el buen funcionamiento del sistema, y las tecnologías fueron seleccionadas de acuerdo a un convenio con la universidad ya que cuenta con las licencias correspondientes para el correcto despliegue y publicación del sistema. Por lo tanto la propuesta se considera factible.
 
-#### 1.6.2	Factibilidad operacional
+#### 1.6.2 Factibilidad operacional
 Los sistemas web en la actualidad se volvieron populares y la gran parte del personal se encuentra capacitado para el manejo de una computadora personal (PC) y la navegación en internet. Al estar el proyecto basado en un entorno de trabajo moderno la experiencia de usuario serán mucho más efectivas.
 
 Con la ayuda de los administradores se llegó a un acuerdo de trabajo mutuo, en la gestión de requerimientos para evitar malos entendidos a la hora de entrega el proyecto final.

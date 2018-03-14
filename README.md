@@ -82,32 +82,32 @@
       - 3.3.1.1 Iteración 1: Gestión de registro de usuarios
         - 3.3.1.1.1 Planificación y diseño
         - 3.3.1.1.2 Codificación
-        - 3.3.1.1.3 Pruebas
+        - 3.3.1.1.3 Pruebas de integración
       - 3.3.1.2 Iteración 2: Autenticación
         - 3.3.1.2.1 Planificación y diseño
         - 3.3.1.2.2 Codificación
-        - 3.3.1.2.3 Pruebas
+        - 3.3.1.2.3 Pruebas de integración
     - 3.3.2 Desarrollo de micro-servicios para administrar materiales bibliográficos
       - 3.3.2.1 Iteración 3: Gestión de registro de libros
         - 3.3.1.1.1 Planificación y diseño
         - 3.3.1.1.2 Codificación
-        - 3.3.1.1.3 Pruebas
+        - 3.3.1.1.3 Pruebas de integración
       - 3.3.2.2 Iteración 4: Gestión de registro de tesis
         - 3.3.1.2.1 Planificación y diseño
         - 3.3.1.2.2 Codificación
-        - 3.3.1.2.3 Pruebas
+        - 3.3.1.2.3 Pruebas de integración
       - 3.3.2.3 Iteración 5: Gestión de registro de revistas
         - 3.3.1.3.1 Planificación y diseño
         - 3.3.1.3.2 Codificación
-        - 3.3.1.3.3 Pruebas
+        - 3.3.1.3.3 Pruebas de integración
   - 3.4 Iteración 6: Desarrollo de subsistema para administrar materiales bibliográficos
-  - 3.4.1 Planificación y diseño
-  - 3.4.2 Codificación
-  - 3.4.3 Pruebas
+    - 3.4.1 Planificación y diseño
+    - 3.4.2 Codificación
+    - 3.4.3 Pruebas de integración
   - 3.5 Iteración 7: Desarrollo de subsistema de búsqueda
-  - 3.5.1 Planificación y diseño
-  - 3.5.2 Codificación
-  - 3.5.3 Pruebas
+    - 3.5.1 Planificación y diseño
+    - 3.5.2 Codificación
+    - 3.5.3 Pruebas de integración
 
  - CONCLUSIONES
  - RECOMENDACIONES
