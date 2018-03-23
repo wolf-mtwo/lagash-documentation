@@ -1,0 +1,20 @@
+{
+  "_id":"5f52aa05-d0b0-4082-8e0b-ae81775271a7",
+  "title":"lorem insum title dolor",
+  "isbn":"lorem insum",
+  "enabled":false,
+  "description":"lorem insum description dolor",
+  "volumen":null,
+  "tome":null,
+  "pages":0,
+  "editorial":null,
+  "country":null,
+  "city":null,
+  "brings":null,
+  "year":0,
+  "type":null,
+  "illustration":null,
+  "size":null,
+  "index":null,
+  "created":"2017-10-26T21:51:48.107"
+}
