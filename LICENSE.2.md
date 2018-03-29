@@ -10,15 +10,22 @@ Podemos cambiar los Términos y Condiciones de vez en cuando, en cualquier momen
 
 ## Desarrollo
 ### 1 Código fuente
-- El código fuente se aloja en github en las siguientes direcciones:
+- El código fuente se alojara en el repositorio github en las siguientes direcciones URL:
 
     https://github.com/wolf-mtwo/lagash-client-admin
-    
+
     https://github.com/wolf-mtwo/lagash-server
-    
+
     https://github.com/wolf-mtwo/lagash-documentacion
-  
-de forma pública y permanente. todos los proyectos y clientes web o móviles.
+
+- Los proyectos se mantendrán forma pública y permanente.
+- Todos los proyectos y clientes web o móviles tendrán las mis condiciones mencionadas.
+- Toda la documentación de proyecto deberá estas publicada en el proyecto lagash-documentacion.
+  - diagrama de componentes
+  - diagrama de clases
+  - mockups
+- La documentación de la API deberá estas publicada en el proyecto lagash-documentacion.
+
 
 ### 2 Mantenimiento
 Para no correr riesgo con sorpresas de funcionalidad desconocida y estar consciente de nuevos cambios
@@ -57,7 +64,7 @@ La migración de datos no garantizara el correcto funcionamiento de sistema resu
 | búsqueda de revistas    | si |
 | búsqueda de periódicos  | si |
 
-### 5 Puesta en producción (producción: el lugar final donde se alojara el sistema)
+### 6 Puesta en producción (producción: el lugar final donde se alojara el sistema)
 - No se añadirá ninguna regla de generación de backups.
 - No se añadirá ninguna regla de backups para los medias (imágenes, etc)
 - No nos hacemos responsables de la perdida de la base de datos.
@@ -66,7 +73,17 @@ La migración de datos no garantizara el correcto funcionamiento de sistema resu
 - No se desarrollada ningún trabajo de CI/CD (Integración continua / Entrega contenía)
 - Nos limitaremos solo a la puesta en marcha el sistema.
 
-### 5 Conclusiones
+### 7 Conclusiones
 - Se dará alta prioridad de tener un nuevo sistema funcionando en las áreas de administración y búsqueda
 - La tesis del proyecto no es una guía, ni una extensión de este documento
 - El soporte termina una vez que la fase 1 se dé por concluido
+
+### 8 Personales
+- Que la tesis del proyecto aparezca como favorito en el buscador del sistema
+- El o los desarrollador del sistema tenga una página en el buscador visible y de fácil acceso,  la pagina tendrá la siguiente utilidad:
+  - contar la historia detrás de sistema
+  - expresar agradecimientos
+  - que los desarrolladores futuros puedan incluir contenido pero no borrar el contenido de su antecesor garantizando la continuidad de la historia
+
+### 8 Finalización
+- Que el sistema deje de ser usado deja sin responsabilidades a ambas partes
