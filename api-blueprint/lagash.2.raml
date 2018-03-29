@@ -1,0 +1,89 @@
+#%RAML 0.8
+
+title: Lagash
+version: 2
+baseUri: http://localhost:5570/
+mediaType: application/json
+
+/v2/books:
+  /total:
+    get:
+      description: Recuperar todos los libros
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.array.json
+
+  /availables:
+    get:
+      description: Recupera un libro especifico
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.json
+  /favorites:
+    get:
+      description: Recupera libros paginados con um limite
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.array.json
+
+/v2/thesis:
+  /total:
+    get:
+      description: Recuperar todos los libros
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.array.json
+
+  /availables:
+    get:
+      description: Recupera un libro especifico
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.json
+
+  /favorites:
+    get:
+      description: Recupera libros paginados con um limite
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.array.json
+
+/v2/magazine:
+  /total:
+    get:
+      description: Recuperar todos los libros
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.array.json
+
+  /availables:
+    get:
+      description: Recupera un libro especifico
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.json
+
+  /favorites:
+    get:
+      description: Recupera libros paginados con um limite
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.array.json

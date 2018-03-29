@@ -7,7 +7,7 @@ mediaType: application/json
 
 /:
   description: Servicios basicosdel sistema
-  post:
+  get:
     description: Retorna el tiempo de actividad de los servicios
     body:
     responses:
@@ -242,6 +242,173 @@ mediaType: application/json
               schema: !include schema/magazine/model.json
 
   /{magazine_id}/page/{page}/limit/{limit}:
+    get:
+      description: Recupera revistas paginados con um limite
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/magazine/model.array.json
+
+
+/v1/catalogs:
+  /books:
+    description: Servicios de creacion, edicion y eliminacion de libros
+    post:
+      description: Crea un nuevo libro
+      body:
+        application/json:
+          schema: !include schema/books/model.post.json
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.json
+    get:
+      description: Recuperar todos los libros
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.array.json
+
+  /{catalog_id}/books:
+    get:
+      description: Recupera un libro especifico
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.json
+    put:
+      description: Edita un libro especifico
+      body:
+        application/json:
+          schema: !include schema/books/model.post.json
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.json
+    delete:
+      description: Elimina un libro especifico
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.json
+
+  /{catalog_id}/books/page/{page}/limit/{limit}:
+    get:
+      description: Recupera libros paginados con um limite
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.array.json
+
+  /thesis:
+    description: Servicios de creacion, edicion y eliminacion de tesis
+    post:
+      description: Crea una nueva tesis
+      body:
+        application/json:
+          schema: !include schema/thesis/model.post.json
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/thesis/model.json
+    get:
+      description: Recupera todas las tesis
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/thesis/model.array.json
+
+  /{catalog_id}/thesis:
+    get:
+      description: Recupera una tesis especifica
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/thesis/model.json
+    put:
+      description: Edita una tesis especifica
+      body:
+        application/json:
+          schema: !include schema/thesis/model.post.json
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/thesis/model.json
+    delete:
+      description: Elimina una tesis especifica
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/thesis/model.json
+
+  /{catalog_id}/thesis/page/{page}/limit/{limit}:
+    get:
+      description: Recupera tesis paginados con um limite
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/thesis/model.array.json
+
+  /magazine:
+    description: Servicios de creacion, edicion y eliminacion de revistas
+    post:
+      description: Crea una nueva revista
+      body:
+        application/json:
+          schema: !include schema/magazine/model.post.json
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/magazine/model.json
+    get:
+      description: Recupera todas las revistas
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/magazine/model.array.json
+
+  /{catalog_id}/magazine:
+    get:
+      description: Recupera una revista especifica
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/magazine/model.json
+    put:
+      description: Edita una revista especifica
+      body:
+        application/json:
+          schema: !include schema/magazine/model.post.json
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/magazine/model.json
+    delete:
+      description: Elimina una revista especifica
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/magazine/model.json
+
+  /{catalog_id}/magazine/page/{page}/limit/{limit}:
     get:
       description: Recupera revistas paginados con um limite
       responses:
