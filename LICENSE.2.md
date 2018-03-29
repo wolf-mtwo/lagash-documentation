@@ -13,7 +13,9 @@ Podemos cambiar los Términos y Condiciones de vez en cuando, en cualquier momen
 - El código fuente se aloja en github en las siguientes direcciones:
 
     https://github.com/wolf-mtwo/lagash-client-admin
+    
     https://github.com/wolf-mtwo/lagash-server
+    
     https://github.com/wolf-mtwo/lagash-documentacion
   
 de forma pública y permanente. todos los proyectos y clientes web o móviles.
@@ -32,7 +34,7 @@ Para no correr riesgo con sorpresas de funcionalidad desconocida y estar conscie
 La migración de datos no garantizara el correcto funcionamiento de sistema resultante.
   - Se hará la migración solo de los datos más relevantes y que tengan sentido. de otra manera sus valores serán nulos o cero.
 
-### 4 Funcionalidad
+### 5 Funcionalidad
 - Se garantizara la implementación de las funcionalidades que actualmente tiene el sistema, si solo si están en uso (revisar 3 soporte).
 - El siguiente mapa muestra la relación funcionalidad/estado al concluir la primera fase:
 
@@ -55,7 +57,7 @@ La migración de datos no garantizara el correcto funcionamiento de sistema resu
 | búsqueda de revistas    | si |
 | búsqueda de periódicos  | si |
 
-### Puesta en producción (producción: el lugar final donde se alojara el sistema)
+### 5 Puesta en producción (producción: el lugar final donde se alojara el sistema)
 - No se añadirá ninguna regla de generación de backups.
 - No se añadirá ninguna regla de backups para los medias (imágenes, etc)
 - No nos hacemos responsables de la perdida de la base de datos.
@@ -64,7 +66,7 @@ La migración de datos no garantizara el correcto funcionamiento de sistema resu
 - No se desarrollada ningún trabajo de CI/CD (Integración continua / Entrega contenía)
 - Nos limitaremos solo a la puesta en marcha el sistema.
 
-### Conclusiones
+### 5 Conclusiones
 - Se dará alta prioridad de tener un nuevo sistema funcionando en las áreas de administración y búsqueda
 - La tesis del proyecto no es una guía, ni una extensión de este documento
 - El soporte termina una vez que la fase 1 se dé por concluido
