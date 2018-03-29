@@ -1,18 +1,21 @@
 # Términos y Condiciones del sistema "lagash" y sub-sistemas
 
-esta licencia es una extensión de la licencia ![GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html)
+esta licencia es una extensión de la licencia [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html)
 
 Podemos cambiar los Términos y Condiciones de vez en cuando, en cualquier momento sin ninguna notificación. AL USAR EL SISTEMA, USTED ACEPTA Y ESTÉ ACUERDO CON ESTOS TÉRMINOS Y CONDICIONES EN LO QUE SE REFIERE A SU USO DEL SISTEMA "LAGASH"
 
 **Lagash:** Nombre del proyecto en etapa de desarrollo
+
 **Sighart Klauss:** Cliente a medida del proyecto Lagash
 
 ## Desarrollo
 ### 1 Código fuente
 - El código fuente se aloja en github en las siguientes direcciones:
+
     https://github.com/wolf-mtwo/lagash-client-admin
     https://github.com/wolf-mtwo/lagash-server
     https://github.com/wolf-mtwo/lagash-documentacion
+  
 de forma pública y permanente. todos los proyectos y clientes web o móviles.
 
 ### 2 Mantenimiento
@@ -32,6 +35,7 @@ La migración de datos no garantizara el correcto funcionamiento de sistema resu
 ### 4 Funcionalidad
 - Se garantizara la implementación de las funcionalidades que actualmente tiene el sistema, si solo si están en uso (revisar 3 soporte).
 - El siguiente mapa muestra la relación funcionalidad/estado al concluir la primera fase:
+
 | FUNCIONALIDAD           | ESTADO |
 |-------------------------|--------|
 | gestión de libros       | si |
