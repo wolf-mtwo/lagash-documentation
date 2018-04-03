@@ -61,3 +61,13 @@ https://www.nginx.com/blog/microservices-at-netflix-architectural-best-practices
 
 [14] Wikipedia, Martin Fowler
 https://es.wikipedia.org/wiki/Martin_Fowler, accedido el 12 de Octubre 2016
+
+3.3.1 Desarrollo de micro-servicios para administrar usuarios y la autenticación del sistema
+3.3.1.1 Iteración 1: Gestión de registro de usuarios
+3.3.1.2 Iteración 2: autenticación
+3.3.2 Desarrollo de micro-servicios para administrar materiales bibliográficos
+3.3.2.1 Iteración 3: Gestión de registro de libros
+3.3.2.2 Iteración 4: Gestión de registro de tesis
+3.3.2.3 Iteración 5: Gestión de registro de revistas
+3.4 Iteración 6: Desarrollo de subsistema para administrar materiales bibliográficos
+3.5 Iteración 6: Desarrollo de subsistema de búsqueda
