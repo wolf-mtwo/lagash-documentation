@@ -1,0 +1,10 @@
+{
+  "student_id" : "650000000",
+  "first_name": "Loren Ipsum",
+  "last_name": "sit amend",
+  "image": "http://image/12345.jpg",
+  "faculty": {
+    "faculty_id": 5,
+    "semester": 9
+  }
+}

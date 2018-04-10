@@ -109,3 +109,37 @@ mediaType: application/json
                   "Token invalido"
                 ]
               }
+
+/v1:
+  /login:
+    post:
+      body:
+        application/json:
+          schema: !include schema/login/data.json
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/login/response.json
+  /logout:
+    post:
+      headers:
+        Authorization:
+          description: Security access token
+          example: bearer abcdefghijabcdefghijabcdefghij
+      body:
+      responses:
+        203:
+
+  /users/profile:
+    get:
+      description: Gets student information
+      headers:
+        Authorization:
+          description: Security access token
+          example: bearer abcdefghijabcdefghijabcdefghij
+      responses:
+        200:
+          body:
+            application/json:
+              example: !include schema/users/response.json

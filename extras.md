@@ -71,3 +71,6 @@ https://es.wikipedia.org/wiki/Martin_Fowler, accedido el 12 de Octubre 2016
 3.3.2.3 Iteración 5: Gestión de registro de revistas
 3.4 Iteración 6: Desarrollo de subsistema para administrar materiales bibliográficos
 3.5 Iteración 6: Desarrollo de subsistema de búsqueda
+
+2 Metodologías tradicionales y metodologías ágiles
+http://www.eumed.net/libros-gratis/2009c/584/Metodologias%20tradicionales%20y%20metodologias%20agiles.htm
