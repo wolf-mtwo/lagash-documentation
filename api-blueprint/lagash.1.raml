@@ -131,9 +131,32 @@ mediaType: application/json
             application/json:
               schema: !include schema/books/model.json
 
-  /{book_id}/page/{page}/limit/{limit}:
+  /page/{page}/limit/{limit}:
     get:
-      description: Recupera libros paginados con um limite
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.array.json
+
+  /page/{page}/limit/{limit}/search:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.array.json
+
+  /size:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.array.json
+
+  /catalog/{id}/page/{page}/limit/{limit}:
+    get:
       responses:
         200:
           body:
@@ -186,14 +209,37 @@ mediaType: application/json
             application/json:
               schema: !include schema/thesis/model.json
 
-  /{thesis_id}/page/{page}/limit/{limit}:
-    get:
-      description: Recupera tesis paginados con um limite
-      responses:
-        200:
-          body:
-            application/json:
-              schema: !include schema/thesis/model.array.json
+    /page/{page}/limit/{limit}:
+      get:
+        responses:
+          200:
+            body:
+              application/json:
+                schema: !include schema/books/model.array.json
+
+    /page/{page}/limit/{limit}/search:
+      get:
+        responses:
+          200:
+            body:
+              application/json:
+                schema: !include schema/books/model.array.json
+
+    /size:
+      get:
+        responses:
+          200:
+            body:
+              application/json:
+                schema: !include schema/books/model.array.json
+
+    /catalog/{id}/page/{page}/limit/{limit}:
+      get:
+        responses:
+          200:
+            body:
+              application/json:
+                schema: !include schema/books/model.array.json
 
 /v1/magazine:
   description: Servicios de creacion, edicion y eliminacion de revistas
@@ -241,14 +287,37 @@ mediaType: application/json
             application/json:
               schema: !include schema/magazine/model.json
 
-  /{magazine_id}/page/{page}/limit/{limit}:
-    get:
-      description: Recupera revistas paginados con um limite
-      responses:
-        200:
-          body:
-            application/json:
-              schema: !include schema/magazine/model.array.json
+    /page/{page}/limit/{limit}:
+      get:
+        responses:
+          200:
+            body:
+              application/json:
+                schema: !include schema/books/model.array.json
+
+    /page/{page}/limit/{limit}/search:
+      get:
+        responses:
+          200:
+            body:
+              application/json:
+                schema: !include schema/books/model.array.json
+
+    /size:
+      get:
+        responses:
+          200:
+            body:
+              application/json:
+                schema: !include schema/books/model.array.json
+
+    /catalog/{id}/page/{page}/limit/{limit}:
+      get:
+        responses:
+          200:
+            body:
+              application/json:
+                schema: !include schema/books/model.array.json
 
 
 /v1/catalogs:
@@ -353,14 +422,37 @@ mediaType: application/json
             application/json:
               schema: !include schema/thesis/model.json
 
-  /{catalog_id}/thesis/page/{page}/limit/{limit}:
-    get:
-      description: Recupera tesis paginados con um limite
-      responses:
-        200:
-          body:
-            application/json:
-              schema: !include schema/thesis/model.array.json
+    /page/{page}/limit/{limit}:
+      get:
+        responses:
+          200:
+            body:
+              application/json:
+                schema: !include schema/books/model.array.json
+
+    /page/{page}/limit/{limit}/search:
+      get:
+        responses:
+          200:
+            body:
+              application/json:
+                schema: !include schema/books/model.array.json
+
+    /size:
+      get:
+        responses:
+          200:
+            body:
+              application/json:
+                schema: !include schema/books/model.array.json
+
+    /catalog/{id}/page/{page}/limit/{limit}:
+      get:
+        responses:
+          200:
+            body:
+              application/json:
+                schema: !include schema/books/model.array.json
 
   /magazine:
     description: Servicios de creacion, edicion y eliminacion de revistas
@@ -408,11 +500,34 @@ mediaType: application/json
             application/json:
               schema: !include schema/magazine/model.json
 
-  /{catalog_id}/magazine/page/{page}/limit/{limit}:
-    get:
-      description: Recupera revistas paginados con um limite
-      responses:
-        200:
-          body:
-            application/json:
-              schema: !include schema/magazine/model.array.json
+    /page/{page}/limit/{limit}:
+      get:
+        responses:
+          200:
+            body:
+              application/json:
+                schema: !include schema/books/model.array.json
+
+    /page/{page}/limit/{limit}/search:
+      get:
+        responses:
+          200:
+            body:
+              application/json:
+                schema: !include schema/books/model.array.json
+
+    /size:
+      get:
+        responses:
+          200:
+            body:
+              application/json:
+                schema: !include schema/books/model.array.json
+
+    /catalog/{id}/page/{page}/limit/{limit}:
+      get:
+        responses:
+          200:
+            body:
+              application/json:
+                schema: !include schema/books/model.array.json

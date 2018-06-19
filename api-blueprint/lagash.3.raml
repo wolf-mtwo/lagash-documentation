@@ -1,0 +1,204 @@
+#%RAML 0.8
+
+title: Lagash
+version: 3
+baseUri: http://localhost:5570/
+mediaType: application/json
+
+/v3/browser/books:
+  /{id}:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.json
+
+  /{id}/ejemplares:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.json
+
+  /page/{page}/limit/{limit}:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.array.json
+
+  /catalogs/page/{page}/limit/{limit}:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.array.json
+
+  /catalogs/{id}:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.json
+
+  /{id}/authors:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.array.json
+
+/v3/browser/magazines:
+  /{id}:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.json
+
+  /{id}/ejemplares:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.json
+
+  /page/{page}/limit/{limit}:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.array.json
+
+  /catalogs/page/{page}/limit/{limit}:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.array.json
+
+  /catalogs/{id}:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.json
+
+  /{id}/authors:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.array.json
+
+
+/v3/browser/newspapers:
+  /{id}:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.json
+
+  /{id}/ejemplares:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.json
+
+  /page/{page}/limit/{limit}:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.array.json
+
+  /catalogs/page/{page}/limit/{limit}:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.array.json
+
+  /catalogs/{id}:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.json
+
+  /{id}/authors:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.array.json
+
+
+/v3/browser/thesis:
+  /{id}:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.json
+
+  /{id}/ejemplares:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.json
+
+  /page/{page}/limit/{limit}:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.array.json
+
+  /catalogs/page/{page}/limit/{limit}:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.array.json
+
+  /catalogs/{id}:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.json
+
+  /{id}/authors:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.array.json

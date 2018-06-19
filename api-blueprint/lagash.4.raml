@@ -1,66 +1,89 @@
 #%RAML 0.8
 
 title: Lagash
-version: 2
+version: 4
 baseUri: http://localhost:5570/
 mediaType: application/json
 
-/v2/books:
-  /{id}/ejemplares:
+/v4/booking:
+  /:
     get:
       responses:
         200:
           body:
             application/json:
-              schema: !include schema/books/model.array.json
+              schema: !include schema/books/model.json
     post:
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.json
+  /{id}:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.json
+    delete:
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.json
+    put:
       responses:
         200:
           body:
             application/json:
               schema: !include schema/books/model.json
 
-/v2/magazines:
-  /{id}/ejemplares:
+
+  /page/{page}/limit/{limit}:
     get:
       responses:
         200:
           body:
             application/json:
               schema: !include schema/books/model.array.json
-    post:
+
+  /page/{page}/limit/{limit}/search:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              schema: !include schema/books/model.array.json
+
+  /size:
+    get:
       responses:
         200:
           body:
             application/json:
               schema: !include schema/books/model.json
 
-/v2/newspapers:
-  /{id}/ejemplares:
+  /page/{page}/limit/{limit}/loans:
     get:
       responses:
         200:
           body:
             application/json:
               schema: !include schema/books/model.array.json
-    post:
-      responses:
-        200:
-          body:
-            application/json:
-              schema: !include schema/books/model.json
 
-/v2/thesis:
-  /{id}/ejemplares:
+  /page/{page}/limit/{limit}/returns:
     get:
       responses:
         200:
           body:
             application/json:
               schema: !include schema/books/model.array.json
+
+  /loans:
     post:
       responses:
         200:
           body:
             application/json:
-              schema: !include schema/books/model.json
+              schema: !include schema/books/model.array.json
